@@ -1,0 +1,441 @@
+movieId,title,genres
+77,Nico Icon (1995),Documentary
+99,Heidi Fleiss: Hollywood Madam (1995),Documentary
+108,Catwalk (1996),Documentary
+116,Anne Frank Remembered (1995),Documentary
+128,Jupiter's Wife (1994),Documentary
+137,Man of the Year (1995),Documentary
+162,Crumb (1994),Documentary
+206,Unzipped (1995),Documentary
+246,Hoop Dreams (1994),Documentary
+363,"Wonderful, Horrible Life of Leni Riefenstahl, The (Macht der Bilder: Leni Riefenstahl, Die) (1993)",Documentary
+556,"War Room, The (1993)",Documentary
+581,"Celluloid Closet, The (1995)",Documentary
+602,"Great Day in Harlem, A (1994)",Documentary
+722,"Haunted World of Edward D. Wood Jr., The (1996)",Documentary
+759,Maya Lin: A Strong Clear Vision (1994),Documentary
+791,"Last Klezmer: Leopold Kozlowski, His Life and Music, The (1994)",Documentary
+1050,Looking for Richard (1996),Documentary|Drama
+1111,Microcosmos (Microcosmos: Le peuple de l'herbe) (1996),Documentary
+1123,"Perfect Candidate, A (1996)",Documentary
+1144,"Line King: The Al Hirschfeld Story, The (1996)",Documentary
+1147,When We Were Kings (1996),Documentary
+1189,"Thin Blue Line, The (1988)",Documentary
+1191,Madonna: Truth or Dare (1991),Documentary|Musical
+1192,Paris Is Burning (1990),Documentary
+1289,Koyaanisqatsi (a.k.a. Koyaanisqatsi: Life Out of Balance) (1983),Documentary
+1310,Hype! (1996),Documentary
+1361,Paradise Lost: The Child Murders at Robin Hood Hills (1996),Documentary
+1649,"Fast, Cheap & Out of Control (1997)",Documentary
+1652,Year of the Horse (1997),Documentary
+1797,Everest (1998),Documentary|IMAX
+1827,"Big One, The (1997)",Comedy|Documentary
+1856,Kurt & Courtney (1998),Documentary
+2064,Roger & Me (1989),Documentary
+2323,"Cruise, The (1998)",Documentary
+2330,Hands on a Hard Body (1996),Comedy|Documentary
+2494,"Last Days, The (1998)",Documentary
+2538,Dancemaker (1998),Documentary
+2659,It Came from Hollywood (1982),Comedy|Documentary
+2677,Buena Vista Social Club (1999),Documentary|Musical
+2693,Trekkies (1997),Documentary
+2813,"Source, The (1999)",Documentary
+2824,On the Ropes (1999),Documentary|Drama
+2859,Stop Making Sense (1984),Documentary|Musical
+2930,Return with Honor (1998),Documentary
+2984,On Any Sunday (1971),Documentary
+3002,My Best Fiend (Mein liebster Feind) (1999),Documentary
+3007,American Movie (1999),Documentary
+3077,42 Up (1998),Documentary
+3142,U2: Rattle and Hum (1988),Documentary|Musical
+3182,"Mr. Death: The Rise and Fall of Fred A. Leuchter, Jr. (1999)",Documentary
+3281,"Brandon Teena Story, The (1998)",Documentary
+3303,Black Tar Heroin: The Dark End of the Street (2000),Documentary
+3327,Beyond the Mat (1999),Documentary
+3338,For All Mankind (1989),Documentary
+3539,"Filth and the Fury, The (2000)",Documentary
+3609,Regret to Inform (1998),Documentary
+3625,Better Living Through Circuitry (1999),Documentary
+3653,"Endless Summer, The (1966)",Documentary
+3677,Baraka (1992),Documentary
+3679,"Decline of Western Civilization, The (1981)",Documentary|Musical
+3680,"Decline of Western Civilization Part II: The Metal Years, The (1988)",Documentary
+3859,"Eyes of Tammy Faye, The (2000)",Documentary
+3865,"Original Kings of Comedy, The (2000)",Comedy|Documentary
+3989,One Day in September (1999),Documentary
+4102,Eddie Murphy Raw (1987),Comedy|Documentary
+4171,Long Night's Journey Into Day (2000),Documentary
+4217,4 Little Girls (1997),Documentary
+4236,Keep the River on Your Right: A Modern Cannibal Tale (2000),Documentary
+4237,"Gleaners & I, The (Les glaneurs et la glaneuse) (2000)",Documentary
+4278,Triumph of the Will (Triumph des Willens) (1934),Documentary
+4304,Startup.com (2001),Documentary
+4350,Forgotten Silver (1996),Comedy|Documentary
+4445,T-Rex: Back to the Cretaceous (1998),Adventure|Documentary|IMAX
+4453,Michael Jordan to the Max (2000),Documentary|IMAX
+4458,Africa: The Serengeti (1994),Documentary|IMAX
+4459,Alaska: Spirit of the Wild (1997),Documentary|IMAX
+4711,Theremin: An Electronic Odyssey (1993),Documentary
+4769,Into the Arms of Strangers: Stories of the Kindertransport (2000),Documentary
+4783,"Endurance: Shackleton's Legendary Antarctic Expedition, The (2000)",Documentary
+4864,Titanica (1992),Documentary|IMAX
+4961,Pornstar: The Legend of Ron Jeremy (2001),Documentary
+5059,Little Dieter Needs to Fly (1997),Documentary
+5137,Scratch (2001),Documentary
+5224,Promises (2001),Documentary
+5239,Rude Boy (1980),Documentary|Drama
+5288,"Atomic Cafe, The (1982)",Documentary|War
+5325,Dogtown and Z-Boyz (2001),Documentary
+5385,"Last Waltz, The (1978)",Documentary
+5483,"Kid Stays in the Picture, The (2002)",Documentary
+5513,Martin Lawrence Live: Runteldat (2002),Comedy|Documentary
+5619,"Trials of Henry Kissinger, The (2002)",Documentary
+5643,Powaqqatsi (1988),Documentary
+5669,Bowling for Columbine (2002),Documentary
+5670,Comedian (2002),Comedy|Documentary
+5684,Naqoyqatsi (2002),Documentary
+5735,Faces of Death (1978),Documentary|Horror
+5736,Faces of Death 3 (1985),Documentary|Horror
+5785,Jackass: The Movie (2002),Action|Comedy|Documentary
+5820,Standing in the Shadows of Motown (2002),Documentary|Musical
+5932,Burden of Dreams (1982),Documentary
+6005,Blue Collar Comedy Tour: The Movie (2003),Comedy|Documentary
+6042,Blind Spot: Hitler's Secretary (Im toten Winkel - Hitlers Sekretärin) (2002),Documentary
+6062,Lost in La Mancha (2002),Documentary
+6122,Richard Pryor Live on the Sunset Strip (1982),Comedy|Documentary
+6123,Sunless (Sans Soleil) (1983),Documentary
+6125,"Secret Policeman's Other Ball, The (1982)",Comedy|Documentary|Musical
+6195,Stone Reader (2002),Documentary
+6269,Stevie (2002),Documentary
+6289,Ghosts of the Abyss (2003),Documentary|IMAX
+6299,"Winged Migration (Peuple migrateur, Le) (2001)",Documentary
+6306,I Am Trying to Break Your Heart (2002),Documentary
+6327,"Decade Under the Influence, A (2003)",Documentary
+6331,Spellbound (2002),Documentary
+6368,Cinemania (2002),Documentary
+6375,Gigantic (A Tale of Two Johns) (2002),Documentary
+6380,Capturing the Friedmans (2003),Documentary
+6400,Murder on a Sunday Morning (Un coupable idéal) (2001),Documentary
+6408,Animals are Beautiful People (1974),Comedy|Documentary
+6433,"Man with the Movie Camera, The (Chelovek s kino-apparatom) (1929)",Documentary
+6453,Man of Aran (1934),Documentary
+6598,Step Into Liquid (2002),Documentary
+6612,Brother's Keeper (1992),Documentary
+6667,Waco: The Rules of Engagement (1997),Documentary
+6679,Revolution OS (2001),Documentary
+6692,Stoked: The Rise and Fall of Gator (2002),Documentary
+6772,To Be and to Have (Être et avoir) (2002),Documentary
+6775,Life and Debt (2001),Documentary
+6780,"Brief History of Time, A (1991)",Documentary
+6869,Bus 174 (Ônibus 174) (2002),Crime|Documentary
+6935,"Revolution Will Not Be Televised, The (a.k.a. Chavez: Inside the Coup) (2003)",Documentary
+6938,Billabong Odyssey (2003),Documentary
+6945,My Architect: A Son's Journey (2003),Documentary
+6948,Tupac: Resurrection (2003),Documentary
+6962,OT: Our Town (2002),Documentary
+6963,Devil's Playground (2002),Documentary
+6965,Journeys with George (2002),Documentary
+7096,Rivers and Tides (2001),Documentary
+7124,Grass (1999),Documentary
+7141,My Flesh and Blood (2003),Documentary
+7156,"Fog of War: Eleven Lessons from the Life of Robert S. McNamara, The (2003)",Documentary|War
+7171,Aileen: Life and Death of a Serial Killer (2003),Documentary
+7225,Pumping Iron (1977),Documentary
+7256,Touching the Void (2003),Adventure|Documentary
+7440,Paper Clips (2004),Documentary
+7443,This So-Called Disaster (2003),Documentary
+7566,28 Up (1985),Documentary
+7786,Genghis Blues (1999),Documentary
+7932,Dark Days (2000),Documentary
+7979,Monterey Pop (1968),Documentary|Musical
+8011,"Weather Underground, The (2002)",Documentary
+8264,Grey Gardens (1975),Documentary
+8375,"Hunting of the President, The (2004)",Documentary
+8464,Super Size Me (2004),Comedy|Documentary|Drama
+8577,Comandante (2003),Documentary
+8581,Pirates of Silicon Valley (1999),Documentary|Drama
+8582,Manufacturing Consent: Noam Chomsky and the Media (1992),Documentary|War
+8587,Mayor of the Sunset Strip (2003),Documentary
+8622,Fahrenheit 9/11 (2004),Documentary
+8753,Unprecedented: The 2000 Presidential Election (2002),Documentary
+8755,My Voyage to Italy (Il mio viaggio in Italia) (1999),Documentary
+8827,"Bill Cosby, Himself (1983)",Comedy|Documentary
+8938,Tarnation (2003),Documentary
+8954,Lightning in a Bottle (2004),Documentary
+8979,Guerrilla: The Taking of Patty Hearst (2004),Documentary
+8987,Bush's Brain (2004),Documentary
+8998,That's Entertainment (1974),Documentary
+9018,Control Room (2004),Documentary|War
+26003,Night and Fog (Nuit et brouillard) (1955),Crime|Documentary|War
+26176,Titicut Follies (1967),Documentary|Drama
+26195,Sympathy for the Devil (1968),Documentary|Musical
+26366,Harlan County U.S.A. (1976),Documentary
+26471,Eddie Murphy Delirious (1983),Comedy|Documentary
+26524,"Times of Harvey Milk, The (1984)",Documentary
+26712,35 Up (1991),Documentary
+26729,Hearts of Darkness: A Filmmakers Apocalypse (1991),Documentary
+26797,Visions of Light: The Art of Cinematography (1992),Documentary
+27002,From the Earth to the Moon (1998),Action|Documentary|Drama|Thriller
+27176,Style Wars (1983),Documentary
+27329,Paradise Lost 2: Revelations (2000),Documentary
+27820,"Story of the Weeping Camel, The (Geschichte vom weinenden Kamel, Die) (2003)",Documentary|Drama
+27829,Slasher (2004),Documentary
+27846,"Corporation, The (2003)",Documentary
+27850,"Yes Men, The (2003)",Documentary
+27873,Metallica: Some Kind of Monster (2004),Documentary
+27878,Born into Brothels (2004),Documentary
+27879,DiG! (2004),Documentary
+27882,Riding Giants (2004),Documentary
+27899,What the #$*! Do We Know!? (a.k.a. What the Bleep Do We Know!?) (2004),Comedy|Documentary|Drama
+27912,Outfoxed: Rupert Murdoch's War on Journalism (2004),Documentary
+30892,In the Realms of the Unreal (2004),Animation|Documentary
+32022,Gunner Palace (2004),Documentary|War
+32302,"League of Ordinary Gentlemen, A (2004)",Documentary
+32314,Incident at Loch Ness (2004),Adventure|Comedy|Documentary
+32582,"Wild Parrots of Telegraph Hill, The (2003)",Documentary
+33154,Enron: The Smartest Guys in the Room (2005),Documentary
+33435,Los Angeles Plays Itself (2003),Documentary
+33639,Mad Hot Ballroom (2005),Children|Documentary
+33677,Rock School (2005),Documentary
+33838,Rize (2005),Documentary
+34072,"March of the Penguins (Marche de l'empereur, La) (2005)",Documentary
+34153,Murderball (2005),Documentary
+34338,"Aristocrats, The (2005)",Comedy|Documentary
+34542,Grizzly Man (2005),Documentary
+37240,Why We Fight (2005),Documentary
+38198,Darwin's Nightmare (2004),Documentary
+38304,No Direction Home: Bob Dylan (2005),Documentary
+41724,Wal-Mart: The High Cost of Low Price (2005),Documentary
+42602,"Boys of Baraka, The (2005)",Documentary
+43708,Block Party (a.k.a. Dave Chappelle's Block Party) (2005),Comedy|Documentary
+44511,Unknown White Male (2005),Documentary
+44633,"Devil and Daniel Johnston, The (2005)",Documentary
+44788,This Film Is Not Yet Rated (2006),Documentary
+44943,9/11 (2002),Documentary
+45928,Who Killed the Electric Car? (2006),Documentary
+45950,"Inconvenient Truth, An (2006)",Documentary
+46105,I Am a Sex Addict (2005),Comedy|Documentary|Romance
+46347,Metal: A Headbanger's Journey (2005),Documentary
+46850,Wordplay (2006),Documentary
+47999,Jesus Camp (2006),Documentary|Drama
+48262,"Bridge, The (2006)",Documentary
+48322,Jackass Number Two (2006),Comedy|Documentary
+48698,Deliver Us from Evil (2006),Documentary
+48741,"U.S. vs. John Lennon, The (2006)",Documentary
+49132,Shut Up & Sing (2006),Documentary
+49263,Fuck (2005),Comedy|Documentary
+49265,Shooting Dogs (a.k.a. Beyond the Gates) (2005),Documentary|Drama|War
+49917,When the Levees Broke: A Requiem in Four Acts (2006),Documentary
+50658,49 Up (2005),Documentary
+50740,Seven Up! (1964),Documentary
+50851,Cocaine Cowboys (2006),Documentary
+52299,American Hardcore (2006),Documentary
+52767,21 Up (1977),Documentary
+52784,Sharkwater (2006),Documentary
+53024,Jonestown: The Life and Death of Peoples Temple (2006),Documentary
+53883,"Power of Nightmares, The: The Rise of the Politics of Fear (2004)",Documentary
+53894,Sicko (2007),Documentary|Drama
+54185,Manufactured Landscapes (2006),Documentary
+54354,China Blue (2005),Documentary
+54881,"King of Kong, The (2007)",Documentary
+55071,No End in Sight (2007),Documentary
+55156,"Unreasonable Man, An (2006)",Documentary
+55620,For the Bible Tells Me So (2007),Documentary
+55687,My Kid Could Paint That (2007),Documentary
+56012,"Evening with Kevin Smith 2: Evening Harder, An (2006)",Comedy|Documentary
+56379,"Maxed Out: Hard Times, Easy Credit and the Era of Predatory Lenders (2006)",Documentary
+56563,Helvetica (2007),Documentary
+58191,Taxi to the Dark Side (2007),Documentary
+58309,War Dance (2007),Documentary
+58376,Zeitgeist: The Movie (2007),Documentary|War
+58425,Heima (2007),Documentary
+58879,Shine a Light (2008),Documentary|Musical|IMAX
+59126,Religulous (2008),Comedy|Documentary
+59143,Super High Me (2007),Comedy|Documentary
+59295,Expelled: No Intelligence Allowed (2008),Documentary
+59731,"Bigger, Stronger, Faster* (2008)",Documentary
+60291,Gonzo: The Life and Work of Dr. Hunter S. Thompson (2008),Documentary
+60333,Encounters at the End of the World (2008),Documentary
+60766,Man on Wire (2008),Documentary
+61236,Waltz with Bashir (Vals im Bashir) (2008),Animation|Documentary|Drama|War
+61257,I.O.U.S.A. (a.k.a. IOUSA) (2008),Documentary
+62662,Tokyo-Ga (1985),Documentary
+64278,"Pervert's Guide to Cinema, The (2006)",Documentary
+65188,Dear Zachary: A Letter to a Son About His Father (2008),Documentary
+65225,Zeitgeist: Addendum (2008),Documentary
+66320,"11th Hour, The (2007)",Documentary
+67665,Anvil! The Story of Anvil (2008),Documentary|Musical
+68522,Earth (2007),Documentary
+68536,Stanley Kubrick: A Life in Pictures (2001),Documentary
+69529,Home (2009),Documentary
+69953,9to5: Days in Porn (a.k.a. 9 to 5: Days in Porn) (2008),Documentary
+70687,Paper Heart (2009),Comedy|Documentary|Drama|Romance
+70862,It Might Get Loud (2008),Documentary
+71131,"Most Hated Family in America, The (2007)",Documentary
+71282,"Food, Inc. (2008)",Documentary
+71453,"Blood of the Beasts (Sang des bêtes, Le) (1949)",Documentary|Drama
+71462,"Cove, The (2009)",Documentary
+71640,Burma VJ: Reporting from a Closed Country (Burma VJ: Reporter i et lukket land) (2008),Documentary
+72714,Earthlings (2006),Documentary
+74226,"Dream of Light (a.k.a. Quince Tree Sun, The) (Sol del membrillo, El) (1992)",Documentary|Drama
+74677,"Yes Men Fix the World, The (2009)",Documentary
+74696,Last Train Home (2009),Documentary|Drama
+75947,Mondo Cane (1962),Documentary
+76054,Oceans (Océans) (2009),Documentary|Drama
+76738,Steam of Life (Miesten vuoro) (2010),Documentary
+76751,American Drug War: The Last White Hope (2007),Crime|Documentary
+77177,Wild China (2008),Documentary
+77233,"Union: The Business Behind Getting High, The (2007)",Comedy|Documentary
+77455,Exit Through the Gift Shop (2010),Comedy|Documentary
+78746,Best Worst Movie (2009),Documentary
+79006,Empire of Dreams: The Story of the 'Star Wars' Trilogy (2004),Documentary
+79073,When You're Strange (2009),Documentary
+79677,"Two Escobars, The (2010)",Crime|Documentary
+80139,Jackass 2.5 (2007),Comedy|Documentary
+80478,"Man Vanishes, A (Ningen Johatsu) (1967)",Documentary|Drama|Mystery
+80862,Catfish (2010),Documentary|Mystery
+80906,Inside Job (2010),Documentary
+81156,Jackass 3D (2010),Action|Comedy|Documentary
+81158,Restrepo (2010),Documentary|War
+81191,Waiting for 'Superman' (2010),Documentary
+81910,"Art of the Steal, The (2009)",Documentary
+82857,Sweetgrass (2009),Adventure|Documentary|Western
+83827,Marwencol (2010),Documentary
+84156,Happy People: A Year in the Taiga (2010),Documentary
+84273,Zeitgeist: Moving Forward (2011),Documentary
+85394,Cave of Forgotten Dreams (2010),Documentary
+85774,Senna (2010),Documentary
+86237,Connections (1978),Documentary
+86279,Into Eternity (2010),Documentary
+86290,American: The Bill Hicks Story (2009),Comedy|Documentary
+86504,Voices from the List (2004),Documentary
+86593,African Cats (2011),Adventure|Documentary
+86668,Louis Theroux: Law & Disorder (2008),Documentary
+87287,American Grindhouse (2010),Documentary
+87960,Between the Folds (2008),Documentary
+88094,Upside Down: The Creation Records Story (2010),Documentary
+89090,Bill Cunningham New York (2011),Documentary
+89386,Pearl Jam Twenty (2011),Documentary|Musical
+90245,Antonio Gaudí (1985),Documentary
+90630,Miss Representation (2011),Documentary
+90769,Starsuckers (2009),Documentary
+90863,George Harrison: Living in the Material World (2011),Documentary
+90943,Into the Abyss (2011),Documentary
+91860,"Way South, The (De weg naar het zuiden) (1981)",Documentary
+91869,Being Elmo: A Puppeteer's Journey (2011),Documentary
+92475,All Watched Over by Machines of Loving Grace (2011),Documentary
+92494,Dylan Moran: Monster (2004),Comedy|Documentary
+93040,"Civil War, The (1990)",Documentary|War
+93721,Jiro Dreams of Sushi (2011),Documentary
+94122,Comic-Con Episode IV: A Fan's Hope (2011),Documentary
+94130,Bully (2011),Documentary
+94735,Walking with Monsters (2005),Documentary
+95218,First Position (2011),Documentary
+96150,"Queen of Versailles, The (2012)",Documentary
+96411,6 Days to Air: The Making of South Park (2011),Documentary
+96488,Searching for Sugar Man (2012),Documentary
+96563,Paradise Lost 3: Purgatory (2011),Documentary
+96606,Samsara (2011),Documentary
+97168,Marley (2012),Documentary
+97194,"Thing: Terror Takes Shape, The (1998)",Documentary
+97230,Side by Side (2012),Documentary
+97757,'Hellboy': The Seeds of Creation (2004),Action|Adventure|Comedy|Documentary|Fantasy
+97866,"Imposter, The (2012)",Documentary
+98083,Jackass 3.5 (2011),Comedy|Documentary
+98122,Indie Game: The Movie (2012),Documentary
+99846,Everything or Nothing: The Untold Story of 007 (2012),Documentary
+100044,Human Planet (2011),Documentary
+100106,"Pervert's Guide to Ideology, The (2012)",Documentary
+100553,Frozen Planet (2011),Documentary
+100556,"Act of Killing, The (2012)",Documentary
+102590,Darkon (2006),Documentary|Fantasy
+102742,Tie Xi Qu: West of the Tracks (Tiexi qu) (2003),Documentary
+102823,As I Was Moving Ahead Occasionally I Saw Brief Glimpses of Beauty (2000),Documentary
+102852,With Great Power: The Stan Lee Story (2012),Documentary
+103107,20 Feet from Stardom (Twenty Feet from Stardom) (2013),Documentary
+103602,Craig Ferguson: I'm Here To Help (2013),Comedy|Documentary
+104272,Blackfish (2013),Documentary
+105250,"Century of the Self, The (2002)",Documentary
+105746,UnHung Hero (2013),Documentary
+106889,Tim's Vermeer (2013),Documentary
+109282,GLOW: The Story of the Gorgeous Ladies of Wrestling (2012),Documentary
+109687,Particle Fever (2013),Documentary
+110350,Free to Play (2014),Documentary
+110387,"Unknown Known, The (2013)",Documentary
+110669,"Honest Liar, An (2014)",Comedy|Documentary
+112334,"Internet's Own Boy: The Story of Aaron Swartz, The (2014)",Documentary
+114066,"20,000 Days on Earth (2014)",Documentary|Drama|Musical
+114126,Beautiful Losers (2008),Documentary
+115203,"Culture High, The (2014)",Documentary
+117364,Virunga (2014),Documentary|War
+117531,Watermark (2014),Documentary
+117533,Citizenfour (2014),Documentary
+118198,The Green Prince (2014),Documentary|Drama|Thriller
+118784,Good Copy Bad Copy (2007),Documentary
+120478,The Salt of the Earth (2014),Documentary
+121171,Red Army (2014),Documentary
+124853,Why Man Creates (1968),Animation|Documentary
+127146,Kurt Cobain: Montage of Heck (2015),Documentary
+127152,Going Clear: Scientology and the Prison of Belief (2015),Documentary
+127164,"What Happened, Miss Simone? (2015)",Documentary
+127172,A Story of Children and Film (2013),Documentary
+127180,"Story of Film: An Odyssey, The (2011)",Documentary
+128900,The Natural Love (1996),Documentary
+128902,The Forgotten Space (2010),Documentary
+131023,That Sugar Film (2014),Documentary
+131724,The Jinx: The Life and Deaths of Robert Durst (2015),Documentary
+132333,Seve (2014),Documentary|Drama
+133115,We Could Be King (2014),Documentary
+134248,Hot Girls Wanted (2015),Documentary
+134524,Turtle Power: The Definitive History of the Teenage Mutant Ninja Turtles (2014),Documentary
+134796,Bitter Lake (2015),Documentary
+134859,The Wolfpack (2015),Documentary
+135787,Bruce Lee: A Warrior's Journey (2000),Documentary
+136471,Kevin Hart: Laugh at My Pain (2011),Comedy|Documentary
+137337,Amy (2015),Documentary
+140561,Jeff Ross Roasts Criminals: Live at Brazos County Jail (2015),Comedy|Documentary
+141846,Steve Jobs: The Man in the Machine (2015),Documentary
+142115,The Blue Planet (2001),Documentary
+143511,Human (2015),Documentary
+143896,How To Change The World (2015),Documentary
+144210,Just Eat It: A Food Waste Story (2014),Documentary
+145283,Nowitzki: The Perfect Shot (2014),Documentary
+146682,Twinsters (2015),Documentary
+148166,Hitchcock/Truffaut (2015),Documentary
+150696,Tomorrow (2015),Documentary
+151759,Requiem for the American Dream (2015),Documentary
+152711,Who Killed Chea Vichea? (2010),Documentary
+154358,The Barkley Marathons: The Race That Eats Its Young (2015),Documentary
+154975,Merci Patron ! (2016),Comedy|Documentary
+158842,My Scientology Movie (2016),Documentary
+159817,Planet Earth (2006),Documentary
+160289,O.J.: Made in America (2016),Documentary
+164540,Amanda Knox (2016),Documentary
+164655,Gimme Danger (2016),Documentary
+164917,13th (2016),Documentary
+165671,Ice Guardians (2016),Documentary
+165843,Risk (2016),Documentary
+165969,HyperNormalisation (2016),Documentary
+167064,I Am Not Your Negro (2017),Documentary
+167706,Shakespeare Behind Bars (2005),Documentary
+170907,Betting on Zero (2016),Documentary
+171011,Planet Earth II (2016),Documentary
+171251,"Nobody Speak: Hulk Hogan, Gawker and Trials of a Free Press (2017)",Documentary
+172461,Get Me Roger Stone (2017),Documentary
+172705,Tickling Giants (2017),Documentary
+173235,Tokyo Idols (2017),Documentary
+173317,Shadow World (2016),Documentary
+175707,A German Life (2016),Documentary
+176423,Icarus (2017),Documentary
+178129,Adventures in Plymptoons! (2011),Documentary
+178323,Gaga: Five Foot Two (2017),Documentary
+179135,Blue Planet II (2017),Documentary
+180265,Jim & Andy: The Great Beyond (2017),Documentary
+180777,Die Frauen von Ravensbrück (2005),Documentary
+183199,Quest (2017),Documentary
+184245,De platte jungle (1978),Documentary
+184257,Making a Murderer (2015),Crime|Documentary
+187717,Won't You Be My Neighbor? (2018),Documentary
+189111,Spiral (2018),Documentary
+190221,Hommage à Zgougou (et salut à Sabine Mamou) (2002),Documentary
+193579,Jon Stewart Has Left the Building (2015),Documentary

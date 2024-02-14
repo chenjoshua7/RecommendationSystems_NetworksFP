@@ -1,0 +1,168 @@
+movieId,title,genres
+163,Desperado (1995),Action|Romance|Western
+210,Wild Bill (1995),Western
+266,Legends of the Fall (1994),Drama|Romance|War|Western
+303,"Quick and the Dead, The (1995)",Action|Thriller|Western
+368,Maverick (1994),Adventure|Comedy|Western
+383,Wyatt Earp (1994),Western
+416,Bad Girls (1994),Western
+432,City Slickers II: The Legend of Curly's Gold (1994),Adventure|Comedy|Western
+458,Geronimo: An American Legend (1993),Drama|Western
+487,Lightning Jack (1994),Comedy|Western
+553,Tombstone (1993),Action|Drama|Western
+590,Dances with Wolves (1990),Adventure|Drama|Western
+599,"Wild Bunch, The (1969)",Adventure|Western
+714,Dead Man (1995),Drama|Mystery|Western
+800,Lone Star (1996),Drama|Mystery|Western
+948,Giant (1956),Drama|Romance|Western
+1007,"Apple Dumpling Gang, The (1975)",Children|Comedy|Western
+1008,"Davy Crockett, King of the Wild Frontier (1955)",Adventure|Western
+1201,"Good, the Bad and the Ugly, The (Buono, il brutto, il cattivo, Il) (1966)",Action|Adventure|Western
+1209,Once Upon a Time in the West (C'era una volta il West) (1968),Action|Drama|Western
+1254,"Treasure of the Sierra Madre, The (1948)",Action|Adventure|Drama|Western
+1266,Unforgiven (1992),Drama|Western
+1283,High Noon (1952),Drama|Western
+1304,Butch Cassidy and the Sundance Kid (1969),Action|Western
+1378,Young Guns (1988),Action|Comedy|Western
+1379,Young Guns II (1990),Action|Western
+1408,"Last of the Mohicans, The (1992)",Action|Romance|War|Western
+1887,Almost Heroes (1998),Adventure|Comedy|Western
+1928,Cimarron (1931),Drama|Western
+2012,Back to the Future Part III (1990),Adventure|Comedy|Sci-Fi|Western
+2016,"Apple Dumpling Gang Rides Again, The (1979)",Children|Comedy|Western
+2055,Hot Lead and Cold Feet (1978),Action|Comedy|Western
+2070,Tender Mercies (1983),Drama|Romance|Western
+2103,Tall Tale (1995),Adventure|Children|Fantasy|Western
+2142,"American Tail: Fievel Goes West, An (1991)",Adventure|Animation|Children|Musical|Western
+2328,Vampires (1998),Horror|Western
+2401,Pale Rider (1985),Western
+2478,¡Three Amigos! (1986),Comedy|Western
+2527,Westworld (1973),Action|Sci-Fi|Thriller|Western
+2701,Wild Wild West (1999),Action|Comedy|Sci-Fi|Western
+2896,Alvarez Kelly (1966),Western
+2921,High Plains Drifter (1973),Western
+2922,Hang 'Em High (1968),Crime|Drama|Western
+2951,"Fistful of Dollars, A (Per un pugno di dollari) (1964)",Action|Western
+3037,Little Big Man (1970),Western
+3074,Jeremiah Johnson (1972),Western
+3093,McCabe & Mrs. Miller (1971),Drama|Western
+3267,"Mariachi, El (1992)",Action|Crime|Thriller|Western
+3365,"Searchers, The (1956)",Drama|Western
+3368,"Big Country, The (1958)",Romance|Western
+3467,Hud (1963),Drama|Western
+3494,True Grit (1969),Adventure|Drama|Western
+3508,"Outlaw Josey Wales, The (1976)",Action|Adventure|Drama|Thriller|Western
+3624,Shanghai Noon (2000),Action|Adventure|Comedy|Western
+3671,Blazing Saddles (1974),Comedy|Western
+3681,For a Few Dollars More (Per qualche dollaro in più) (1965),Action|Drama|Thriller|Western
+3727,Near Dark (1987),Horror|Western
+3737,Lonely Are the Brave (1962),Drama|Western
+3792,Duel in the Sun (1946),Drama|Romance|Western
+3806,Mackenna's Gold (1969),Western
+3871,Shane (1953),Drama|Western
+3873,Cat Ballou (1965),Comedy|Western
+4031,All the Pretty Horses (2000),Drama|Romance|Western
+4035,"Claim, The (2000)",Romance|Western
+4042,"Alamo, The (1960)",Action|Drama|War|Western
+4321,City Slickers (1991),Comedy|Western
+4323,"Horse Soldiers, The (1959)",Adventure|War|Western
+4327,"Magnificent Seven, The (1960)",Adventure|Western
+4329,Rio Bravo (1959),Western
+4406,"Man Who Shot Liberty Valance, The (1962)",Crime|Drama|Western
+4428,"Misfits, The (1961)",Comedy|Drama|Romance|Western
+4534,Return to Snowy River (a.k.a. The Man From Snowy River II) (1988),Adventure|Drama|Western
+4535,"Man from Snowy River, The (1982)",Drama|Romance|Western
+4709,Paint Your Wagon (1969),Comedy|Musical|Western
+4710,"Shootist, The (1976)",Drama|Western
+4721,American Outlaws (2001),Action|Comedy|Western
+4785,"Great Silence, The (Grande silenzio, Il) (1969)",Drama|Western
+4962,Texas Rangers (2001),Adventure|Western
+5063,One-Eyed Jacks (1961),Western
+5300,3:10 to Yuma (1957),Action|Adventure|Drama|Thriller|Western
+5372,Calamity Jane (1953),Musical|Western
+5375,"Harvey Girls, The (1946)",Comedy|Musical|Western
+5389,Spirit: Stallion of the Cimarron (2002),Adventure|Animation|Children|Western
+5435,Hombre (1967),Western
+5440,She Wore a Yellow Ribbon (1949),Western
+5456,Wagons East (1994),Comedy|Western
+5550,Love Me Tender (1956),Musical|Western
+5699,Tom Horn (1980),Western
+5826,Rio Grande (1950),Romance|Western
+6386,Nevada Smith (1966),Western
+6412,Destry Rides Again (1939),Comedy|Western
+6422,Shenandoah (1965),Drama|War|Western
+6428,Two Mules for Sister Sara (1970),Comedy|War|Western
+6429,Winchester '73 (1950),Western
+6461,"Unforgiven, The (1960)",Drama|Western
+6617,Open Range (2003),Western
+6691,Dust (2001),Drama|Western
+6785,Seven Brides for Seven Brothers (1954),Comedy|Musical|Romance|Western
+6950,"Missing, The (2003)",Adventure|Thriller|Western
+7027,Silverado (1985),Action|Western
+7070,Red River (1948),Action|Adventure|Western
+7072,Stagecoach (1939),Action|Drama|Romance|Western
+7218,"Ox-Bow Incident, The (1943)",Drama|Western
+7379,The Alamo (2004),Drama|War|Western
+7614,Oklahoma! (1955),Musical|Romance|Western
+7889,Pat Garrett and Billy the Kid (1973),Western
+7894,"Duck, You Sucker (1971)",Action|Western
+7896,Ride the High Country (1962),Adventure|Drama|Western
+8094,Bad Day at Black Rock (1955),Drama|Thriller|Western
+8481,Northwest Passage (1940),Action|Adventure|Drama|Romance|Thriller|Western
+25959,Annie Get Your Gun (1950),Comedy|Musical|Romance|Western
+26142,Major Dundee (1965),Adventure|War|Western
+26249,They Call Me Trinity (1971),Comedy|Western
+26258,"Topo, El (1970)",Fantasy|Western
+26649,Lonesome Dove (1989),Adventure|Drama|Western
+26750,Quigley Down Under (1990),Adventure|Drama|Western
+26901,Last of the Dogmen (1995),Adventure|Western
+27105,Purgatory (1999),Fantasy|Western
+27450,Blueberry (2004),Adventure|Western
+27683,Tremors 4: The Legend Begins (2004),Action|Comedy|Horror|Sci-Fi|Thriller|Western
+32392,800 Bullets (800 Balas) (2002),Comedy|Crime|Drama|Western
+32515,Walker (1987),Adventure|Drama|War|Western
+33126,"Frisco Kid, The (1979)",Comedy|Western
+37211,Go West (1940),Comedy|Musical|Western
+39381,"Proposition, The (2005)",Crime|Drama|Western
+39435,"Legend of Zorro, The (2005)",Action|Adventure|Drama|Western
+42556,7 Faces of Dr. Lao (1964),Fantasy|Mystery|Western
+43419,Bandidas (2006),Action|Comedy|Crime|Western
+49389,The Great Train Robbery (1903),Crime|Western
+54121,Broken Arrow (1950),Drama|Romance|Western
+54997,3:10 to Yuma (2007),Action|Crime|Drama|Western
+55363,"Assassination of Jesse James by the Coward Robert Ford, The (2007)",Crime|Drama|Western
+56782,There Will Be Blood (2007),Drama|Western
+61289,Sukiyaki Western Django (2008),Action|Western
+61986,Appaloosa (2008),Western
+63853,Australia (2008),Adventure|Drama|War|Western
+66785,"Good, the Bad, the Weird, The (Joheunnom nabbeunnom isanghannom) (2008)",Action|Adventure|Comedy|Western
+70492,Winds of the Wasteland (1936),Western
+75389,"Burrowers, The (2008)",Horror|Thriller|Western
+77931,Stingray Sam (2009),Comedy|Musical|Sci-Fi|Western
+78467,Jonah Hex (2010),Action|Drama|Thriller|Western
+78620,"Scalphunters, The (1968)",Comedy|Western
+81132,Rubber (2010),Action|Adventure|Comedy|Crime|Drama|Film-Noir|Horror|Mystery|Thriller|Western
+81681,I Shot Jesse James (1949),Drama|Romance|Western
+82459,True Grit (2010),Western
+82857,Sweetgrass (2009),Adventure|Documentary|Western
+83374,"Warrior's Way, The (2010)",Action|Fantasy|Western
+83613,Cowboys & Aliens (2011),Action|Sci-Fi|Thriller|Western|IMAX
+84944,Rango (2011),Action|Adventure|Animation|Children|Comedy|Western
+93193,Red Hill (2010),Crime|Thriller|Western
+99114,Django Unchained (2012),Action|Drama|Western
+103384,"Lone Ranger, The (2013)",Action|Adventure|Western|IMAX
+111743,A Million Ways to Die in the West (2014),Comedy|Western
+115216,"Salvation, The (2014)",Drama|Western
+119828,A Man Called Blade (1977),Action|Drama|Thriller|Western
+125221,The Beast of Hollow Mountain (1956),Horror|Sci-Fi|Western
+128087,Trinity and Sartana Are Coming (1972),Comedy|Western
+128360,The Hateful Eight (2015),Western
+128695,The Dark Valley (2014),Western
+133802,Slow West (2015),Action|Thriller|Western
+144976,Bone Tomahawk (2015),Horror|Western
+146024,A Man from Boulevard des Capucines (1987),Comedy|Romance|Western
+148652,The Ridiculous 6 (2015),Comedy|Western
+157108,Texas - Doc Snyder hält die Welt in Atem (1993),Comedy|Western
+162350,The Magnificent Seven (2016),Action|Western
+171759,The Beguiled (2017),Drama|Thriller|Western
+175197,The Dark Tower (2017),Fantasy|Horror|Sci-Fi|Western

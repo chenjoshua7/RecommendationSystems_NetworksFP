@@ -1,0 +1,979 @@
+movieId,title,genres
+12,Dracula: Dead and Loving It (1995),Comedy|Horror
+22,Copycat (1995),Crime|Drama|Horror|Mystery|Thriller
+70,From Dusk Till Dawn (1996),Action|Comedy|Horror|Thriller
+92,Mary Reilly (1996),Drama|Horror|Thriller
+93,Vampire in Brooklyn (1995),Comedy|Horror|Romance
+152,"Addiction, The (1995)",Drama|Horror
+177,Lord of Illusions (1995),Horror
+183,Mute Witness (1994),Comedy|Horror|Thriller
+188,"Prophecy, The (1995)",Fantasy|Horror|Mystery
+196,Species (1995),Horror|Sci-Fi
+220,Castle Freak (1995),Horror
+253,Interview with the Vampire: The Vampire Chronicles (1994),Drama|Horror
+273,Mary Shelley's Frankenstein (Frankenstein) (1994),Drama|Horror|Sci-Fi
+285,Beyond Bedlam (1993),Drama|Horror
+311,Relative Fear (1994),Horror|Thriller
+328,Tales from the Crypt Presents: Demon Knight (1995),Horror|Thriller
+330,Tales from the Hood (1995),Action|Crime|Horror
+332,Village of the Damned (1995),Horror|Sci-Fi
+366,"Wes Craven's New Nightmare (Nightmare on Elm Street Part 7: Freddy's Finale, A) (1994)",Drama|Horror|Mystery|Thriller
+382,Wolf (1994),Drama|Horror|Romance|Thriller
+407,In the Mouth of Madness (1995),Horror|Thriller
+426,Body Snatchers (1993),Horror|Sci-Fi|Thriller
+512,"Puppet Masters, The (1994)",Horror|Sci-Fi
+532,Serial Mom (1994),Comedy|Crime|Horror
+593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller
+606,Candyman: Farewell to the Flesh (1995),Fantasy|Horror
+610,Heavy Metal (1981),Action|Adventure|Animation|Horror|Sci-Fi
+611,Hellraiser: Bloodline (1996),Action|Horror|Sci-Fi
+724,"Craft, The (1996)",Drama|Fantasy|Horror|Thriller
+735,Cemetery Man (Dellamorte Dellamore) (1994),Horror
+742,Thinner (1996),Horror|Thriller
+775,Spirits of the Dead (1968),Horror|Mystery
+799,"Frighteners, The (1996)",Comedy|Horror|Thriller
+841,"Eyes Without a Face (Yeux sans visage, Les) (1959)",Horror
+842,Tales from the Crypt Presents: Bordello of Blood (1996),Comedy|Horror
+879,"Relic, The (1997)",Horror|Thriller
+891,Halloween: The Curse of Michael Myers (Halloween 6: The Curse of Michael Myers) (1995),Horror|Thriller
+968,Night of the Living Dead (1968),Horror|Sci-Fi|Thriller
+1037,"Lawnmower Man, The (1992)",Action|Horror|Sci-Fi|Thriller
+1076,"Innocents, The (1961)",Drama|Horror|Thriller
+1105,Children of the Corn IV: The Gathering (1996),Horror
+1128,"Fog, The (1980)",Horror
+1130,"Howling, The (1980)",Horror|Mystery
+1200,Aliens (1986),Action|Adventure|Horror|Sci-Fi
+1214,Alien (1979),Horror|Sci-Fi
+1215,Army of Darkness (1993),Action|Adventure|Comedy|Fantasy|Horror
+1219,Psycho (1960),Crime|Horror
+1241,Dead Alive (Braindead) (1992),Comedy|Fantasy|Horror
+1255,Bad Taste (1987),Comedy|Horror|Sci-Fi
+1258,"Shining, The (1980)",Horror
+1261,Evil Dead II (Dead by Dawn) (1987),Action|Comedy|Fantasy|Horror
+1320,Alien³ (a.k.a. Alien 3) (1992),Action|Horror|Sci-Fi|Thriller
+1321,"American Werewolf in London, An (1981)",Comedy|Horror|Thriller
+1322,Amityville 1992: It's About Time (1992),Horror
+1323,Amityville 3-D (1983),Horror
+1324,Amityville: Dollhouse (1996),Horror
+1325,Amityville: A New Generation (1993),Horror
+1326,Amityville II: The Possession (1982),Horror
+1327,"Amityville Horror, The (1979)",Drama|Horror|Mystery|Thriller
+1328,"Amityville Curse, The (1990)",Horror
+1329,Blood for Dracula (Andy Warhol's Dracula) (1974),Horror
+1330,April Fool's Day (1986),Horror
+1331,Audrey Rose (1977),Horror
+1332,"Believers, The (1987)",Horror|Thriller
+1333,"Birds, The (1963)",Horror|Thriller
+1334,"Blob, The (1958)",Horror|Sci-Fi
+1335,Blood Beach (1981),Horror|Mystery
+1336,Body Parts (1991),Horror|Thriller
+1337,"Body Snatcher, The (1945)",Drama|Horror|Thriller
+1339,Dracula (Bram Stoker's Dracula) (1992),Fantasy|Horror|Romance|Thriller
+1340,"Bride of Frankenstein, The (Bride of Frankenstein) (1935)",Drama|Horror|Sci-Fi
+1341,Burnt Offerings (1976),Horror
+1342,Candyman (1992),Horror|Thriller
+1345,Carrie (1976),Drama|Fantasy|Horror|Thriller
+1346,Cat People (1982),Drama|Fantasy|Horror
+1347,"Nightmare on Elm Street, A (1984)",Horror|Thriller
+1348,"Nosferatu (Nosferatu, eine Symphonie des Grauens) (1922)",Horror
+1349,Vampire in Venice (Nosferatu a Venezia) (Nosferatu in Venice) (1986),Horror
+1350,"Omen, The (1976)",Horror|Mystery|Thriller
+1355,Nightwatch (1997),Horror|Thriller
+1387,Jaws (1975),Action|Horror
+1388,Jaws 2 (1978),Horror|Thriller
+1389,Jaws 3-D (1983),Action|Horror
+1407,Scream (1996),Comedy|Horror|Mystery|Thriller
+1590,Event Horizon (1997),Horror|Sci-Fi|Thriller
+1603,Mimic (1997),Horror|Sci-Fi|Thriller
+1623,Wishmaster (1997),Horror
+1644,I Know What You Did Last Summer (1997),Horror|Mystery|Thriller
+1655,Phantoms (1998),Drama|Horror|Thriller
+1690,Alien: Resurrection (1997),Action|Horror|Sci-Fi
+1717,Scream 2 (1997),Comedy|Horror|Mystery|Thriller
+1762,Deep Rising (1998),Action|Horror|Sci-Fi
+1771,Night Flier (1997),Horror
+1862,Species II (1998),Horror|Sci-Fi
+1891,"Ugly, The (1997)",Horror|Thriller
+1924,Plan 9 from Outer Space (1959),Horror|Sci-Fi
+1969,"Nightmare on Elm Street 2: Freddy's Revenge, A (1985)",Horror
+1970,"Nightmare on Elm Street 3: Dream Warriors, A (1987)",Horror|Thriller
+1971,"Nightmare on Elm Street 4: The Dream Master, A (1988)",Horror|Thriller
+1972,"Nightmare on Elm Street 5: The Dream Child, A (1989)",Horror
+1973,"Freddy's Dead: The Final Nightmare (Nightmare on Elm Street Part 6: Freddy's Dead, A) (1991)",Horror
+1974,Friday the 13th (1980),Horror|Mystery|Thriller
+1975,Friday the 13th Part 2 (1981),Horror
+1976,Friday the 13th Part 3: 3D (1982),Horror
+1977,Friday the 13th Part IV: The Final Chapter (1984),Horror
+1978,Friday the 13th Part V: A New Beginning (1985),Horror
+1979,Friday the 13th Part VI: Jason Lives (1986),Horror
+1980,Friday the 13th Part VII: The New Blood (1988),Horror
+1981,Friday the 13th Part VIII: Jason Takes Manhattan (1989),Horror
+1982,Halloween (1978),Horror
+1983,Halloween II (1981),Horror
+1984,Halloween III: Season of the Witch (1982),Horror
+1985,Halloween 4: The Return of Michael Myers (1988),Horror
+1986,Halloween 5: The Revenge of Michael Myers (1989),Horror
+1987,Prom Night (1980),Horror
+1990,Prom Night IV: Deliver Us From Evil (1992),Horror
+1991,Child's Play (1988),Horror|Thriller
+1992,Child's Play 2 (1990),Horror|Thriller
+1993,Child's Play 3 (1991),Comedy|Horror|Thriller
+1994,Poltergeist (1982),Horror|Thriller
+1995,Poltergeist II: The Other Side (1986),Horror|Thriller
+1996,Poltergeist III (1988),Horror|Thriller
+1997,"Exorcist, The (1973)",Horror|Mystery
+1998,Exorcist II: The Heretic (1977),Horror
+1999,"Exorcist III, The (1990)",Horror
+2003,Gremlins (1984),Comedy|Horror
+2004,Gremlins 2: The New Batch (1990),Comedy|Horror
+2026,Disturbing Behavior (1998),Horror|Thriller
+2052,Hocus Pocus (1993),Children|Comedy|Fantasy|Horror
+2107,Halloween H20: 20 Years Later (Halloween 7: The Revenge of Laurie Strode) (1998),Horror|Thriller
+2119,Maximum Overdrive (1986),Horror
+2120,Needful Things (1993),Drama|Horror
+2121,Cujo (1983),Horror|Thriller
+2122,Children of the Corn (1984),Horror|Thriller
+2148,House (1986),Comedy|Fantasy|Horror
+2149,House II: The Second Story (1987),Comedy|Fantasy|Horror
+2159,Henry: Portrait of a Serial Killer (1986),Crime|Horror|Thriller
+2160,Rosemary's Baby (1968),Drama|Horror|Thriller
+2163,Attack of the Killer Tomatoes! (1978),Comedy|Horror
+2164,Surf Nazis Must Die (1987),Action|Comedy|Drama|Horror
+2167,Blade (1998),Action|Horror|Thriller
+2232,Cube (1997),Horror|Mystery|Sci-Fi|Thriller
+2256,Parasite (1982),Horror|Sci-Fi
+2279,Urban Legend (1998),Horror|Thriller
+2287,Them! (1954),Horror|Sci-Fi|Thriller
+2288,"Thing, The (1982)",Action|Horror|Sci-Fi|Thriller
+2315,Bride of Chucky (Child's Play 4) (1998),Comedy|Horror|Thriller
+2327,Tales from the Darkside: The Movie (1990),Fantasy|Horror|Thriller
+2328,Vampires (1998),Horror|Western
+2338,I Still Know What You Did Last Summer (1998),Horror|Mystery|Thriller
+2363,Godzilla (Gojira) (1954),Drama|Horror|Sci-Fi
+2364,"Godzilla 1985: The Legend Is Reborn (Gojira) (Godzilla) (Return of Godzilla, The) (1984)",Action|Horror|Sci-Fi|Thriller
+2366,King Kong (1933),Action|Adventure|Fantasy|Horror
+2377,Lifeforce (1985),Horror|Sci-Fi
+2389,Psycho (1998),Crime|Horror|Thriller
+2428,"Faculty, The (1998)",Horror|Sci-Fi
+2446,In Dreams (1999),Horror|Thriller
+2448,Virus (1999),Horror|Sci-Fi
+2451,"Gate, The (1987)",Horror
+2454,"Fly, The (1958)",Horror|Mystery|Sci-Fi
+2455,"Fly, The (1986)",Drama|Horror|Sci-Fi|Thriller
+2456,"Fly II, The (1989)",Horror|Sci-Fi
+2459,"Texas Chainsaw Massacre, The (1974)",Horror
+2460,"Texas Chainsaw Massacre 2, The (1986)",Horror
+2462,Texas Chainsaw Massacre: The Next Generation (a.k.a. The Return of the Texas Chainsaw Massacre) (1994),Horror
+2465,Deadly Friend (1986),Horror
+2488,Peeping Tom (1960),Drama|Horror|Thriller
+2513,Pet Sematary (1989),Horror
+2514,Pet Sematary II (1992),Comedy|Horror
+2515,Children of the Corn II: The Final Sacrifice (1993),Horror
+2516,Children of the Corn III (1994),Horror
+2517,Christine (1983),Horror
+2525,Alligator (1980),Action|Horror|Sci-Fi
+2548,"Rage: Carrie 2, The (1999)",Horror
+2550,"Haunting, The (1963)",Horror|Thriller
+2551,Dead Ringers (1988),Drama|Horror|Thriller
+2553,Village of the Damned (1960),Horror|Sci-Fi|Thriller
+2554,Children of the Damned (1963),Horror|Sci-Fi|Thriller
+2560,Ravenous (1999),Horror|Thriller
+2606,Idle Hands (1999),Comedy|Horror
+2613,Night of the Comet (1984),Comedy|Horror|Sci-Fi
+2614,Chopping Mall (a.k.a. Killbots) (1986),Action|Horror|Sci-Fi
+2617,"Mummy, The (1999)",Action|Adventure|Comedy|Fantasy|Horror|Thriller
+2633,"Mummy, The (1932)",Horror|Romance
+2634,"Mummy, The (1959)",Horror
+2644,Dracula (1931),Horror
+2648,Frankenstein (1931),Drama|Horror|Sci-Fi
+2651,Frankenstein Meets the Wolf Man (1943),Horror
+2652,"Curse of Frankenstein, The (1957)",Horror
+2654,"Wolf Man, The (1941)",Drama|Fantasy|Horror
+2655,Howling II: Your Sister Is a Werewolf (1985),Horror
+2656,Tarantula (1955),Horror|Sci-Fi
+2657,"Rocky Horror Picture Show, The (1975)",Comedy|Horror|Musical|Sci-Fi
+2660,"Thing from Another World, The (1951)",Horror|Sci-Fi
+2664,Invasion of the Body Snatchers (1956),Horror|Sci-Fi|Thriller
+2668,Swamp Thing (1982),Horror|Sci-Fi
+2699,Arachnophobia (1990),Comedy|Horror
+2710,"Blair Witch Project, The (1999)",Drama|Horror|Thriller
+2713,Lake Placid (1999),Horror|Thriller
+2719,"Haunting, The (1999)",Horror|Thriller
+2722,Deep Blue Sea (1999),Action|Horror|Sci-Fi|Thriller
+2740,"Kindred, The (1986)",Horror|Sci-Fi
+2746,Little Shop of Horrors (1986),Comedy|Horror|Musical
+2747,"Little Shop of Horrors, The (1960)",Comedy|Horror
+2754,Deadtime Stories (1987),Horror
+2762,"Sixth Sense, The (1999)",Drama|Horror|Mystery
+2782,Pit and the Pendulum (1961),Horror
+2784,"Masque of the Red Death, The (1964)",Horror
+2787,Cat's Eye (1985),Horror
+2789,Damien: Omen II (1978),Horror
+2790,"Final Conflict, The (a.k.a. Omen III: The Final Conflict) (1981)",Horror|Thriller
+2793,"American Werewolf in Paris, An (1997)",Comedy|Horror|Romance|Thriller
+2810,Perfect Blue (1997),Animation|Horror|Mystery|Thriller
+2827,"Astronaut's Wife, The (1999)",Horror|Sci-Fi|Thriller
+2841,Stir of Echoes (1999),Horror|Mystery|Thriller
+2867,Fright Night (1985),Comedy|Horror|Thriller
+2868,Fright Night Part II (1988),Horror
+2878,Hell Night (1981),Horror
+2898,"Dark Half, The (1993)",Horror|Mystery
+2900,Monkey Shines (1988),Horror|Sci-Fi
+2901,Phantasm (1979),Horror|Sci-Fi
+2902,Psycho II (1983),Horror|Mystery|Thriller
+2903,Psycho III (1986),Horror|Thriller
+2974,Bats (1999),Horror|Thriller
+2982,"Guardian, The (1990)",Horror|Thriller
+2992,Rawhead Rex (1986),Horror|Thriller
+2995,House on Haunted Hill (1999),Horror|Thriller
+3013,Bride of Re-Animator (1990),Comedy|Horror
+3016,Creepshow (1982),Horror
+3017,Creepshow 2 (1987),Horror
+3018,Re-Animator (1985),Comedy|Horror|Sci-Fi
+3021,"Funhouse, The (1981)",Horror
+3024,Piranha (1978),Horror|Sci-Fi
+3075,Repulsion (1965),Drama|Horror
+3081,Sleepy Hollow (1999),Fantasy|Horror|Mystery|Romance
+3113,End of Days (1999),Action|Fantasy|Horror|Mystery|Thriller
+3264,Buffy the Vampire Slayer (1992),Action|Comedy|Horror
+3273,Scream 3 (2000),Comedy|Horror|Mystery|Thriller
+3280,"Baby, The (1973)",Horror
+3294,Eaten Alive (1977),Horror
+3300,Pitch Black (2000),Horror|Sci-Fi|Thriller
+3344,Blood Feast (1963),Horror
+3355,"Ninth Gate, The (1999)",Fantasy|Horror|Mystery|Thriller
+3459,Gothic (1986),Drama|Horror
+3476,Jacob's Ladder (1990),Horror|Mystery
+3499,Misery (1990),Drama|Horror|Thriller
+3535,American Psycho (2000),Crime|Horror|Mystery|Thriller
+3546,What Ever Happened to Baby Jane? (1962),Drama|Horror|Thriller
+3550,The Hunger (1983),Horror
+3563,"Crow: Salvation, The (2000)",Action|Horror
+3572,Carnosaur (1993),Horror|Sci-Fi
+3573,Carnosaur 2 (1995),Horror|Sci-Fi
+3574,Carnosaur 3: Primal Species (1996),Horror|Sci-Fi
+3576,"Hidden, The (1987)",Action|Horror|Sci-Fi
+3587,Inferno (1980),Horror
+3627,Carnival of Souls (1962),Horror|Thriller
+3648,"Abominable Snowman, The (Abominable Snowman of the Himalayas, The) (1957)",Horror|Sci-Fi
+3652,"City of the Living Dead (a.k.a. Gates of Hell, The) (Paura nella città dei morti viventi) (1980)",Horror
+3658,Quatermass and the Pit (1967),Horror|Sci-Fi
+3660,Puppet Master (1989),Horror|Sci-Fi|Thriller
+3661,Puppet Master II (1991),Horror|Sci-Fi|Thriller
+3662,Puppet Master III: Toulon's Revenge (1991),Horror|Sci-Fi|Thriller
+3663,Puppet Master 4 (1993),Horror|Sci-Fi|Thriller
+3664,Puppet Master 5: The Final Chapter (1994),Horror|Sci-Fi|Thriller
+3676,Eraserhead (1977),Drama|Horror
+3686,Flatliners (1990),Horror|Sci-Fi|Thriller
+3692,Class of Nuke 'Em High (1986),Comedy|Horror
+3693,"Toxic Avenger, The (1985)",Comedy|Horror
+3694,"Toxic Avenger, Part II, The (1989)",Comedy|Horror
+3695,"Toxic Avenger Part III: The Last Temptation of Toxie, The (1989)",Comedy|Horror
+3696,Night of the Creeps (1986),Comedy|Horror|Sci-Fi|Thriller
+3706,Angel Heart (1987),Film-Noir|Horror|Mystery|Thriller
+3708,Firestarter (1984),Horror|Thriller
+3709,Sleepwalkers (1992),Horror
+3727,Near Dark (1987),Horror|Western
+3732,"Fury, The (1978)",Horror
+3770,Dreamscape (1984),Horror|Sci-Fi|Thriller
+3785,Scary Movie (2000),Comedy|Horror
+3798,What Lies Beneath (2000),Drama|Horror|Mystery
+3826,Hollow Man (2000),Horror|Sci-Fi|Thriller
+3830,Psycho Beach Party (2000),Comedy|Horror|Thriller
+3832,"Black Sabbath (Tre volti della paura, I) (1963)",Horror
+3833,"Brain That Wouldn't Die, The (1962)",Horror|Sci-Fi
+3837,Phantasm II (1988),Action|Fantasy|Horror|Sci-Fi|Thriller
+3838,Phantasm III: Lord of the Dead (1994),Horror
+3839,Phantasm IV: Oblivion (1998),Horror
+3840,Pumpkinhead (1988),Horror
+3843,Sleepaway Camp (1983),Horror
+3847,"Ilsa, She Wolf of the SS (1974)",Horror
+3849,The Spiral Staircase (1945),Horror|Mystery|Thriller
+3863,"Cell, The (2000)",Drama|Horror|Thriller
+3908,Urban Legends: Final Cut (2000),Horror
+3917,Hellraiser (1987),Horror
+3918,Hellbound: Hellraiser II (1988),Horror
+3919,Hellraiser III: Hell on Earth (1992),Horror
+3928,Abbott and Costello Meet Frankenstein (1948),Comedy|Horror
+3930,"Creature from the Black Lagoon, The (1954)",Adventure|Horror|Sci-Fi
+3932,"Invisible Man, The (1933)",Horror|Sci-Fi
+3933,"Killer Shrews, The (1959)",Horror|Sci-Fi
+3938,"Slumber Party Massacre, The (1982)",Horror
+3939,Slumber Party Massacre II (1987),Horror
+3940,Slumber Party Massacre III (1990),Horror
+3941,Sorority House Massacre (1986),Horror
+3942,Sorority House Massacre II (1990),Horror
+3962,Ghoulies II (1987),Comedy|Horror
+3973,Book of Shadows: Blair Witch 2 (2000),Crime|Horror|Mystery|Thriller
+4030,Dracula 2000 (2000),Horror
+4036,Shadow of the Vampire (2000),Drama|Horror
+4051,Horrors of Spider Island (Ein Toter Hing im Netz) (1960),Horror|Sci-Fi
+4105,"Evil Dead, The (1981)",Fantasy|Horror|Thriller
+4124,Jaws: The Revenge (1987),Horror|Thriller
+4128,"Lost Boys, The (1987)",Comedy|Horror|Thriller
+4135,"Monster Squad, The (1987)",Adventure|Comedy|Horror
+4138,My Demon Lover (1987),Comedy|Horror
+4143,Valentine (2001),Horror|Mystery
+4148,Hannibal (2001),Horror|Thriller
+4195,"Abominable Dr. Phibes, The (1971)",Horror|Mystery
+4210,Manhunter (1986),Action|Crime|Drama|Horror|Thriller
+4403,"Fall of the House of Usher, The (House of Usher) (1960)",Horror
+4404,Faust (1926),Drama|Fantasy|Horror
+4412,"Thing with Two Heads, The (1972)",Comedy|Horror|Sci-Fi
+4437,Suspiria (1977),Horror
+4480,"Blob, The (1988)",Horror|Sci-Fi
+4497,Dead Heat (1988),Action|Comedy|Horror|Sci-Fi
+4517,Lady in White (a.k.a. The Mystery of the Lady in White) (1988),Horror|Mystery|Thriller
+4518,The Lair of the White Worm (1988),Comedy|Horror
+4533,"Return of the Living Dead, The (1985)",Comedy|Horror|Sci-Fi
+4541,"Serpent and the Rainbow, The (1988)",Horror
+4552,"Tetsuo, the Ironman (Tetsuo) (1988)",Action|Horror|Sci-Fi|Thriller
+4645,Cure (1997),Crime|Horror|Thriller
+4658,Santa Sangre (1989),Drama|Horror|Mystery|Thriller
+4670,"Stepfather, The (1987)",Horror|Thriller
+4697,Basket Case (1982),Comedy|Horror
+4715,"Awakening, The (1980)",Horror
+4720,"Others, The (2001)",Drama|Horror|Mystery|Thriller
+4725,Session 9 (2001),Horror|Thriller
+4735,Ghosts of Mars (2001),Horror|Sci-Fi|Thriller
+4744,Jeepers Creepers (2001),Horror
+4754,"Wicker Man, The (1973)",Drama|Horror|Mystery|Thriller
+4786,"Legend of Hell House, The (1973)",Horror|Thriller
+4789,Phantom of the Paradise (1974),Comedy|Fantasy|Horror|Musical|Thriller
+4792,13 Ghosts (1960),Horror
+4794,Opera (1987),Crime|Horror|Mystery
+4827,"Boogeyman, The (1980)",Horror
+4833,"Changeling, The (1980)",Horror|Mystery|Thriller
+4852,Bones (2001),Horror
+4865,From Hell (2001),Crime|Horror|Mystery|Thriller
+4876,Thirteen Ghosts (a.k.a. Thir13en Ghosts) (2001),Horror|Thriller
+4893,When a Stranger Calls (1979),Horror|Thriller
+4902,"Devil's Backbone, The (Espinazo del diablo, El) (2001)",Drama|Fantasy|Horror|Thriller|War
+5065,"Mothman Prophecies, The (2002)",Drama|Fantasy|Horror|Mystery|Thriller
+5105,Don't Look Now (1973),Drama|Horror|Thriller
+5128,Queen of the Damned (2002),Fantasy|Horror
+5136,Wendigo (2001),Drama|Horror
+5146,Vampire Hunter D: Bloodlust (Banpaia hantâ D) (2000),Animation|Fantasy|Horror|Sci-Fi
+5165,Zombie (a.k.a. Zombie 2: The Dead Are Among Us) (Zombi 2) (1979),Horror
+5189,Humanoids from the Deep (1980),Horror|Sci-Fi
+5205,Motel Hell (1980),Comedy|Horror
+5219,Resident Evil (2002),Action|Horror|Sci-Fi|Thriller
+5254,Blade II (2002),Action|Horror|Thriller
+5311,"Watcher in the Woods, The (1980)",Children|Horror|Mystery|Thriller
+5323,Jason X (2002),Horror|Sci-Fi|Thriller
+5356,"Giant Spider Invasion, The (1975)",Horror|Sci-Fi
+5433,Silver Bullet (Stephen King's Silver Bullet) (1985),Adventure|Drama|Horror|Mystery|Thriller
+5476,Halloween: Resurrection (Halloween 8) (2002),Horror|Thriller
+5478,Eight Legged Freaks (2002),Action|Comedy|Horror|Sci-Fi
+5489,Nosferatu the Vampyre (Nosferatu: Phantom der Nacht) (1979),Horror
+5502,Signs (2002),Horror|Sci-Fi|Thriller
+5543,"Swarm, The (1978)",Action|Horror|Sci-Fi
+5556,FearDotCom (a.k.a. Fear.com) (a.k.a. Fear Dot Com) (2002),Crime|Horror|Thriller
+5569,"Last House on the Left, The (1972)",Crime|Horror|Thriller
+5570,Thesis (Tesis) (1996),Drama|Horror|Thriller
+5588,"Hills Have Eyes, The (1977)",Horror
+5640,"Godzilla, King of the Monsters! (Kaijû-ô Gojira) (1956)",Horror|Sci-Fi
+5649,Horror of Dracula (Dracula) (1958),Horror
+5663,Below (2002),Horror
+5679,"Ring, The (2002)",Horror|Mystery|Thriller
+5704,Without Warning (a.k.a. Alien Warning) (a.k.a. It Came Without Warning) (1980),Horror|Sci-Fi
+5735,Faces of Death (1978),Documentary|Horror
+5736,Faces of Death 3 (1985),Documentary|Horror
+5746,Galaxy of Terror (Quest) (1981),Action|Horror|Mystery|Sci-Fi
+5749,Ghost Story (1981),Drama|Horror
+5755,Happy Birthday to Me (1981),Horror|Mystery
+5764,Looker (1981),Drama|Horror|Sci-Fi|Thriller
+5771,My Bloody Valentine (1981),Drama|Horror|Thriller
+5779,Piranha II: The Spawning (1981),Horror|Sci-Fi
+5784,Ghost Ship (2002),Horror
+5797,"Company of Wolves, The (1984)",Fantasy|Horror
+5833,Dog Soldiers (2002),Action|Horror
+5853,Scanners (1981),Horror|Sci-Fi|Thriller
+5883,They (2002),Horror|Thriller
+5884,Chopper Chicks in Zombietown (1989),Comedy|Horror
+5891,I Spit on Your Grave (Day of the Woman) (1978),Horror|Thriller
+5909,Visitor Q (Bizita Q) (2001),Comedy|Drama|Horror
+5925,"Beast Within, The (1982)",Horror
+5979,Attack of the Crab Monsters (1957),Horror|Sci-Fi
+5980,Black Christmas (1974),Horror|Mystery|Thriller
+6040,Darkness Falls (2003),Horror|Thriller
+6044,Blind Date (1984),Horror|Thriller
+6058,Final Destination 2 (2003),Horror|Thriller
+6063,May (2002),Drama|Horror
+6140,Tenebre (1982),Horror|Mystery|Thriller
+6145,Venom (1982),Horror|Thriller
+6148,White Dog (1982),Drama|Horror|Thriller
+6220,Willard (2003),Drama|Horror|Thriller
+6242,Ringu (Ring) (1998),Horror|Mystery|Thriller
+6250,Dreamcatcher (2003),Drama|Horror|Sci-Fi|Thriller
+6290,House of 1000 Corpses (2003),Horror
+6323,Identity (2003),Crime|Horror|Mystery|Thriller
+6379,Wrong Turn (2003),Horror|Thriller
+6395,"Crazies, The (a.k.a. Code Name: Trixie) (1973)",Action|Drama|Horror|Sci-Fi|Thriller
+6502,28 Days Later (2002),Action|Horror|Sci-Fi
+6514,Ring of Terror (1962),Horror
+6530,"Tenant, The (Locataire, Le) (1976)",Drama|Horror|Mystery|Thriller
+6615,Freddy vs. Jason (2003),Action|Horror|Thriller
+6629,House of Wax (1953),Crime|Horror|Mystery|Thriller
+6631,Man's Best Friend (1993),Horror|Sci-Fi|Thriller
+6656,Attack of the Puppet People (1958),Horror|Sci-Fi
+6659,Tremors (1990),Comedy|Horror|Sci-Fi
+6665,Dracula (1979),Horror|Romance
+6695,Jeepers Creepers 2 (2003),Horror|Thriller
+6707,Cabin Fever (2002),Horror|Thriller
+6715,Children of the Night (1991),Horror
+6731,Day of the Dead (1985),Horror|Sci-Fi|Thriller
+6744,Once Bitten (1985),Comedy|Horror
+6746,Squirm (1976),Horror|Romance
+6748,"Brood, The (1979)",Horror
+6754,Underworld (2003),Action|Fantasy|Horror
+6755,Bubba Ho-tep (2002),Comedy|Horror
+6774,Videodrome (1983),Fantasy|Horror|Sci-Fi|Thriller
+6803,Phenomena (a.k.a. Creepers) (1985),Horror|Mystery|Thriller
+6820,Ginger Snaps (2000),Drama|Horror|Thriller
+6835,Alien Contamination (1980),Action|Horror|Sci-Fi
+6872,"House of the Dead, The (2003)",Action|Horror
+6880,"Texas Chainsaw Massacre, The (2003)",Horror
+6888,Scary Movie 3 (2003),Comedy|Horror
+6952,Gothika (2003),Horror|Thriller
+6958,"Haunted Mansion, The (2003)",Children|Comedy|Fantasy|Horror
+6967,Dead of Night (1945),Horror|Mystery
+6975,Funny Games (1997),Drama|Horror|Thriller
+6987,"Cabinet of Dr. Caligari, The (Cabinet des Dr. Caligari., Das) (1920)",Crime|Fantasy|Horror
+7001,Invasion of the Body Snatchers (1978),Horror|Mystery|Sci-Fi|Thriller
+7022,Battle Royale (Batoru rowaiaru) (2000),Action|Drama|Horror|Thriller
+7046,"Witches of Eastwick, The (1987)",Comedy|Fantasy|Horror|Thriller
+7114,"Collector, The (1965)",Drama|Horror|Thriller
+7115,Deep Red (Profondo rosso) (1975),Horror|Mystery|Thriller
+7116,Diabolique (Les diaboliques) (1955),Horror|Mystery|Thriller
+7117,Leprechaun (1993),Comedy|Horror
+7202,Beyond Re-Animator (2003),Horror
+7208,Dr. Jekyll and Mr. Hyde (1941),Drama|Horror
+7235,Ichi the Killer (Koroshiya 1) (2001),Action|Comedy|Crime|Drama|Horror|Thriller
+7245,Tormented (1960),Horror|Thriller
+7266,"Lost Skeleton of Cadavra, The (2002)",Comedy|Horror|Sci-Fi
+7282,"Hip Hop Witch, Da (2000)",Comedy|Horror|Thriller
+7319,Club Dread (2004),Comedy|Horror
+7360,Dawn of the Dead (2004),Action|Drama|Horror|Thriller
+7373,Hellboy (2004),Action|Adventure|Fantasy|Horror
+7387,Dawn of the Dead (1978),Action|Drama|Horror
+7411,Munchies (1987),Comedy|Horror
+7449,Godsend (2004),Drama|Horror|Thriller
+7454,Van Helsing (2004),Action|Adventure|Fantasy|Horror
+7477,Eye See You (D-Tox) (2002),Horror|Thriller
+7492,Martin (1977),Drama|Horror
+7561,Paperhouse (1988),Fantasy|Horror|Thriller
+7564,Kwaidan (Kaidan) (1964),Horror
+7636,Raising Cain (1992),Horror|Thriller
+7646,Rose Red (2002),Horror|Mystery|Thriller
+7650,"Witchfinder General (Conquerer Worm, The) (1968)",Horror
+7657,Versus (2000),Action|Comedy|Fantasy|Horror
+7713,Cat People (1942),Drama|Horror|Romance|Thriller
+7742,Baxter (1989),Drama|Horror
+7845,Tremors II: Aftershocks (1996),Comedy|Horror|Sci-Fi
+7846,Tremors 3: Back to Perfection (2001),Comedy|Horror|Sci-Fi
+7882,The Plague of the Zombies (1966),Horror
+7883,I Walked with a Zombie (1943),Drama|Horror
+7891,"Last Man on Earth, The (Ultimo uomo della Terra, L') (1964)",Drama|Horror|Sci-Fi
+7900,Frankenstein Must Be Destroyed (1969),Drama|Horror|Sci-Fi
+7930,"People Under the Stairs, The (1991)",Horror|Mystery|Thriller
+7951,Nightbreed (1990),Fantasy|Horror
+7982,"Tale of Two Sisters, A (Janghwa, Hongryeon) (2003)",Drama|Horror|Mystery|Thriller
+7984,From Beyond (1986),Horror|Sci-Fi
+7987,Dolls (1987),Horror
+7993,"Bucket Of Blood, A (1959)",Comedy|Horror
+8019,Dark Water (Honogurai mizu no soko kara) (2002),Drama|Horror|Mystery|Thriller
+8035,"Stendhal Syndrome, The (Sindrome di Stendhal, La) (1996)",Crime|Horror|Thriller
+8092,Frankenstein Unbound (1990),Drama|Horror|Sci-Fi
+8136,Indestructible Man (1956),Crime|Horror|Sci-Fi
+8137,"Wasp Woman, The (1959)",Horror|Sci-Fi
+8138,Attack of the Giant Leeches (1959),Horror|Sci-Fi
+8196,Beyond the Valley of the Dolls (1970),Comedy|Horror
+8225,Night of the Living Dead (1990),Horror
+8369,Mindhunters (2004),Action|Crime|Horror|Mystery|Thriller
+8405,Hour of the Wolf (Vargtimmen) (1968),Drama|Horror
+8482,"Picture of Dorian Gray, The (1945)",Drama|Fantasy|Horror
+8500,Godzilla vs. Mechagodzilla (Gojira tai Mekagojira) (1974),Action|Horror|Sci-Fi
+8507,Freaks (1932),Crime|Drama|Horror
+8521,Dr. Jekyll and Mr. Hyde (1931),Drama|Horror
+8578,Undead (2003),Action|Comedy|Horror|Sci-Fi
+8626,Dr. Terror's House of Horrors (1965),Horror|Sci-Fi
+8670,"Testament of Dr. Mabuse, The (Das Testament des Dr. Mabuse) (1933)",Crime|Horror|Mystery|Thriller
+8810,AVP: Alien vs. Predator (2004),Action|Horror|Sci-Fi|Thriller
+8815,Exorcist: The Beginning (2004),Horror|Thriller
+8830,Anacondas: The Hunt for the Blood Orchid (2004),Adventure|Drama|Horror|Sci-Fi|Thriller
+8861,Resident Evil: Apocalypse (2004),Action|Horror|Sci-Fi|Thriller
+8874,Shaun of the Dead (2004),Comedy|Horror
+8894,Orca: The Killer Whale (1977),Action|Drama|Horror|Thriller
+8906,Cannibal Holocaust (1980),Horror
+8928,"Fearless Vampire Killers, The (1967)",Comedy|Horror
+8947,"Grudge, The (2004)",Horror|Mystery|Thriller
+8957,Saw (2004),Horror|Mystery|Thriller
+8967,Seed of Chucky (Child's Play 5) (2004),Comedy|Horror
+8985,Blade: Trinity (2004),Action|Fantasy|Horror|Thriller
+9008,"Invisible Man Returns, The (1940)",Horror|Sci-Fi
+25746,"Hunchback of Notre Dame, The (1923)",Drama|Horror
+26116,"Hush... Hush, Sweet Charlotte (1964)",Horror|Thriller
+26122,Onibaba (1964),Drama|Horror|War
+26265,Dr. Phibes Rises Again (1972),Adventure|Comedy|Horror|Romance
+26303,Sisters (1973),Horror|Thriller
+26357,Trilogy of Terror (1975),Horror|Thriller
+26409,"Clonus Horror, The (1979)",Horror|Sci-Fi
+26429,Love at First Bite (1979),Comedy|Horror|Romance
+26492,Twilight Zone: The Movie (1983),Fantasy|Horror|Sci-Fi|Thriller
+26523,"Silent Night, Deadly Night (1984)",Horror|Thriller
+26603,Prince of Darkness (1987),Fantasy|Horror|Sci-Fi|Thriller
+26606,"Chinese Ghost Story, A (Sinnui yauwan) (1987)",Action|Fantasy|Horror|Romance
+26629,Killer Klowns from Outer Space (1988),Comedy|Horror|Sci-Fi
+26693,It (1990),Drama|Fantasy|Horror|Mystery|Thriller
+26717,Begotten (1990),Drama|Horror
+26849,"Stand, The (1994)",Adventure|Drama|Fantasy|Horror|Sci-Fi
+26854,"Darkman II: Return of Durant, The (1995)",Action|Crime|Horror
+26887,"Langoliers, The (1995)",Drama|Fantasy|Horror|Mystery|Sci-Fi|Thriller
+27003,Beowulf (1999),Action|Horror|Sci-Fi
+27008,From Dusk Till Dawn 2: Texas Blood Money (1999) ,Comedy|Crime|Horror
+27140,Candyman 3: Day of the Dead (1999),Horror
+27317,Audition (Ôdishon) (1999),Drama|Horror|Mystery|Romance|Thriller
+27434,Darkness (2002),Horror|Mystery
+27441,Blood: The Last Vampire (2000),Action|Animation|Horror
+27473,American Psycho II: All American Girl (2002),Comedy|Crime|Horror|Mystery|Thriller
+27482,Cube 2: Hypercube (2002),Horror|Mystery|Sci-Fi
+27491,Pulse (Kairo) (2001),Horror|Mystery|Thriller
+27563,"Happiness of the Katakuris, The (Katakuri-ke no kôfuku) (2001)",Comedy|Horror|Musical
+27584,Dead End (2003),Comedy|Horror|Mystery|Thriller
+27595,Jesus Christ Vampire Hunter (2001),Action|Comedy|Horror|Musical
+27604,Suicide Club (Jisatsu saakuru) (2001),Horror|Mystery|Thriller
+27667,Ju-on: The Curse (2000),Horror
+27683,Tremors 4: The Legend Begins (2004),Action|Comedy|Horror|Sci-Fi|Thriller|Western
+27746,Ginger Snaps: Unleashed (2004),Horror|Thriller
+27751,'Salem's Lot (2004),Drama|Horror|Mystery|Thriller
+27772,Ju-on: The Grudge (2002),Horror
+27778,Ginger Snaps Back: The Beginning (2004),Fantasy|Horror
+27784,One Missed Call (Chakushin ari) (2003),Horror|Mystery
+27793,Starship Troopers 2: Hero of the Federation (2004),Action|Horror|Sci-Fi|War
+27839,"Ring Two, The (2005)",Drama|Horror|Mystery|Thriller
+30745,Gozu (Gokudô kyôfu dai-gekijô: Gozu) (2003),Comedy|Crime|Drama|Horror|Mystery
+30894,White Noise (2005),Drama|Horror|Mystery|Sci-Fi|Thriller
+31424,Alone in the Dark (2005),Action|Horror|Sci-Fi|Thriller
+31427,Hide and Seek (2005),Horror|Mystery|Thriller
+31431,Boogeyman (2005),Drama|Horror|Mystery|Thriller
+31696,Constantine (2005),Action|Fantasy|Horror|Thriller
+31804,Night Watch (Nochnoy dozor) (2004),Action|Fantasy|Horror|Mystery|Sci-Fi|Thriller
+31909,Dr. Giggles (1992),Comedy|Horror
+32011,Cursed (2005),Horror|Thriller
+32060,"Cat and the Canary, The (1927)",Horror|Mystery
+32213,Cube Zero (2004),Horror|Mystery|Sci-Fi|Thriller
+32743,Ringu 0: Bâsudei (2000),Drama|Horror|Thriller
+32914,Carrie (2002),Drama|Horror|Thriller
+33085,"Amityville Horror, The (2005)",Horror|Thriller
+33164,House of Wax (2005),Horror|Thriller
+33294,Vampire Hunter D (1985),Animation|Fantasy|Horror
+33644,Dominion: Prequel to the Exorcist (2005),Horror|Thriller
+33683,High Tension (Haute tension) (Switchblade Romance) (2003),Horror|Thriller
+33834,Land of the Dead (2005),Action|Horror|Thriller
+33896,3 Extremes (Three... Extremes) (Saam gaang yi) (2004),Horror
+34143,Dark Water (2005),Drama|Horror|Thriller
+34292,Hardware (1990),Action|Horror|Sci-Fi
+34323,"Devil's Rejects, The (2005)",Action|Crime|Horror
+34532,"Skeleton Key, The (2005)",Drama|Horror|Mystery|Thriller
+35957,Red Eye (2005),Horror|Thriller
+36401,"Brothers Grimm, The (2005)",Comedy|Fantasy|Horror|Thriller
+36509,"Cave, The (2005)",Action|Adventure|Horror|Mystery|Sci-Fi|Thriller
+36533,Cry_Wolf (a.k.a. Cry Wolf) (2005),Drama|Horror|Mystery|Thriller
+37380,Doom (2005),Action|Horror|Sci-Fi
+37444,Frankenstein 90 (1984),Comedy|Horror|Romance
+37720,"Exorcism of Emily Rose, The (2005)",Crime|Drama|Horror|Thriller
+38583,"Wraith, The (1986)",Action|Horror|Sci-Fi|Thriller
+39400,"Fog, The (2005)",Action|Horror|Mystery|Thriller
+39446,Saw II (2005),Horror|Thriller
+39801,"Great Yokai War, The (Yôkai daisensô) (2005)",Adventure|Comedy|Fantasy|Horror
+40478,Night of the Lepus (1972),Horror|Sci-Fi|Thriller
+40617,Creep (2004),Horror|Thriller
+40723,Wolf Creek (2005),Crime|Horror|Thriller
+40732,"Descent, The (2005)",Adventure|Drama|Horror|Thriller
+41014,"Bird with the Crystal Plumage, The (Uccello dalle piume di cristallo, L') (1970)",Crime|Horror|Mystery|Thriller
+42285,"Dentist, The (1996)",Horror|Thriller
+42723,Hostel (2005),Horror
+42738,Underworld: Evolution (2006),Action|Fantasy|Horror
+43549,Helter Skelter (2004),Action|Crime|Drama|Horror
+43679,Final Destination 3 (2006),Horror|Mystery|Thriller
+43904,When a Stranger Calls (2006),Horror|Thriller
+43932,Pulse (2006),Action|Drama|Fantasy|Horror|Mystery|Sci-Fi|Thriller
+44238,Leprechaun 2 (1994),Comedy|Fantasy|Horror
+44241,Leprechaun 3 (1995),Comedy|Fantasy|Horror
+44243,Leprechaun 4: In Space (1997),Comedy|Fantasy|Horror|Sci-Fi
+44397,"Hills Have Eyes, The (2006)",Drama|Horror|Thriller
+44731,Stay Alive (2006),Horror|Sci-Fi|Thriller
+44773,"Dead Hate the Living!, The (2000)",Comedy|Horror
+44777,Evil Aliens (2005),Comedy|Horror|Sci-Fi
+44828,Slither (2006),Comedy|Horror|Sci-Fi
+44972,Scary Movie 4 (2006),Comedy|Horror
+45081,Silent Hill (2006),Fantasy|Horror|Thriller
+45361,"American Haunting, An (2005)",Drama|Horror|Mystery|Thriller
+45662,"Omen, The (2006)",Horror|Thriller
+46965,Snakes on a Plane (2006),Action|Comedy|Horror|Thriller
+47810,"Wicker Man, The (2006)",Horror|Mystery|Thriller
+47937,Severance (2006),Comedy|Horror|Thriller
+47952,"Covenant, The (2006)",Action|Horror|Thriller
+48150,"Woods, The (2006)",Horror
+48518,"Texas Chainsaw Massacre: The Beginning, The (2006)",Horror|Thriller
+48678,Feast (2005),Action|Comedy|Horror|Thriller
+48877,Saw III (2006),Crime|Horror|Thriller
+50147,Black Christmas (2006),Action|Horror|Thriller
+50440,Primeval (2007),Horror|Thriller
+50445,"Hitcher, The (2007)",Action|Horror|Thriller
+50613,Dead Meat (2004),Horror
+50796,Blood and Chocolate (2007),Drama|Fantasy|Horror|Romance
+50800,"Messengers, The (2007)",Drama|Horror|Thriller
+50804,Hannibal Rising (2007),Drama|Horror|Thriller
+51498,2001 Maniacs (2005),Comedy|Horror
+51545,Pusher III: I'm the Angel of Death (2005),Action|Comedy|Drama|Horror|Thriller
+51666,"Abandoned, The (2006)",Horror|Mystery|Thriller
+51709,"Host, The (Gwoemul) (2006)",Comedy|Drama|Horror|Sci-Fi|Thriller
+51927,Dead Silence (2007),Horror|Mystery|Thriller
+51937,"Hills Have Eyes II, The (2007)",Horror|Thriller
+52281,Grindhouse (2007),Action|Crime|Horror|Sci-Fi|Thriller
+52283,"Reaping, The (2007)",Horror|Thriller
+52644,Vacancy (2007),Horror|Thriller
+52831,Maniac Cop (1988),Action|Crime|Horror|Thriller
+52950,Day Watch (Dnevnoy dozor) (2006),Action|Fantasy|Horror|Thriller
+53000,28 Weeks Later (2007),Horror|Sci-Fi|Thriller
+53127,Bug (2007),Drama|Horror|Thriller
+53280,"Breed, The (2006)",Horror|Thriller
+53326,Them (Ils) (2006),Horror
+53435,Hostel: Part II (2007),Crime|Horror|Thriller
+53450,"Legend of Sleepy Hollow, The (1980)",Comedy|Fantasy|Horror
+53468,Fido (2006),Comedy|Horror|Thriller
+53519,Death Proof (2007),Action|Adventure|Crime|Horror|Thriller
+53953,1408 (2007),Drama|Horror|Thriller
+54771,"Invasion, The (2007)",Action|Drama|Horror|Sci-Fi|Thriller
+54785,Halloween (2007),Horror
+54910,Behind the Mask: The Rise of Leslie Vernon (2006),Comedy|Horror|Thriller
+54995,Planet Terror (2007),Action|Horror|Sci-Fi
+55232,Resident Evil: Extinction (2007),Action|Horror|Sci-Fi|Thriller
+55282,30 Days of Night (2007),Horror|Thriller
+55492,"Last Winter, The (2006)",Horror
+55553,Black Sheep (2006),Comedy|Horror
+55577,Saw IV (2007),Crime|Horror|Thriller
+56145,"Mist, The (2007)",Horror|Sci-Fi
+56174,I Am Legend (2007),Action|Horror|Sci-Fi|Thriller|IMAX
+56336,Wrong Turn 2: Dead End (2007),Action|Horror|Thriller
+56339,"Orphanage, The (Orfanato, El) (2007)",Drama|Horror|Mystery|Thriller
+56620,"Deaths of Ian Stone, The (2007)",Horror|Thriller
+56757,Sweeney Todd: The Demon Barber of Fleet Street (2007),Drama|Horror|Musical|Thriller
+56801,AVPR: Aliens vs. Predator - Requiem (2007),Action|Horror|Sci-Fi
+57274,[REC] (2007),Drama|Horror|Thriller
+57421,Hatchet (2006),Comedy|Horror
+57502,Cat Soup (Nekojiru-so) (2001),Adventure|Animation|Drama|Horror
+57637,"Signal, The (2007)",Horror|Sci-Fi|Thriller
+57910,Teeth (2007),Comedy|Horror
+58332,Diary of the Dead (2007),Horror|Sci-Fi
+58964,Inside (À l'intérieur) (2007),Horror|Thriller
+58975,"Ruins, The (2008)",Horror|Thriller
+59129,Outpost (2008),Action|Horror
+59131,Are You Scared? (2006),Horror
+59306,Prom Night (2008),Horror|Mystery|Thriller
+59604,"Girl Next Door, The (2007)",Crime|Drama|Horror|Thriller
+59727,"Strangers, The (2008)",Horror|Thriller
+59738,All the Boys Love Mandy Lane (2006),Horror|Mystery|Thriller
+59814,Ex Drummer (2007),Comedy|Crime|Drama|Horror
+59915,Stuck (2007),Horror|Thriller
+60030,Spiral (2007),Drama|Horror|Thriller
+60303,Strange Circus (Kimyô na sâkasu) (2005),Horror|Mystery|Thriller
+60363,Zombie Strippers! (2008),Comedy|Horror
+60471,Rogue (2007),Action|Adventure|Horror|Sci-Fi|Thriller
+60522,"Machine Girl, The (Kataude mashin gâru) (2008)",Action|Comedy|Fantasy|Horror|Thriller
+60538,Shrooms (2007),Horror|Thriller
+60832,Pathology (2008),Crime|Horror|Thriller
+60941,"Midnight Meat Train, The (2008)",Horror|Mystery|Thriller
+61240,Let the Right One In (Låt den rätte komma in) (2008),Drama|Fantasy|Horror|Romance
+61262,Mirrors (2008),Horror|Mystery|Thriller
+61692,Altered (2006),Horror|Sci-Fi|Thriller
+62008,Dead Fury (2008),Action|Animation|Comedy|Horror
+62299,Alone in the Dark II (2008),Action|Horror
+63436,Saw V (2008),Crime|Horror|Thriller
+63826,Splinter (2008),Action|Horror|Thriller
+64010,"Children, The (2008)",Horror
+65601,My Bloody Valentine 3-D (2009),Horror|Thriller
+65682,Underworld: Rise of the Lycans (2009),Action|Fantasy|Horror|Thriller
+65882,"Uninvited, The (2009)",Drama|Horror|Mystery|Thriller
+66090,Eden Lake (2008),Horror|Thriller
+66310,Frontière(s) (2007),Drama|Horror|Thriller
+66427,My Name Is Bruce (2007),Comedy|Horror
+66783,Friday the 13th (2009),Horror
+66943,"Cottage, The (2008)",Comedy|Crime|Horror|Thriller
+67168,Dance of the Dead (2008),Adventure|Comedy|Horror
+67186,"Haunting in Connecticut, The (2009)",Horror|Thriller
+68952,Drag Me to Hell (2009),Comedy|Horror
+69140,Sweeney Todd (2006),Crime|Drama|Horror|Thriller
+69211,Boy Eats Girl (2005),Comedy|Horror
+69275,Dead Snow (Død snø) (2009),Action|Adventure|Comedy|Horror
+69720,Hood of Horror (2006),Comedy|Drama|Horror
+69746,Watchmen: Tales of the Black Freighter (2009),Action|Adventure|Animation|Horror
+70159,Orphan (2009),Drama|Horror|Mystery|Thriller
+70206,"Collector, The (2009)",Crime|Horror|Thriller
+70208,"Perfect Getaway, A (2009)",Horror|Thriller
+70946,Troll 2 (1990),Fantasy|Horror
+70994,Halloween II (2009),Horror|Thriller
+71135,Pandorum (2009),Horror|Sci-Fi|Thriller
+71205,Jennifer's Body (2009),Comedy|Horror|Sci-Fi|Thriller
+71252,"Final Destination, The (Final Destination 4) (Final Destination in 3-D, The) (2009)",Horror|Thriller
+71304,Thirst (Bakjwi) (2009),Drama|Horror
+71341,Blood Creek (a.k.a. Town Creek) (2009),Horror
+71379,Paranormal Activity (2009),Horror|Thriller
+71494,"Haunted World of El Superbeasto, The (2009)",Action|Animation|Comedy|Horror|Thriller
+71500,Trick 'r Treat (2007),Comedy|Horror|Thriller
+71535,Zombieland (2009),Action|Comedy|Horror
+71732,I Sell the Dead (2008),Comedy|Horror
+72129,Saw VI (2009),Crime|Horror|Mystery|Thriller
+72165,Cirque du Freak: The Vampire's Assistant (2009),Action|Adventure|Comedy|Fantasy|Horror|Thriller
+72407,"Twilight Saga: New Moon, The (2009)",Drama|Fantasy|Horror|Romance|Thriller
+72731,"Lovely Bones, The (2009)",Crime|Drama|Fantasy|Horror|Thriller
+73160,Sorority Babes in the Slimeball Bowl-O-Rama (1988),Comedy|Horror
+73211,Pontypool (2008),Horror|Thriller
+73268,Daybreakers (2010),Action|Drama|Horror|Thriller
+73488,Blood: The Last Vampire (2009),Action|Horror|Thriller
+73929,Legion (2010),Action|Fantasy|Horror|Thriller
+74075,Stan Helsing (2009),Comedy|Horror
+74095,Wicked City (Yôjû toshi) (1987),Animation|Fantasy|Horror|Sci-Fi
+74228,Triangle (2009),Drama|Horror|Mystery|Thriller
+74370,"House of the Devil, The (2009)",Horror|Thriller
+74452,"Wolfman, The (2010)",Horror|Thriller
+74685,"Crazies, The (2010)",Action|Drama|Horror|Sci-Fi|Thriller
+74750,[REC]² (2009),Horror|Thriller
+74868,Dorian Gray (2009),Drama|Horror|Sci-Fi
+75389,"Burrowers, The (2008)",Horror|Thriller|Western
+75395,Frozen (2010),Drama|Horror|Thriller
+76030,Case 39 (2009),Horror|Thriller
+77427,"Human Centipede, The (First Sequence) (2009)",Horror
+77798,"Nightmare on Elm Street, A (2010)",Fantasy|Horror|Thriller
+78266,Splice (2009),Horror|Sci-Fi|Thriller
+78626,Barking Dogs Never Bite (Flandersui gae) (2000),Comedy|Horror
+79251,"Serbian Film, A (Srpski film) (2010)",Horror|Thriller
+79868,Heartless (2009),Fantasy|Horror|Mystery|Thriller
+79879,Piranha (Piranha 3D) (2010),Action|Horror|Thriller
+80094,"Last Exorcism, The (2010)",Horror|Thriller
+80162,"Horde, The (La Horde) (2009)",Action|Horror|Thriller
+80363,Resident Evil: Afterlife (2010),Action|Horror|Sci-Fi|Thriller|IMAX
+80831,Let Me In (2010),Drama|Horror|Mystery
+80846,Devil (2010),Horror|Mystery|Thriller
+81132,Rubber (2010),Action|Adventure|Comedy|Crime|Drama|Film-Noir|Horror|Mystery|Thriller|Western
+81417,Paranormal Activity 2 (2010),Horror|IMAX
+81535,Saw VII 3D - The Final Chapter (2010),Horror|Mystery|Thriller
+82041,"Loved Ones, The (2009)",Horror
+82366,Hatchet II (2010),Comedy|Horror|Thriller
+83134,Tucker & Dale vs Evil (2010),Comedy|Horror
+83601,Amer (2009),Drama|Horror
+84189,I Spit on Your Grave (2010),Crime|Horror|Thriller
+84799,"Asphyx, The (1973)",Horror|Sci-Fi
+84952,Confessions (Kokuhaku) (2010),Drama|Horror
+85397,Red Riding Hood (2011),Fantasy|Horror|Mystery|Thriller
+85412,"Troll Hunter, The (Trolljegeren) (2010)",Fantasy|Horror
+85788,Insidious (2010),Fantasy|Horror|Thriller
+86068,Films to Keep You Awake: The Christmas Tale (Películas para no dormir: Cuento de navidad) (2005),Horror|Thriller
+86286,Daffy Duck's Quackbusters (1988),Animation|Children|Comedy|Horror
+86295,Scream 4 (2011),Comedy|Horror|Mystery|Thriller
+86835,Priest (2011),Action|Horror|Sci-Fi|Thriller
+88272,"Woman, The (2011)",Horror
+88932,Final Destination 5 (2011),Horror|Thriller|IMAX
+89028,Don't Be Afraid of the Dark (2010),Horror|Thriller
+89030,Fright Night (2011),Comedy|Horror
+89072,Stake Land (2010),Horror
+89208,Walled In (2009),Horror|Thriller
+89343,Red State (2011),Action|Crime|Horror|Thriller
+89427,Shark Night 3D (2011),Horror|Thriller
+89837,Kill List (2011),Horror|Mystery|Thriller
+89945,BlinkyTM (2011),Horror|Sci-Fi
+90345,"Thing, The (2011)",Horror|Mystery|Sci-Fi|Thriller
+90469,Paranormal Activity 3 (2011),Horror
+91660,"Darkest Hour, The (2011)",Action|Horror|Sci-Fi|Thriller
+91947,"Revenant, The (2009)",Comedy|Horror
+91974,Underworld: Awakening (2012),Action|Fantasy|Horror|IMAX
+92192,Apollo 18 (2011),Horror|Sci-Fi|Thriller
+92309,"Innkeepers, The (2011)",Horror|Thriller
+92391,Grave Encounters (2011),Horror
+92422,"Woman in Black, The (2012)",Drama|Horror|Thriller
+92760,"Atomic Brain, The (1963)",Horror|Sci-Fi
+93139,Mega Shark vs. Crocosaurus (2010),Action|Adventure|Horror
+93819,Absentia (2011),Horror
+93840,"Cabin in the Woods, The (2012)",Comedy|Horror|Sci-Fi|Thriller
+94478,Dark Shadows (2012),Comedy|Horror|IMAX
+94864,Prometheus (2012),Action|Horror|Sci-Fi|IMAX
+94867,"Pact, The (2012)",Horror|Mystery|Thriller
+95207,Abraham Lincoln: Vampire Hunter (2012),Action|Fantasy|Horror|Thriller
+95633,Spirit Camp (2009),Horror
+95796,Anaconda: The Offspring (2008),Action|Horror|Sci-Fi|Thriller
+96448,Piranha 3DD (a.k.a. Piranha DD) (2012),Comedy|Horror
+96691,Resident Evil: Retribution (2012),Action|Horror|Sci-Fi|IMAX
+96815,V/H/S (2012),Horror|Thriller
+96917,House at the End of the Street (2012),Horror|Thriller
+97172,Frankenweenie (2012),Animation|Comedy|Horror|IMAX
+97188,Sinister (2012),Horror|Thriller
+97643,[REC]³ 3 Génesis (2012),Horror|Thriller
+97701,Paranormal Activity 4 (2012),Horror|IMAX
+97785,Silent Hill: Revelation 3D (2012),Horror|Mystery|Thriller
+97988,"Bay, The (2012)",Horror|Sci-Fi|Thriller
+98175,Vamps (2012),Comedy|Horror|Romance
+99007,Warm Bodies (2013),Comedy|Horror|Romance
+99122,I Bought a Vampire Motorcycle (1990),Comedy|Horror
+99130,Ice Cream Man (1995),Comedy|Horror
+99191,Campfire Tales (1997),Horror
+99437,John Dies at the End (2012),Comedy|Fantasy|Horror
+99721,Texas Chainsaw 3D (2013),Horror|Mystery|Thriller
+100163,Hansel & Gretel: Witch Hunters (2013),Action|Fantasy|Horror|IMAX
+100306,Angst  (1983),Drama|Horror
+100397,"ABCs of Death, The (2012)",Horror
+100810,Dark Skies (2013),Horror|Sci-Fi|Thriller
+100906,Maniac Cop 2 (1990),Action|Horror|Thriller
+101074,"Legend of Sleepy Hollow, The (1949)",Animation|Comedy|Horror|Musical
+101739,Evil Dead (2013),Horror
+102025,Yongary: Monster from the Deep (1967),Children|Horror|Sci-Fi
+102066,Resolution (2012),Horror|Thriller
+102070,Grabbers (2012),Comedy|Horror|Sci-Fi
+102802,"Lords of Salem, The (2012)",Horror|Thriller
+102984,Inhuman Resources (Redd Inc.) (2012),Horror|Thriller
+103075,"Purge, The (2013)",Crime|Horror|Thriller
+103219,Maniac (2012),Horror|Thriller
+103249,World War Z (2013),Action|Drama|Horror|IMAX
+103483,V/H/S/2 (2013),Horror|Thriller
+103688,"Conjuring, The (2013)",Horror|Thriller
+104457,You're Next (2011),Horror|Thriller
+104908,Insidious: Chapter 2 (2013),Horror|Thriller
+105325,Bad Milo (Bad Milo!) (2013),Comedy|Horror
+105731,Carrie (2013),Drama|Horror
+105801,Escape From Tomorrow (2013),Drama|Fantasy|Horror
+106648,Guilty of Romance (Koi no tsumi) (2011) ,Crime|Drama|Horror
+107436,Haunter (2013),Horror|Mystery|Thriller
+107771,Only Lovers Left Alive (2013),Drama|Horror|Romance
+107997,We Are What We Are (2013),Drama|Horror|Mystery|Thriller
+109848,Under the Skin (2013),Horror|Sci-Fi|Thriller
+110286,13 Sins (2014),Horror|Thriller
+110591,Oculus (2013),Horror
+110746,Hatchet III (2013),Comedy|Horror
+110773,"Haunted House 2, A (2014)",Comedy|Horror
+111551,Afflicted (2013),Horror|Sci-Fi|Thriller
+111663,Zombeavers (2014),Action|Comedy|Horror
+112515,"Babadook, The (2014)",Drama|Horror|Thriller
+112727,Deliver Us from Evil (2014),Crime|Horror|Thriller
+112818,"Purge: Anarchy, The (2014)",Action|Horror|Thriller
+113159,Life After Beth (2014),Comedy|Horror|Romance
+113252,Housebound (2014),Comedy|Horror|Thriller
+113313,"Den, The (2013)",Horror|Thriller
+113565,"Sacrament, The (2013)",Horror|Thriller
+113780,"As Above, So Below (2014)",Horror|Thriller
+114044,Honeymoon (2014),Horror
+114670,Tusk (2014),Comedy|Drama|Horror
+114707,Horns (2014),Horror|Mystery
+114713,Annabelle (2014),Horror
+115111,Ward 13 (2003),Action|Animation|Comedy|Horror
+115122,What We Do in the Shadows (2014),Comedy|Horror
+116668,Dead Snow 2: Red vs. Dead (2014) ,Action|Comedy|Horror
+116738,DeadHeads (2011),Adventure|Comedy|Horror
+118270,Hellbenders (2012),Comedy|Horror|Thriller
+118880,"Girl Walks Home Alone at Night, A (2014)",Horror|Romance|Thriller
+120827,The Hound of the Baskervilles (1988),Crime|Drama|Horror|Mystery
+121231,It Follows (2014),Horror
+121253,The Town that Dreaded Sundown (2014),Horror|Thriller
+121469,Killer Movie (2008),Comedy|Horror|Mystery|Thriller
+122433,The Deadly Bees (1967),Horror|Mystery|Thriller
+122884,Insidious: Chapter 3 (2015),Fantasy|Horror|Thriller
+125221,The Beast of Hollow Mountain (1956),Horror|Sci-Fi|Western
+128542,Wyrmwood (2015),Action|Horror|Sci-Fi
+128838,Crimson Peak (2015),Horror
+129333,Julia (2014),Horror|Thriller
+130050,Digging Up the Marrow (2014),Drama|Fantasy|Horror|Mystery|Thriller
+130052,Clown (2014),Drama|Horror
+130686,The Final Girls (2015),Comedy|Horror
+130840,Spring (2015),Horror|Romance|Sci-Fi
+132153,Buzzard (2015),Comedy|Drama|Horror
+133377,Infini (2015),Horror|Sci-Fi|Thriller
+133782,Maggie (2015),Drama|Horror|Thriller
+133832,The Green Inferno (2014),Horror|Thriller
+135534,Krampus (2015),Comedy|Fantasy|Horror
+136305,Sharknado 3: Oh Hell No! (2015),Horror|Sci-Fi
+136602,Creep (2014),Horror|Thriller
+136834,The Eye: Infinity (2005),Horror
+136958,Mortuary (1983),Horror
+138186,Sorrow (2015),Crime|Drama|Horror
+138610,The Gallows (2015),Horror|Thriller
+139157,Massu Engira Maasilamani (2015),Comedy|Horror|Thriller
+139511,Exte: Hair Extensions (2007),Horror
+139655,Goodnight Mommy (Ich seh ich seh) (2014),Drama|Fantasy|Horror|Thriller
+139994,Fracchia contro Dracula (1985),Comedy|Horror
+140016,Always Watching: A Marble Hornets Story (2015),Horror
+140133,Hollywood Chainsaw Hookers (1988),Comedy|Horror
+140247,The Gift (2015),Drama|Horror
+140267,The Witch (2015),Horror
+140523,"Visit, The (2015)",Comedy|Horror
+140852,964 Pinocchio (1991),Horror|Sci-Fi
+141004,Victor Frankenstein (2015),Drama|Horror|Sci-Fi
+141408,Scouts Guide to the Zombie Apocalypse (2015),Action|Comedy|Horror
+141718,Deathgasm (2015),Comedy|Horror
+141799,Cooties (2015),Comedy|Horror
+141928,Bloodsucking Bastards (2015),Comedy|Horror
+142074,Knock Knock (2015),Crime|Horror|Thriller
+142196,Cornered! (2009),Comedy|Horror
+142366,Cigarette Burns (2005),Horror|Thriller
+142444,The Editor (2015),Comedy|Horror|Mystery
+142598,Last Shift (2014),Horror
+143472,Into the Grizzly Maze (2015),Action|Horror|Thriller
+144522,Sky High (2003),Action|Horror|Thriller
+144620,Goosebumps (2015),Adventure|Comedy|Horror
+144734,Freaks of Nature (2015),Comedy|Horror|Sci-Fi
+144976,Bone Tomahawk (2015),Horror|Western
+145080,Extraordinary Tales (2015),Animation|Horror|Mystery
+148671,Saw (2003),Crime|Horror
+148978,Blue Exorcist: The Movie (2012),Animation|Fantasy|Horror|Mystery
+148982,Devil Dog: The Hound of Hell (1978),Horror
+149011,He Never Died (2015),Comedy|Drama|Horror
+149144,Parasyte: Part 1 (2014),Horror|Sci-Fi
+149146,Parasyte: Part 2 (2015),Horror|Sci-Fi
+149350,Lumberjack Man (2015),Comedy|Horror
+149830,Pride and Prejudice and Zombies (2016),Comedy|Horror|Romance|Thriller
+150254,The Devil's Candy (2015),Horror
+151559,Frankenstein (2015),Horror|Thriller
+151745,Reptilicus (1961),Horror|Sci-Fi
+152173,Michael Jackson's Thriller (1983),Horror
+152372,Southbound (2016),Horror
+155064,The Neon Demon (2016),Drama|Horror|Mystery
+158956,Kill Command (2016),Action|Horror|Sci-Fi
+159403,Neo Tokyo (1987),Adventure|Animation|Fantasy|Horror|Sci-Fi
+159510,Death Smiles on a Murderer (1973),Horror
+159858,The Conjuring 2 (2016),Horror
+160080,Ghostbusters (2016),Action|Comedy|Horror|Sci-Fi
+160565,The Purge: Election Year (2016),Action|Horror|Sci-Fi
+160571,Lights Out (2016),Horror
+160872,Satanic (2016),Horror
+160978,Hellevator (2004),Horror|Sci-Fi
+161830,Body (2015),Drama|Horror|Thriller
+161918,Sharknado 4: The 4th Awakens (2016),Action|Adventure|Horror|Sci-Fi
+163937,Blair Witch (2016),Horror|Thriller
+163981,31 (2016),Horror
+164367,The Girl with All the Gifts (2016),Drama|Horror|Sci-Fi|Thriller
+165343,The Rocky Horror Picture Show: Let's Do the Time Warp Again (2016),Comedy|Horror|Sci-Fi|Thriller
+166534,Split (2017),Drama|Horror|Thriller
+166558,Underworld: Blood Wars (2016),Action|Horror
+167538,Microwave Massacre (1983),Horror
+168250,Get Out (2017),Horror
+169670,The Void (2016),Horror
+169984,Alien: Covenant (2017),Action|Horror|Sci-Fi|Thriller
+170289,Species III (2004),Action|Horror|Sci-Fi
+170827,The Mummy (2017),Action|Adventure|Fantasy|Horror|Thriller
+170945,It Comes at Night (2017),Horror|Mystery|Thriller
+173307,The Gracefield Incident (2015),Action|Horror|Sci-Fi
+174053,Black Mirror: White Christmas (2014),Drama|Horror|Mystery|Sci-Fi|Thriller
+174479,Unedited Footage of a Bear (2014),Horror|Thriller
+175197,The Dark Tower (2017),Fantasy|Horror|Sci-Fi|Western
+175199,Annabelle: Creation (2017),Horror
+175303,It (2017),Horror
+175485,Death Note (2017),Horror|Thriller
+175705,Themroc (1973),Comedy|Horror
+176419,Mother! (2017),Drama|Horror|Mystery|Thriller
+176579,Cage Dive (2017),Drama|Horror|Thriller
+179491,Mayhem (2017),Action|Horror
+179749,Creep 2 (2017),Comedy|Horror
+180263,The Shining (1997),Drama|Horror|Thriller
+183295,Insidious: The Last Key (2018),Horror|Mystery|Thriller
+183611,Game Night (2018),Action|Comedy|Crime|Horror
+184253,The Cloverfield Paradox (2018),Horror|Mystery|Sci-Fi|Thriller
+185029,A Quiet Place (2018),Drama|Horror|Thriller

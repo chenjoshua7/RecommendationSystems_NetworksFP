@@ -1,0 +1,383 @@
+movieId,title,genres
+41,Richard III (1995),Drama|War
+73,"Misérables, Les (1995)",Drama|War
+110,Braveheart (1995),Action|Drama|War
+151,Rob Roy (1995),Action|Drama|Romance|War
+155,Beyond Rangoon (1995),Adventure|Drama|War
+157,Canadian Bacon (1995),Comedy|War
+161,Crimson Tide (1995),Drama|Thriller|War
+214,Before the Rain (Pred dozhdot) (1994),Drama|War
+266,Legends of the Fall (1994),Drama|Romance|War|Western
+336,"Walking Dead, The (1995)",Drama|War
+340,"War, The (1994)",Adventure|Drama|War
+356,Forrest Gump (1994),Comedy|Drama|Romance|War
+389,"Colonel Chabert, Le (1994)",Drama|Romance|War
+466,Hot Shots! Part Deux (1993),Action|Comedy|War
+473,In the Army Now (1994),Comedy|War
+527,Schindler's List (1993),Drama|War
+632,Land and Freedom (Tierra y libertad) (1995),Drama|War
+647,Courage Under Fire (1996),Action|Crime|Drama|War
+665,Underground (1995),Comedy|Drama|War
+688,Operation Dumbo Drop (1995),Action|Adventure|Comedy|War
+750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War
+760,Stalingrad (1993),Drama|War
+897,For Whom the Bell Tolls (1943),Adventure|Drama|Romance|War
+920,Gone with the Wind (1939),Drama|Romance|War
+946,To Be or Not to Be (1942),Comedy|Drama|War
+969,"African Queen, The (1951)",Adventure|Comedy|Romance|War
+976,"Farewell to Arms, A (1932)",Romance|War
+979,Nothing Personal (1995),Drama|War
+1078,Bananas (1971),Comedy|War
+1090,Platoon (1986),Drama|War
+1161,"Tin Drum, The (Blechtrommel, Die) (1979)",Drama|War
+1178,Paths of Glory (1957),Drama|War
+1183,"English Patient, The (1996)",Drama|Romance|War
+1204,Lawrence of Arabia (1962),Adventure|Drama|War
+1208,Apocalypse Now (1979),Action|Drama|War
+1217,Ran (1985),Drama|War
+1222,Full Metal Jacket (1987),Drama|War
+1224,Henry V (1989),Action|Drama|Romance|War
+1233,"Boot, Das (Boat, The) (1981)",Action|Drama|War
+1242,Glory (1989),Drama|War
+1250,"Bridge on the River Kwai, The (1957)",Adventure|Drama|War
+1256,Duck Soup (1933),Comedy|Musical|War
+1262,"Great Escape, The (1963)",Action|Adventure|Drama|War
+1263,"Deer Hunter, The (1978)",Drama|War
+1267,"Manchurian Candidate, The (1962)",Crime|Thriller|War
+1272,Patton (1970),Drama|War
+1281,"Great Dictator, The (1940)",Comedy|Drama|War
+1299,"Killing Fields, The (1984)",Drama|War
+1398,In Love and War (1996),Romance|War
+1408,"Last of the Mohicans, The (1992)",Action|Romance|War|Western
+1445,McHale's Navy (1997),Comedy|War
+1507,Paradise Road (1997),Drama|War
+1616,"Peacemaker, The (1997)",Action|Thriller|War
+1619,Seven Years in Tibet (1997),Adventure|Drama|War
+1663,Stripes (1981),Comedy|War
+1670,Welcome to Sarajevo (1997),Drama|War
+1696,Bent (1997),Drama|War
+1873,"Misérables, Les (1998)",Crime|Drama|Romance|War
+1920,Small Soldiers (1998),Animation|Children|Fantasy|War
+1927,All Quiet on the Western Front (1930),Action|Drama|War
+1936,Mrs. Miniver (1942),Drama|War
+1939,"Best Years of Our Lives, The (1946)",Drama|War
+1944,From Here to Eternity (1953),Drama|Romance|War
+2028,Saving Private Ryan (1998),Action|Drama|War
+2067,Doctor Zhivago (1965),Drama|Romance|War
+2075,Mephisto (1981),Drama|War
+2106,Swing Kids (1993),Drama|War
+2202,Lifeboat (1944),Drama|War
+2322,Soldier (1998),Action|Sci-Fi|War
+2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War
+2358,Savior (1998),Drama|War
+2404,Rambo III (1988),Action|Adventure|Thriller|War
+2427,"Thin Red Line, The (1998)",Action|Drama|War
+2436,Tea with Mussolini (1999),Comedy|Drama|War
+2476,Heartbreak Ridge (1986),Action|War
+2669,Pork Chop Hill (1959),War
+2670,Run Silent Run Deep (1958),War
+2728,Spartacus (1960),Action|Drama|Romance|War
+2730,Barry Lyndon (1975),Drama|Romance|War
+2815,Iron Eagle (1986),Action|War
+2816,Iron Eagle II (1988),Action|War
+2818,Iron Eagle IV (1995),Action|War
+2890,Three Kings (1999),Action|Adventure|Comedy|Drama|War
+2897,And the Ship Sails On (E la nave va) (1983),Comedy|War
+2919,"Year of Living Dangerously, The (1982)",Drama|Romance|War
+2941,South Pacific (1958),Musical|Romance|War
+2944,"Dirty Dozen, The (1967)",Action|Drama|War
+2972,Red Sorghum (Hong gao liang) (1987),Drama|War
+3003,Train of Life (Train de vie) (1998),Comedy|Drama|Romance|War
+3022,"General, The (1926)",Comedy|War
+3035,Mister Roberts (1955),Comedy|Drama|War
+3053,"Messenger: The Story of Joan of Arc, The (1999)",Drama|War
+3062,"Longest Day, The (1962)",Action|Drama|War
+3066,Tora! Tora! Tora! (1970),Action|Drama|War
+3091,Kagemusha (1980),Drama|War
+3117,Ride with the Devil (1999),Drama|Romance|War
+3134,Grand Illusion (La grande illusion) (1937),Drama|War
+3143,Hell in the Pacific (1968),Drama|War
+3196,Stalag 17 (1953),Drama|War
+3342,Birdy (1984),Drama|War
+3372,"Bridge at Remagen, The (1969)",Action|War
+3406,Captain Horatio Hornblower R.N. (1951),Action|Adventure|Drama|War
+3414,Love Is a Many-Splendored Thing (1955),Drama|Romance|War
+3441,Red Dawn (1984),Action|Drama|War
+3448,"Good Morning, Vietnam (1987)",Comedy|Drama|War
+3519,Force 10 from Navarone (1978),Action|Drama|War
+3555,U-571 (2000),Action|Thriller|War
+3628,Flying Tigers (1942),Action|Drama|Romance|War
+3643,"Fighting Seabees, The (1944)",Action|Drama|War
+3654,"Guns of Navarone, The (1961)",Action|Adventure|Drama|War
+3724,Coming Home (1978),Drama|War
+3742,Battleship Potemkin (1925),Drama|War
+3753,"Patriot, The (2000)",Action|Drama|War
+3766,Missing in Action (1984),Action|War
+3767,Missing in Action 2: The Beginning (1985),Action|War
+3768,Braddock: Missing in Action III (1988),Action|War
+3808,"Two Women (Ciociara, La) (1960)",Drama|War
+3811,Breaker Morant (1980),Drama|War
+3836,Kelly's Heroes (1970),Action|Comedy|War
+3985,"Eagle Has Landed, The (1976)",Drama|War
+3992,Malèna (2000),Drama|Romance|War
+4008,Born on the Fourth of July (1989),Drama|War
+4033,Thirteen Days (2000),Drama|Thriller|War
+4042,"Alamo, The (1960)",Action|Drama|War|Western
+4047,Gettysburg (1993),Drama|War
+4103,Empire of the Sun (1987),Action|Adventure|Drama|War
+4111,Gardens of Stone (1987),Drama|War
+4194,I Know Where I'm Going! (1945),Drama|Romance|War
+4207,Navy Seals (1990),Action|Adventure|War
+4223,Enemy at the Gates (2001),Drama|War
+4310,Pearl Harbor (2001),Action|Drama|Romance|War
+4323,"Horse Soldiers, The (1959)",Adventure|War|Western
+4337,"Sand Pebbles, The (1966)",Drama|Romance|War
+4338,Twelve O'Clock High (1949),Drama|War
+4339,Von Ryan's Express (1965),Action|Adventure|Drama|War
+4349,Catch-22 (1970),Comedy|War
+4353,Uncommon Valor (1983),Action|War
+4407,Salvador (1986),Drama|Thriller|War
+4463,1969 (1988),Drama|War
+4473,Bat*21 (1988),Drama|War
+4475,"Beast of War, The (Beast, The) (1988)",Drama|War
+4577,Casualties of War (1989),Drama|War
+4594,Farewell to the King (1989),Action|War
+4727,Captain Corelli's Mandolin (2001),Drama|Romance|War
+4795,Father Goose (1964),Adventure|Comedy|Romance|War
+4802,Operation Petticoat (1959),Action|Comedy|Romance|War
+4826,"Big Red One, The (1980)",Action|Adventure|Drama|War
+4902,"Devil's Backbone, The (Espinazo del diablo, El) (2001)",Drama|Fantasy|Horror|Thriller|War
+4916,Midway (1976),Drama|War
+4958,Behind Enemy Lines (2001),Action|Drama|War
+4967,No Man's Land (2001),Drama|War
+5010,Black Hawk Down (2001),Action|Drama|War
+5060,M*A*S*H (a.k.a. MASH) (1970),Comedy|Drama|War
+5107,Hart's War (2002),Drama|War
+5152,We Were Soldiers (2002),Action|Drama|War
+5288,"Atomic Cafe, The (1982)",Documentary|War
+5304,"Rome, Open City (a.k.a. Open City) (Roma, città aperta) (1945)",Drama|War
+5373,"Cranes Are Flying, The (Letyat zhuravli) (1957)",Drama|Romance|War
+5420,Windtalkers (2002),Action|Drama|War
+5425,Dark Blue World (Tmavomodrý svet) (2001),Drama|War
+5541,Hot Shots! (1991),Action|Comedy|Romance|War
+5611,"Four Feathers, The (2002)",Adventure|War
+5651,"Incredible Mr. Limpet, The (1964)",Animation|Comedy|War
+5690,Grave of the Fireflies (Hotaru no haka) (1988),Animation|Drama|War
+5747,Gallipoli (1981),Drama|War
+5799,Exodus (1960),Drama|Romance|War
+5801,"Russians Are Coming, the Russians Are Coming, The (1966)",Comedy|War
+5817,Ararat (2002),Drama|War
+5876,"Quiet American, The (2002)",Drama|Thriller|War
+5899,Zulu (1964),Action|Drama|War
+5915,Victory (a.k.a. Escape to Victory) (1981),Action|Drama|War
+5953,Devils on the Doorstep (Guizi lai le) (2000),Drama|War
+5965,"Duellists, The (1977)",Action|War
+5975,War and Peace (1956),Drama|Romance|War
+5995,"Pianist, The (2002)",Drama|War
+6107,"Night of the Shooting Stars (Notte di San Lorenzo, La) (1982)",Drama|War
+6181,"Red Badge of Courage, The (1951)",Drama|War
+6186,Gods and Generals (2003),Action|Drama|War
+6235,Europa Europa (Hitlerjunge Salomon) (1990),Drama|War
+6263,Basic (2003),Drama|Thriller|War
+6422,Shenandoah (1965),Drama|War|Western
+6428,Two Mules for Sister Sara (1970),Comedy|War|Western
+6434,"Objective, Burma! (1945)",War
+6542,"Cuckoo, The (Kukushka) (2002)",Comedy|Drama|War
+6561,"Mouse That Roared, The (1959)",Comedy|War
+6567,Buffalo Soldiers (2001),Comedy|Crime|Drama|War
+6808,Where Eagles Dare (1968),Action|Adventure|War
+6818,Come and See (Idi i smotri) (1985),Drama|War
+6886,Beyond Borders (2003),Drama|Romance|War
+6947,Master and Commander: The Far Side of the World (2003),Adventure|Drama|War
+6982,Forbidden Games (Jeux interdits) (1952),Drama|War
+7025,"Midnight Clear, A (1992)",Drama|War
+7065,"Birth of a Nation, The (1915)",Drama|War
+7104,1941 (1979),Comedy|War
+7118,Wings of Honneamise (Ôritsu uchûgun Oneamisu no tsubasa) (1987),Animation|Drama|Sci-Fi|War
+7122,King of Hearts (1966),Comedy|Drama|War
+7143,"Last Samurai, The (2003)",Action|Adventure|Drama|War
+7156,"Fog of War: Eleven Lessons from the Life of Robert S. McNamara, The (2003)",Documentary|War
+7162,Cold Mountain (2003),Drama|Romance|War
+7215,To Have and Have Not (1944),Adventure|Drama|Romance|Thriller|War
+7238,Ashes and Diamonds (Popiól i diament) (1958),Drama|War
+7248,"Suriyothai (a.k.a. Legend of Suriyothai, The) (2001)",Action|Adventure|Drama|War
+7292,Best Defense (1984),Comedy|War
+7303,The Diary of Anne Frank (1959),Drama|War
+7307,Flesh & Blood (1985),Action|Adventure|Drama|War
+7336,"Damned, The (La Caduta degli dei) (1969)",Drama|War
+7379,The Alamo (2004),Drama|War|Western
+7458,Troy (2004),Action|Adventure|Drama|War
+7560,Fail-Safe (1964),Drama|Thriller|War
+7756,Alexander Nevsky (Aleksandr Nevskiy) (1938),Action|Drama|War
+7766,Throne of Blood (Kumonosu jô) (1957),Action|Drama|Thriller|War
+7840,Gunga Din (1939),Adventure|Comedy|War
+7936,Shame (Skammen) (1968),Drama|War
+7980,"Bridge Too Far, A (1977)",Action|Drama|War
+8045,Hamburger Hill (1987),Action|Drama|War
+8118,Delta Force 2 (Delta Force 2: The Colombian Connection) (1990),Action|Adventure|Thriller|War
+8190,"Americanization of Emily, The (1964)",Comedy|Drama|War
+8197,Hiroshima Mon Amour (1959),Drama|Romance|War
+8337,"Caine Mutiny, The (1954)",Drama|War
+8446,Sands of Iwo Jima (1949),Action|Drama|Romance|War
+8461,Dragon Seed (1944),Drama|War
+8484,"Human Condition I, The (Ningen no joken I) (1959)",Drama|War
+8493,Memphis Belle (1990),Action|Drama|War
+8582,Manufacturing Consent: Noam Chomsky and the Media (1992),Documentary|War
+8640,King Arthur (2004),Action|Adventure|Drama|War
+8690,Slaughterhouse-Five (1972),Comedy|Drama|Sci-Fi|War
+8724,"Leopard, The (Gattopardo, Il) (1963)",Drama|War
+8730,To End All Wars (2001),Action|Drama|War
+8795,Musa the Warrior (Musa) (2001),Action|Adventure|Drama|War
+8977,Alexander (2004),Action|Adventure|Drama|War
+9018,Control Room (2004),Documentary|War
+26003,Night and Fog (Nuit et brouillard) (1955),Crime|Documentary|War
+26048,"Human Condition II, The (Ningen no joken II) (1959)",Drama|War
+26073,"Human Condition III, The (Ningen no joken III) (1961)",Drama|War
+26095,"Carabineers, The (Carabiniers, Les) (1963)",Comedy|Drama|War
+26122,Onibaba (1964),Drama|Horror|War
+26131,"Battle of Algiers, The (La battaglia di Algeri) (1966)",Drama|War
+26142,Major Dundee (1965),Adventure|War|Western
+26150,Andrei Rublev (Andrey Rublyov) (1969),Drama|War
+26158,Closely Watched Trains (Ostre sledované vlaky) (1966),Comedy|Drama|War
+26236,"White Sun of the Desert, The (Beloe solntse pustyni) (1970)",Action|Adventure|Comedy|Drama|Romance|War
+26359,1900 (Novecento) (1976),Drama|War
+26681,Bullet in the Head (1990),Action|Drama|War
+26764,Captain America (1990),Action|Fantasy|Sci-Fi|Thriller|War
+26791,Shining Through (1992),Drama|Romance|Thriller|War
+27397,Joint Security Area (Gongdong gyeongbi guyeok JSA) (2000),Crime|Drama|Mystery|Thriller|War
+27611,Battlestar Galactica (2003),Drama|Sci-Fi|War
+27692,And Starring Pancho Villa as Himself (2003),Action|Comedy|Drama|War
+27704,Battle Royale 2: Requiem (Batoru rowaiaru II: Chinkonka) (2003),Action|Drama|Thriller|War
+27721,"Very Long Engagement, A (Un long dimanche de fiançailles) (2004)",Drama|Mystery|Romance|War
+27793,Starship Troopers 2: Hero of the Federation (2004),Action|Horror|Sci-Fi|War
+27816,Saints and Soldiers (2003),Action|Adventure|Drama|War
+27869,Tae Guk Gi: The Brotherhood of War (Taegukgi hwinalrimyeo) (2004),Action|Drama|War
+30749,Hotel Rwanda (2004),Drama|War
+31116,Sergeant York (1941),Drama|War
+31150,Wizards (1977),Animation|Fantasy|Sci-Fi|War
+31410,"Downfall (Untergang, Der) (2004)",Drama|War
+31617,El Cid (1961),Action|Adventure|Drama|Romance|War
+31702,Turtles Can Fly (Lakposhtha hâm parvaz mikonand) (2004),Drama|War
+31973,Germany Year Zero (Germania anno zero) (Deutschland im Jahre Null) (1948),Drama|War
+32022,Gunner Palace (2004),Documentary|War
+32515,Walker (1987),Adventure|Drama|War|Western
+32649,"Special Day, A (Giornata particolare, Una) (1977)",Drama|War
+32892,Ivan's Childhood (a.k.a. My Name is Ivan) (Ivanovo detstvo) (1962),Drama|War
+32906,"Ascent, The (Voskhozhdeniye) (1977)",Drama|War
+33124,Before the Fall (NaPolA - Elite für den Führer) (2004),Drama|War
+33162,Kingdom of Heaven (2005),Action|Drama|Romance|War
+34536,The Great Raid (2005),Action|Drama|War
+36397,Valiant (2005),Adventure|Animation|Children|Comedy|Fantasy|War
+36529,Lord of War (2005),Action|Crime|Drama|Thriller|War
+40278,Jarhead (2005),Action|Drama|War
+40414,Joyeux Noël (Merry Christmas) (2005),Drama|War
+41527,Paradise Now (2005),Crime|Drama|Thriller|War
+41828,Don't Look Now: We're Being Shot At (La grande vadrouille) (1966),Comedy|War
+42943,Revolution (1985),Adventure|Drama|War
+43376,Sophie Scholl: The Final Days (Sophie Scholl - Die letzten Tage) (2005),Drama|War
+43677,"Tuskegee Airmen, The (1995)",Drama|War
+46559,"Road to Guantanamo, The (2006)",Drama|War
+46855,Army of Shadows (L'armée des ombres) (1969),Action|Drama|Thriller|War
+47894,"Wind That Shakes the Barley, The (2006)",Drama|War
+48032,"Tiger and the Snow, The (La tigre e la neve) (2005)",Comedy|Drama|Romance|War
+48319,Flyboys (2006),Action|Adventure|Drama|War
+48649,Chapayev (1934),Drama|War
+48783,Flags of Our Fathers (2006),Drama|War
+49265,Shooting Dogs (a.k.a. Beyond the Gates) (2005),Documentary|Drama|War
+49530,Blood Diamond (2006),Action|Adventure|Crime|Drama|Thriller|War
+49688,"Dam Busters, The (1955)",Action|Drama|War
+50068,Letters from Iwo Jima (2006),Drama|War
+51662,300 (2007),Action|Fantasy|War|IMAX
+52042,Black Book (Zwartboek) (2006),Drama|Thriller|War
+52319,Inglorious Bastards (Quel maledetto treno blindato) (1978),Action|Adventure|Drama|War
+53550,Rescue Dawn (2006),Action|Adventure|Drama|War
+54686,"Last Legion, The (2007)",Action|Adventure|Fantasy|War
+55052,Atonement (2007),Drama|Romance|War
+55253,"Lust, Caution (Se, jie) (2007)",Drama|Romance|Thriller|War
+55946,Lions For Lambs (2007),Drama|Thriller|War
+56060,I Served the King of England (Obsluhoval jsem anglického krále) (2006),Comedy|Drama|Romance|War
+56788,Charlie Wilson's War (2007),Comedy|Drama|War
+57499,Heaven and Earth (Ten to Chi to) (1990),Action|Adventure|Drama|War
+57528,Rambo (Rambo 4) (2008),Action|Drama|Thriller|War
+58303,"Counterfeiters, The (Die Fälscher) (2007)",Crime|Drama|War
+58306,Mongol (2007),Drama|War
+58376,Zeitgeist: The Movie (2007),Documentary|War
+58842,Assembly (Ji jie hao) (2007) ,Action|Drama|War
+58876,Stop-Loss (2008),Drama|War
+60046,"Children of Huang Shi, The (2008)",Drama|War
+60389,Battle for Haditha (2007),War
+60894,"Edge of Love, The (2008)",Drama|Romance|War
+61026,Red Cliff (Chi bi) (2008),Action|Adventure|Drama|War
+61132,Tropic Thunder (2008),Action|Adventure|Comedy|War
+61236,Waltz with Bashir (Vals im Bashir) (2008),Animation|Documentary|Drama|War
+63853,Australia (2008),Adventure|Drama|War|Western
+64034,"Boy in the Striped Pajamas, The (Boy in the Striped Pyjamas, The) (2008)",Drama|War
+64499,Che: Part One (2008),Drama|War
+64501,Che: Part Two (2008),Drama|War
+64983,Valkyrie (2008),Drama|Thriller|War
+65216,Defiance (2008),Drama|Thriller|War
+65514,Ip Man (2008),Action|Drama|War
+66544,Nuremberg (2000),Drama|War
+68157,Inglourious Basterds (2009),Action|Drama|War
+68486,Red Cliff Part II (Chi Bi Xia: Jue Zhan Tian Xia) (2009),Action|Drama|War
+68872,Paisan (Paisà) (1946),Drama|War
+69481,"Hurt Locker, The (2008)",Action|Drama|Thriller|War
+69849,Roots (1977),Drama|War
+69860,Eichmann (2007),Drama|War
+70451,Max Manus (2008),Action|Drama|War
+71810,Legionnaire (1998),Action|Adventure|Drama|War
+72178,Welcome to Dongmakgol (2005),Comedy|Drama|War
+72479,"Messenger, The (2009)",Drama|Romance|War
+72605,Brothers (2009),Drama|Thriller|War
+74342,"Captain Newman, M.D. (1963)",Comedy|Drama|War
+74688,Dear John (2010),Drama|Romance|War
+74795,Green Zone (2010),Action|Drama|Thriller|War
+77201,Valhalla Rising (2009),Action|Drama|War
+77866,Robin Hood (2010),Action|Adventure|Drama|Romance|War
+78103,Shake Hands with the Devil (2007),Drama|War
+78142,Baarìa (2009),Comedy|Drama|War
+81158,Restrepo (2010),Documentary|War
+82765,Little Big Soldier (Da bing xiao jiang) (2010),Action|Adventure|Comedy|Drama|War
+85131,Battle: Los Angeles (2011),Action|Sci-Fi|War
+86781,Incendies (2010),Drama|Mystery|War
+87232,X-Men: First Class (2011),Action|Adventure|Sci-Fi|Thriller|War
+87520,Transformers: Dark of the Moon (2011),Action|Adventure|Sci-Fi|War|IMAX
+88140,Captain America: The First Avenger (2011),Action|Adventure|Sci-Fi|Thriller|War
+88327,"New One-Armed Swordsman, The (Xin du bi dao) (1971)",Action|Drama|War
+90384,Behind Enemy Lines II: Axis of Evil (2006),Action|Thriller|War
+91126,War Horse (2011),Drama|War
+92234,Red Tails (2012),Action|Adventure|Drama|War
+92243,"Flowers of War, The (Jin líng shí san chai) (2011)",Drama|War
+93040,"Civil War, The (1990)",Documentary|War
+93297,Act of Valor (2012),Action|Thriller|War
+98154,Lincoln (2012),Drama|War
+98239,Red Dawn (2012),Action|War
+103685,"Field in England, A (2013)",Drama|Fantasy|Thriller|War
+105121,Inescapable (2012),Action|Drama|War
+106441,"Book Thief, The (2013)",Children|Drama|War
+107069,Lone Survivor (2013),Action|Drama|Thriller|War
+107408,Only Old Men Are Going to Battle (V boy idut odni stariki) (1973),Comedy|Drama|War
+108928,"Monuments Men, The (2014)",Action|Drama|War
+109673,300: Rise of an Empire (2014),Action|Drama|War|IMAX
+114662,American Sniper (2014),Action|War
+115210,Fury (2014),Action|Drama|War
+115969,Generation War (2013),Drama|War
+116529,Stalingrad (2013),Action|Drama|War|IMAX
+116797,The Imitation Game (2014),Drama|Thriller|War
+117364,Virunga (2014),Documentary|War
+117867,'71 (2014),Action|Drama|Thriller|War
+118702,Unbroken (2014),Drama|War
+122092,Guy X (2005),Comedy|War
+122260,The Diary of Anne Frank (2009),Drama|War
+126430,The Pacific (2010),Action|Adventure|Drama|War
+140627,Battle For Sevastopol (2015),Drama|Romance|War
+141890,Beasts of No Nation (2015),Drama|War
+152083,Whiskey Tango Foxtrot (2016),Comedy|War
+155288,Eye in the Sky (2016),Drama|Thriller|War
+160422,The Wooden Horse (1950),Drama|War
+163645,Hacksaw Ridge (2016),Drama|War
+170705,Band of Brothers (2001),Action|Drama|War
+171811,Embassy (2013),Comedy|Sci-Fi|War
+173209,War Machine (2017),Comedy|Drama|War
+174055,Dunkirk (2017),Action|Drama|Thriller|War
+179817,Darkest Hour (2017),Drama|War

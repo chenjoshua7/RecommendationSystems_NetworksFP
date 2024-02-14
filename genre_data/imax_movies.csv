@@ -1,0 +1,159 @@
+movieId,title,genres
+150,Apollo 13 (1995),Adventure|Drama|IMAX
+364,"Lion King, The (1994)",Adventure|Animation|Children|Drama|Musical|IMAX
+595,Beauty and the Beast (1991),Animation|Children|Fantasy|Musical|Romance|IMAX
+1797,Everest (1998),Documentary|IMAX
+3159,Fantasia 2000 (1999),Animation|Children|Musical|IMAX
+4445,T-Rex: Back to the Cretaceous (1998),Adventure|Documentary|IMAX
+4453,Michael Jordan to the Max (2000),Documentary|IMAX
+4454,More (1998),Animation|Drama|Sci-Fi|IMAX
+4458,Africa: The Serengeti (1994),Documentary|IMAX
+4459,Alaska: Spirit of the Wild (1997),Documentary|IMAX
+4864,Titanica (1992),Documentary|IMAX
+5378,Star Wars: Episode II - Attack of the Clones (2002),Action|Adventure|Sci-Fi|IMAX
+5882,Treasure Planet (2002),Adventure|Animation|Children|Sci-Fi|IMAX
+6289,Ghosts of the Abyss (2003),Documentary|IMAX
+6365,"Matrix Reloaded, The (2003)",Action|Adventure|Sci-Fi|Thriller|IMAX
+6934,"Matrix Revolutions, The (2003)",Action|Adventure|Sci-Fi|Thriller|IMAX
+8368,Harry Potter and the Prisoner of Azkaban (2004),Adventure|Fantasy|IMAX
+8636,Spider-Man 2 (2004),Action|Adventure|Sci-Fi|IMAX
+8965,"Polar Express, The (2004)",Adventure|Animation|Children|Fantasy|IMAX
+30793,Charlie and the Chocolate Factory (2005),Adventure|Children|Comedy|Fantasy|IMAX
+32031,Robots (2005),Adventure|Animation|Children|Comedy|Fantasy|Sci-Fi|IMAX
+33794,Batman Begins (2005),Action|Crime|IMAX
+40815,Harry Potter and the Goblet of Fire (2005),Adventure|Fantasy|Thriller|IMAX
+44191,V for Vendetta (2006),Action|Sci-Fi|Thriller|IMAX
+45442,Poseidon (2006),Action|Adventure|Thriller|IMAX
+46530,Superman Returns (2006),Action|Adventure|Sci-Fi|IMAX
+46972,Night at the Museum (2006),Action|Comedy|Fantasy|IMAX
+47124,"Ant Bully, The (2006)",Adventure|Animation|Children|Comedy|Fantasy|IMAX
+48414,Open Season (2006),Adventure|Animation|Children|Comedy|IMAX
+49274,Happy Feet (2006),Adventure|Animation|Children|Comedy|IMAX
+51662,300 (2007),Action|Fantasy|War|IMAX
+52722,Spider-Man 3 (2007),Action|Adventure|Sci-Fi|Thriller|IMAX
+53996,Transformers (2007),Action|Sci-Fi|Thriller|IMAX
+54001,Harry Potter and the Order of the Phoenix (2007),Adventure|Drama|Fantasy|IMAX
+55995,Beowulf (2007),Action|Adventure|Animation|Fantasy|IMAX
+56174,I Am Legend (2007),Action|Horror|Sci-Fi|Thriller|IMAX
+58105,"Spiderwick Chronicles, The (2008)",Adventure|Children|Drama|Fantasy|IMAX
+58559,"Dark Knight, The (2008)",Action|Crime|Drama|IMAX
+58879,Shine a Light (2008),Documentary|Musical|IMAX
+59037,Speed Racer (2008),Action|Children|Sci-Fi|IMAX
+59784,Kung Fu Panda (2008),Action|Animation|Children|Comedy|IMAX
+60684,Watchmen (2009),Action|Drama|Mystery|Sci-Fi|Thriller|IMAX
+62081,Eagle Eye (2008),Action|Crime|Thriller|IMAX
+62999,Madagascar: Escape 2 Africa (2008),Action|Adventure|Animation|Children|Comedy|IMAX
+64497,"Day the Earth Stood Still, The (2008)",Drama|Sci-Fi|Thriller|IMAX
+67408,Monsters vs. Aliens (2009),Animation|Sci-Fi|IMAX
+68358,Star Trek (2009),Action|Adventure|Sci-Fi|IMAX
+68793,Night at the Museum: Battle of the Smithsonian (2009),Action|Comedy|IMAX
+69526,Transformers: Revenge of the Fallen (2009),Action|Adventure|Sci-Fi|IMAX
+69844,Harry Potter and the Half-Blood Prince (2009),Adventure|Fantasy|Mystery|Romance|IMAX
+71264,Cloudy with a Chance of Meatballs (2009),Animation|Children|Fantasy|IMAX
+71745,Where the Wild Things Are (2009),Adventure|Children|Drama|Fantasy|IMAX
+72294,"Christmas Carol, A (2009)",Animation|Children|Drama|Fantasy|IMAX
+72998,Avatar (2009),Action|Adventure|Sci-Fi|IMAX
+74789,Alice in Wonderland (2010),Adventure|Fantasy|IMAX
+76093,How to Train Your Dragon (2010),Adventure|Animation|Children|Fantasy|IMAX
+77561,Iron Man 2 (2010),Action|Adventure|Sci-Fi|Thriller|IMAX
+78105,Prince of Persia: The Sands of Time (2010),Action|Adventure|Fantasy|Romance|IMAX
+78499,Toy Story 3 (2010),Adventure|Animation|Children|Comedy|Fantasy|IMAX
+78637,Shrek Forever After (a.k.a. Shrek: The Final Chapter) (2010),Adventure|Animation|Children|Comedy|Fantasy|IMAX
+78772,"Twilight Saga: Eclipse, The (2010)",Fantasy|Romance|Thriller|IMAX
+79132,Inception (2010),Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX
+80363,Resident Evil: Afterlife (2010),Action|Horror|Sci-Fi|Thriller|IMAX
+80615,Legend of the Guardians: The Owls of Ga'Hoole (2010),Adventure|Animation|Fantasy|IMAX
+81417,Paranormal Activity 2 (2010),Horror|IMAX
+81564,Megamind (2010),Action|Animation|Children|Comedy|Sci-Fi|IMAX
+81834,Harry Potter and the Deathly Hallows: Part 1 (2010),Action|Adventure|Fantasy|IMAX
+81847,Tangled (2010),Animation|Children|Comedy|Fantasy|Musical|Romance|IMAX
+82461,Tron: Legacy (2010),Action|Adventure|Sci-Fi|IMAX
+83349,"Green Hornet, The (2011)",Action|Comedy|Crime|Fantasy|Thriller|IMAX
+83613,Cowboys & Aliens (2011),Action|Sci-Fi|Thriller|Western|IMAX
+85056,I Am Number Four (2011),Action|Sci-Fi|Thriller|IMAX
+85261,Mars Needs Moms (2011),Action|Adventure|Animation|Children|Comedy|Sci-Fi|IMAX
+85510,Sucker Punch (2011),Action|Fantasy|Thriller|IMAX
+86332,Thor (2011),Action|Adventure|Drama|Fantasy|IMAX
+86644,"Fast Five (Fast and the Furious 5, The) (2011)",Action|Crime|Drama|Thriller|IMAX
+86880,Pirates of the Caribbean: On Stranger Tides (2011),Action|Adventure|Fantasy|IMAX
+87222,Kung Fu Panda 2 (2011),Action|Adventure|Animation|Children|Comedy|IMAX
+87306,Super 8 (2011),Mystery|Sci-Fi|Thriller|IMAX
+87520,Transformers: Dark of the Moon (2011),Action|Adventure|Sci-Fi|War|IMAX
+87876,Cars 2 (2011),Adventure|Animation|Children|Comedy|IMAX
+88125,Harry Potter and the Deathly Hallows: Part 2 (2011),Action|Adventure|Drama|Fantasy|Mystery|IMAX
+88932,Final Destination 5 (2011),Horror|Thriller|IMAX
+89470,Contagion (2011),Sci-Fi|Thriller|IMAX
+89745,"Avengers, The (2012)",Action|Adventure|Sci-Fi|IMAX
+90249,Real Steel (2011),Action|Drama|Sci-Fi|IMAX
+90647,Puss in Boots (2011),Adventure|Animation|Comedy|Fantasy|IMAX
+90746,"Adventures of Tintin, The (2011)",Action|Animation|Mystery|IMAX
+91386,Happy Feet Two (2011),Animation|Children|Comedy|IMAX
+91529,"Dark Knight Rises, The (2012)",Action|Adventure|Crime|IMAX
+91535,"Bourne Legacy, The (2012)",Action|Adventure|Drama|Thriller|IMAX
+91630,Mission: Impossible - Ghost Protocol (2011),Action|Adventure|Thriller|IMAX
+91974,Underworld: Awakening (2012),Action|Fantasy|Horror|IMAX
+92681,Journey 2: The Mysterious Island (2012),Action|Adventure|Comedy|Sci-Fi|IMAX
+93272,Dr. Seuss' The Lorax (2012),Animation|Fantasy|Musical|IMAX
+93363,John Carter (2012),Action|Adventure|Sci-Fi|IMAX
+93766,Wrath of the Titans (2012),Action|Adventure|Fantasy|IMAX
+94018,Battleship (2012),Action|Sci-Fi|Thriller|IMAX
+94478,Dark Shadows (2012),Comedy|Horror|IMAX
+94777,Men in Black III (M.III.B.) (M.I.B.³) (2012),Action|Comedy|Sci-Fi|IMAX
+94864,Prometheus (2012),Action|Horror|Sci-Fi|IMAX
+95105,Madagascar 3: Europe's Most Wanted (2012),Adventure|Animation|Children|Comedy|IMAX
+95307,Rock of Ages (2012),Comedy|Drama|Musical|IMAX
+95510,"Amazing Spider-Man, The (2012)",Action|Adventure|Sci-Fi|IMAX
+96079,Skyfall (2012),Action|Adventure|Thriller|IMAX
+96691,Resident Evil: Retribution (2012),Action|Horror|Sci-Fi|IMAX
+97172,Frankenweenie (2012),Animation|Comedy|Horror|IMAX
+97701,Paranormal Activity 4 (2012),Horror|IMAX
+97752,Cloud Atlas (2012),Drama|Sci-Fi|IMAX
+97938,Life of Pi (2012),Adventure|Drama|IMAX
+98203,"Twilight Saga: Breaking Dawn - Part 2, The (2012)",Adventure|Drama|Fantasy|Romance|IMAX
+98243,Rise of the Guardians (2012),Adventure|Animation|Children|Fantasy|IMAX
+98809,"Hobbit: An Unexpected Journey, The (2012)",Adventure|Fantasy|IMAX
+99149,"Misérables, Les (2012)",Drama|Musical|Romance|IMAX
+100163,Hansel & Gretel: Witch Hunters (2013),Action|Fantasy|Horror|IMAX
+100498,"Good Day to Die Hard, A (2013)",Action|Crime|Thriller|IMAX
+100882,Journey to the West: Conquering the Demons (Daai wa sai you chi Chui mo chun kei) (2013),Adventure|Comedy|Fantasy|Romance|IMAX
+101025,Jack the Giant Slayer (2013),Adventure|Fantasy|IMAX
+101076,G.I. Joe: Retaliation (2013),Action|Adventure|Sci-Fi|Thriller|IMAX
+101112,Oz the Great and Powerful (2013),Action|Adventure|Fantasy|IMAX
+101864,Oblivion (2013),Action|Adventure|Sci-Fi|IMAX
+102088,"Grandmaster, The (Yi dai zong shi) (2013)",Action|Drama|IMAX
+102125,Iron Man 3 (2013),Action|Sci-Fi|Thriller|IMAX
+102445,Star Trek Into Darkness (2013),Action|Adventure|Sci-Fi|IMAX
+102716,"Fast & Furious 6 (Fast and the Furious 6, The) (2013)",Action|Crime|Thriller|IMAX
+102880,After Earth (2013),Action|Adventure|Sci-Fi|IMAX
+103042,Man of Steel (2013),Action|Adventure|Fantasy|Sci-Fi|IMAX
+103228,Pacific Rim (2013),Action|Adventure|Sci-Fi|IMAX
+103249,World War Z (2013),Action|Drama|Horror|IMAX
+103253,Elysium (2013),Action|Drama|Sci-Fi|IMAX
+103335,Despicable Me 2 (2013),Animation|Children|Comedy|IMAX
+103339,White House Down (2013),Action|Drama|Thriller|IMAX
+103384,"Lone Ranger, The (2013)",Action|Adventure|Western|IMAX
+104129,Man of Tai Chi (2013),Action|IMAX
+104243,Riddick (2013),Action|Sci-Fi|Thriller|IMAX
+104841,Gravity (2013),Action|Sci-Fi|IMAX
+105504,Captain Phillips (2013),Adventure|Drama|Thriller|IMAX
+106002,Ender's Game (2013),Action|Adventure|Sci-Fi|IMAX
+106072,Thor: The Dark World (2013),Action|Adventure|Fantasy|IMAX
+106487,The Hunger Games: Catching Fire (2013),Action|Adventure|Sci-Fi|IMAX
+106489,"Hobbit: The Desolation of Smaug, The (2013)",Adventure|Fantasy|IMAX
+107953,Dragon Ball Z: Battle of Gods (2013),Action|Animation|Fantasy|IMAX
+108188,Jack Ryan: Shadow Recruit (2014),Action|Drama|Thriller|IMAX
+108190,Divergent (2014),Adventure|Romance|Sci-Fi|IMAX
+108689,"I, Frankenstein (2014)",Action|Fantasy|Sci-Fi|IMAX
+108945,RoboCop (2014),Action|Crime|Sci-Fi|IMAX
+109487,Interstellar (2014),Sci-Fi|IMAX
+109673,300: Rise of an Empire (2014),Action|Drama|War|IMAX
+109850,Need for Speed (2014),Action|Crime|Drama|IMAX
+110102,Captain America: The Winter Soldier (2014),Action|Adventure|Sci-Fi|IMAX
+110127,Noah (2014),Adventure|Drama|IMAX
+110553,The Amazing Spider-Man 2 (2014),Action|Sci-Fi|IMAX
+110730,Transcendence (2014),Drama|Sci-Fi|IMAX
+111364,Godzilla (2014),Action|Adventure|Sci-Fi|IMAX
+111659,Maleficent (2014),Action|Adventure|Children|IMAX
+111759,Edge of Tomorrow (2014),Action|Sci-Fi|IMAX
+116529,Stalingrad (2013),Action|Drama|War|IMAX
+122886,Star Wars: Episode VII - The Force Awakens (2015),Action|Adventure|Fantasy|Sci-Fi|IMAX

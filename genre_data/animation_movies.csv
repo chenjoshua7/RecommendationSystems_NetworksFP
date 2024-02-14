@@ -1,0 +1,612 @@
+movieId,title,genres
+1,Toy Story (1995),Adventure|Animation|Children|Comedy|Fantasy
+13,Balto (1995),Adventure|Animation|Children
+48,Pocahontas (1995),Animation|Children|Drama|Musical|Romance
+239,"Goofy Movie, A (1995)",Animation|Children|Comedy|Romance
+313,"Swan Princess, The (1994)",Animation|Children
+364,"Lion King, The (1994)",Adventure|Animation|Children|Drama|Musical|IMAX
+551,"Nightmare Before Christmas, The (1993)",Animation|Children|Fantasy|Musical
+558,"Pagemaster, The (1994)",Action|Adventure|Animation|Children|Fantasy
+588,Aladdin (1992),Adventure|Animation|Children|Comedy|Musical
+594,Snow White and the Seven Dwarfs (1937),Animation|Children|Drama|Fantasy|Musical
+595,Beauty and the Beast (1991),Animation|Children|Fantasy|Musical|Romance|IMAX
+596,Pinocchio (1940),Animation|Children|Fantasy|Musical
+610,Heavy Metal (1981),Action|Adventure|Animation|Horror|Sci-Fi
+616,"Aristocats, The (1970)",Animation|Children
+631,All Dogs Go to Heaven 2 (1996),Adventure|Animation|Children|Fantasy|Musical|Romance
+661,James and the Giant Peach (1996),Adventure|Animation|Children|Fantasy|Musical
+673,Space Jam (1996),Adventure|Animation|Children|Comedy|Fantasy|Sci-Fi
+709,Oliver & Company (1988),Adventure|Animation|Children|Comedy|Musical
+720,Wallace & Gromit: The Best of Aardman Animation (1996),Adventure|Animation|Comedy
+741,Ghost in the Shell (Kôkaku kidôtai) (1995),Animation|Sci-Fi
+745,Wallace & Gromit: A Close Shave (1995),Animation|Children|Comedy
+783,"Hunchback of Notre Dame, The (1996)",Animation|Children|Drama|Musical|Romance
+888,Land Before Time III: The Time of the Great Giving (1995),Adventure|Animation|Children|Musical
+1022,Cinderella (1950),Animation|Children|Fantasy|Musical|Romance
+1023,Winnie the Pooh and the Blustery Day (1968),Animation|Children|Musical
+1024,"Three Caballeros, The (1945)",Animation|Children|Musical
+1025,"Sword in the Stone, The (1963)",Animation|Children|Fantasy|Musical
+1029,Dumbo (1941),Animation|Children|Drama|Musical
+1030,Pete's Dragon (1977),Adventure|Animation|Children|Musical
+1032,Alice in Wonderland (1951),Adventure|Animation|Children|Fantasy|Musical
+1033,"Fox and the Hound, The (1981)",Animation|Children|Drama
+1064,Aladdin and the King of Thieves (1996),Animation|Children|Comedy|Fantasy|Musical|Romance
+1148,Wallace & Gromit: The Wrong Trousers (1993),Animation|Children|Comedy|Crime
+1151,Lesson Faust (1994),Animation|Comedy|Drama|Fantasy
+1223,"Grand Day Out with Wallace and Gromit, A (1989)",Adventure|Animation|Children|Comedy|Sci-Fi
+1274,Akira (1988),Action|Adventure|Animation|Sci-Fi
+1282,Fantasia (1940),Animation|Children|Fantasy|Musical
+1405,Beavis and Butt-Head Do America (1996),Adventure|Animation|Comedy|Crime
+1489,Cats Don't Dance (1997),Animation|Children|Musical
+1566,Hercules (1997),Adventure|Animation|Children|Comedy|Musical
+1688,Anastasia (1997),Adventure|Animation|Children|Drama|Musical
+1881,Quest for Camelot (1998),Adventure|Animation|Children|Fantasy|Musical
+1907,Mulan (1998),Adventure|Animation|Children|Comedy|Drama|Musical|Romance
+1920,Small Soldiers (1998),Animation|Children|Fantasy|War
+2018,Bambi (1942),Animation|Children|Drama
+2033,"Black Cauldron, The (1985)",Adventure|Animation|Children|Fantasy
+2048,"Great Mouse Detective, The (1986)",Action|Animation|Children|Crime
+2078,"Jungle Book, The (1967)",Animation|Children|Comedy|Musical
+2080,Lady and the Tramp (1955),Animation|Children|Comedy|Romance
+2081,"Little Mermaid, The (1989)",Animation|Children|Comedy|Musical|Romance
+2085,101 Dalmatians (One Hundred and One Dalmatians) (1961),Adventure|Animation|Children
+2087,Peter Pan (1953),Animation|Children|Fantasy|Musical
+2089,"Rescuers Down Under, The (1990)",Adventure|Animation|Children
+2090,"Rescuers, The (1977)",Adventure|Animation|Children|Crime|Drama
+2092,"Return of Jafar, The (1994)",Adventure|Animation|Children|Fantasy|Musical|Romance
+2096,Sleeping Beauty (1959),Animation|Children|Musical
+2099,Song of the South (1946),Adventure|Animation|Children|Musical
+2102,Steamboat Willie (1928),Animation|Children|Comedy|Musical
+2116,"Lord of the Rings, The (1978)",Adventure|Animation|Children|Fantasy
+2123,All Dogs Go to Heaven (1989),Animation|Children|Comedy|Drama|Fantasy
+2137,Charlotte's Web (1973),Animation|Children
+2138,Watership Down (1978),Adventure|Animation|Children|Drama|Fantasy
+2139,"Secret of NIMH, The (1982)",Adventure|Animation|Children|Drama
+2141,"American Tail, An (1986)",Adventure|Animation|Children|Comedy
+2142,"American Tail: Fievel Goes West, An (1991)",Adventure|Animation|Children|Musical|Western
+2294,Antz (1998),Adventure|Animation|Children|Comedy|Fantasy
+2354,"Rugrats Movie, The (1998)",Animation|Children|Comedy
+2355,"Bug's Life, A (1998)",Adventure|Animation|Children|Comedy
+2394,"Prince of Egypt, The (1998)",Animation|Musical
+2495,"Fantastic Planet, The (Planète sauvage, La) (1973)",Animation|Sci-Fi
+2559,"King and I, The (1999)",Animation|Children
+2566,Doug's 1st Movie (1999),Animation|Children
+2687,Tarzan (1999),Adventure|Animation|Children|Drama
+2700,"South Park: Bigger, Longer and Uncut (1999)",Animation|Comedy|Musical
+2761,"Iron Giant, The (1999)",Adventure|Animation|Children|Drama|Sci-Fi
+2800,Little Nemo: Adventures in Slumberland (1992),Adventure|Animation|Children|Drama|Fantasy
+2810,Perfect Blue (1997),Animation|Horror|Mystery|Thriller
+2857,Yellow Submarine (1968),Adventure|Animation|Comedy|Fantasy|Musical
+2876,Thumbelina (1994),Animation|Children|Fantasy
+2899,Gulliver's Travels (1939),Adventure|Animation|Children
+2987,Who Framed Roger Rabbit? (1988),Adventure|Animation|Children|Comedy|Crime|Fantasy|Mystery
+3000,Princess Mononoke (Mononoke-hime) (1997),Action|Adventure|Animation|Drama|Fantasy
+3034,Robin Hood (1973),Adventure|Animation|Children|Comedy|Musical
+3054,Pokémon: The First Movie (1998),Adventure|Animation|Children|Fantasy|Sci-Fi
+3114,Toy Story 2 (1999),Adventure|Animation|Children|Comedy|Fantasy
+3159,Fantasia 2000 (1999),Animation|Children|Musical|IMAX
+3213,Batman: Mask of the Phantasm (1993),Animation|Children
+3287,"Tigger Movie, The (2000)",Animation|Children
+3400,We're Back! A Dinosaur's Story (1993),Adventure|Animation|Children|Fantasy
+3429,Creature Comforts (1989),Animation|Comedy
+3483,"Road to El Dorado, The (2000)",Animation|Children
+3592,"Time Masters (Maîtres du temps, Les) (1982)",Animation|Sci-Fi
+3615,Dinosaur (2000),Adventure|Animation|Children
+3687,Light Years (Gandahar) (1988),Adventure|Animation|Fantasy|Sci-Fi
+3725,American Pop (1981),Animation|Musical
+3745,Titan A.E. (2000),Action|Adventure|Animation|Children|Sci-Fi
+3751,Chicken Run (2000),Animation|Children|Comedy
+3754,"Adventures of Rocky and Bullwinkle, The (2000)",Adventure|Animation|Children|Comedy|Fantasy
+3799,Pokémon the Movie 2000 (2000),Animation|Children
+3945,Digimon: The Movie (2000),Adventure|Animation|Children
+3964,"Adventures of Ichabod and Mr. Toad, The (1949)",Animation|Children
+3990,Rugrats in Paris: The Movie (2000),Animation|Children|Comedy
+4006,Transformers: The Movie (1986),Adventure|Animation|Children|Sci-Fi
+4016,"Emperor's New Groove, The (2000)",Adventure|Animation|Children|Comedy|Fantasy
+4090,"Brave Little Toaster, The (1987)",Animation|Children
+4154,Recess: School's Out (2001),Animation|Children
+4158,Monkeybone (2001),Animation|Comedy|Fantasy
+4241,Pokémon 3: The Movie (2001),Animation|Children
+4306,Shrek (2001),Adventure|Animation|Children|Comedy|Fantasy|Romance
+4366,Atlantis: The Lost Empire (2001),Adventure|Animation|Children|Fantasy
+4446,Final Fantasy: The Spirits Within (2001),Adventure|Animation|Fantasy|Sci-Fi
+4454,More (1998),Animation|Drama|Sci-Fi|IMAX
+4519,"Land Before Time, The (1988)",Adventure|Animation|Children|Fantasy
+4624,Meet the Feebles (1989),Animation|Comedy|Musical
+4719,Osmosis Jones (2001),Action|Animation|Comedy|Crime|Drama|Romance|Thriller
+4850,Spriggan (Supurigan) (1998),Action|Animation|Sci-Fi
+4873,Waking Life (2001),Animation|Drama|Fantasy
+4886,"Monsters, Inc. (2001)",Adventure|Animation|Children|Comedy|Fantasy
+4990,Jimmy Neutron: Boy Genius (2001),Adventure|Animation|Children|Comedy
+5041,Fire and Ice (1983),Animation|Fantasy
+5069,Escaflowne: The Movie (Escaflowne) (2000),Action|Adventure|Animation|Drama|Fantasy
+5072,Metropolis (2001),Animation|Sci-Fi
+5109,Return to Never Land (2002),Adventure|Animation|Children
+5146,Vampire Hunter D: Bloodlust (Banpaia hantâ D) (2000),Animation|Fantasy|Horror|Sci-Fi
+5159,Ferngully: The Last Rainforest (1992),Animation|Children|Comedy|Musical
+5218,Ice Age (2002),Adventure|Animation|Children|Comedy
+5389,Spirit: Stallion of the Cimarron (2002),Adventure|Animation|Children|Western
+5444,Lilo & Stitch (2002),Adventure|Animation|Children|Sci-Fi
+5448,Hey Arnold! The Movie (2002),Adventure|Animation|Children|Comedy
+5460,"Powerpuff Girls, The (2002)",Action|Animation|Children|Comedy
+5538,"Care Bears Movie, The (1985)",Animation|Children|Fantasy
+5539,Care Bears Movie II: A New Generation (1986),Animation|Children
+5618,Spirited Away (Sen to Chihiro no kamikakushi) (2001),Adventure|Animation|Fantasy
+5629,Jonah: A VeggieTales Movie (2002),Animation|Children|Musical
+5651,"Incredible Mr. Limpet, The (1964)",Animation|Comedy|War
+5672,Pokemon 4 Ever (a.k.a. Pokémon 4: The Movie) (2002),Adventure|Animation|Children|Fantasy
+5690,Grave of the Fireflies (Hotaru no haka) (1988),Animation|Drama|War
+5879,Eight Crazy Nights (Adam Sandler's Eight Crazy Nights) (2002),Animation|Comedy|Musical
+5882,Treasure Planet (2002),Adventure|Animation|Children|Sci-Fi|IMAX
+5971,My Neighbor Totoro (Tonari no Totoro) (1988),Animation|Children|Drama|Fantasy
+5999,Heavy Metal 2000 (2000),Action|Adventure|Animation|Fantasy|Sci-Fi
+6093,"Last Unicorn, The (1982)",Animation|Children|Fantasy
+6158,"Jungle Book 2, The (2003)",Animation|Children
+6251,Piglet's Big Movie (2003),Animation|Children
+6283,Cowboy Bebop: The Movie (Cowboy Bebop: Tengoku no Tobira) (2001),Action|Animation|Sci-Fi|Thriller
+6350,Laputa: Castle in the Sky (Tenkû no shiro Rapyuta) (1986),Action|Adventure|Animation|Children|Fantasy|Sci-Fi
+6371,Pokémon Heroes (2003),Animation|Children
+6377,Finding Nemo (2003),Adventure|Animation|Children|Comedy
+6536,Sinbad: Legend of the Seven Seas (2003),Adventure|Animation|Children|Fantasy
+6713,Millennium Actress (Sennen joyû) (2001),Animation|Drama|Romance
+6773,"Triplets of Belleville, The (Les triplettes de Belleville) (2003)",Animation|Comedy|Fantasy
+6857,Ninja Scroll (Jûbei ninpûchô) (1995),Action|Adventure|Animation|Fantasy
+6889,Brother Bear (2003),Adventure|Animation|Children
+6946,Looney Tunes: Back in Action (2003),Action|Animation|Children|Fantasy
+7099,Nausicaä of the Valley of the Wind (Kaze no tani no Naushika) (1984),Adventure|Animation|Drama|Fantasy|Sci-Fi
+7118,Wings of Honneamise (Ôritsu uchûgun Oneamisu no tsubasa) (1987),Animation|Drama|Sci-Fi|War
+7228,Cool World (1992),Animation|Comedy|Fantasy
+7304,Allegro non troppo (1977),Animation|Comedy|Fantasy|Musical
+8015,"Phantom Tollbooth, The (1970)",Adventure|Animation|Children|Fantasy
+8157,Jin Roh: The Wolf Brigade (Jin-Rô) (1998),Animation|Fantasy|Thriller
+8253,Lupin III: The Castle Of Cagliostro (Rupan sansei: Kariosutoro no shiro) (1979),Action|Adventure|Animation|Comedy|Crime|Mystery
+8360,Shrek 2 (2004),Adventure|Animation|Children|Comedy|Musical|Romance
+8372,Garfield: The Movie (2004),Animation|Children|Comedy
+8426,Robot Carnival (Roboto kânibauru) (1987),Animation|Comedy|Drama|Fantasy|Sci-Fi
+8574,"Claymation Christmas Celebration, A (1987)",Animation|Children|Comedy|Musical
+8607,Tokyo Godfathers (2003),Adventure|Animation|Drama
+8907,Shark Tale (2004),Animation|Children|Comedy
+8917,Team America: World Police (2004),Action|Adventure|Animation|Comedy
+8934,Bebe's Kids (1992),Animation|Children|Comedy
+8961,"Incredibles, The (2004)",Action|Adventure|Animation|Children|Comedy
+8965,"Polar Express, The (2004)",Adventure|Animation|Children|Fantasy|IMAX
+8974,"SpongeBob SquarePants Movie, The (2004)",Adventure|Animation|Children|Comedy
+26133,"Charlie Brown Christmas, A (1965)",Animation|Children|Comedy
+26183,Asterix and Cleopatra (Astérix et Cléopâtre) (1968),Action|Adventure|Animation|Children|Comedy
+26340,"Twelve Tasks of Asterix, The (Les douze travaux d'Astérix) (1976)",Action|Adventure|Animation|Children|Comedy|Fantasy
+26590,G.I. Joe: The Movie (1987),Action|Adventure|Animation|Children|Fantasy|Sci-Fi
+26631,Alice (Neco z Alenky) (1988),Animation|Fantasy|Mystery
+26662,Kiki's Delivery Service (Majo no takkyûbin) (1989),Adventure|Animation|Children|Drama|Fantasy
+26701,Patlabor: The Movie (Kidô keisatsu patorebâ: The Movie) (1989),Action|Animation|Crime|Drama|Film-Noir|Mystery|Sci-Fi|Thriller
+26743,Only Yesterday (Omohide poro poro) (1991),Animation|Drama
+26776,Porco Rosso (Crimson Pig) (Kurenai no buta) (1992),Adventure|Animation|Comedy|Fantasy|Romance
+26903,Whisper of the Heart (Mimi wo sumaseba) (1995),Animation|Drama|Romance
+26913,Street Fighter II: The Animated Movie (Sutorîto Faitâ II gekijô-ban) (1994),Action|Animation
+26999,"Lion King II: Simba's Pride, The (1998)",Adventure|Animation|Children|Musical|Romance
+27155,"Batman/Superman Movie, The (1998)",Action|Adventure|Animation|Children|Fantasy|Sci-Fi
+27156,"Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni) (1997)",Action|Animation|Drama|Fantasy|Sci-Fi
+27186,Kirikou and the Sorceress (Kirikou et la sorcière) (1998),Adventure|Animation|Children|Fantasy
+27311,Batman Beyond: Return of the Joker (2000),Action|Animation|Crime|Sci-Fi|Thriller
+27369,Daria: Is It Fall Yet? (2000),Animation|Comedy
+27441,Blood: The Last Vampire (2000),Action|Animation|Horror
+27619,"Lion King 1½, The (2004)",Adventure|Animation|Children|Comedy
+27660,"Animatrix, The (2003)",Action|Animation|Drama|Sci-Fi
+27728,Ghost in the Shell 2: Innocence (a.k.a. Innocence) (Inosensu) (2004),Action|Animation|Drama|Sci-Fi|Thriller
+27731,"Cat Returns, The (Neko no ongaeshi) (2002)",Adventure|Animation|Children|Fantasy
+27904,"Scanner Darkly, A (2006)",Animation|Drama|Mystery|Sci-Fi|Thriller
+30892,In the Realms of the Unreal (2004),Animation|Documentary
+31150,Wizards (1977),Animation|Fantasy|Sci-Fi|War
+31184,Appleseed (Appurushîdo) (2004),Action|Animation|Fantasy|Sci-Fi
+31193,"Many Adventures of Winnie the Pooh, The (1977)",Animation|Children|Musical
+31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),Adventure|Animation|Fantasy|Romance
+31660,Steamboy (Suchîmubôi) (2004),Action|Animation|Drama|Sci-Fi
+32031,Robots (2005),Adventure|Animation|Children|Comedy|Fantasy|Sci-Fi|IMAX
+32456,"Pom Poko (a.k.a. Raccoon War, The) (Heisei tanuki gassen pompoko) (1994)",Animation|Comedy|Drama|Fantasy
+32554,Memories (Memorîzu) (1995),Animation|Fantasy|Sci-Fi|Thriller
+32657,"Man Who Planted Trees, The (Homme qui plantait des arbres, L') (1987)",Animation|Drama
+33090,Mutant Aliens (2001),Animation|Comedy|Sci-Fi
+33294,Vampire Hunter D (1985),Animation|Fantasy|Horror
+33615,Madagascar (2005),Adventure|Animation|Children|Comedy
+35347,Animal Farm (1954),Animation|Drama
+36397,Valiant (2005),Adventure|Animation|Children|Comedy|Fantasy|War
+36708,Family Guy Presents Stewie Griffin: The Untold Story (2005),Adventure|Animation|Comedy
+37729,Corpse Bride (2005),Animation|Comedy|Fantasy|Musical|Romance
+37830,Final Fantasy VII: Advent Children (2004),Action|Adventure|Animation|Fantasy|Sci-Fi
+38038,Wallace & Gromit in The Curse of the Were-Rabbit (2005),Adventure|Animation|Children|Comedy
+40339,Chicken Little (2005),Action|Adventure|Animation|Children|Comedy|Sci-Fi
+42191,Luxo Jr. (1986),Animation|Children
+42422,Voices of a Distant Star (Hoshi no koe) (2003),Animation|Drama|Romance|Sci-Fi
+42734,Hoodwinked! (2005),Animation|Children|Comedy
+43869,Curious George (2006),Adventure|Animation|Children|Comedy
+44020,Ultimate Avengers (2006),Action|Animation|Children|Sci-Fi
+44022,Ice Age 2: The Meltdown (2006),Adventure|Animation|Children|Comedy
+44849,Renaissance (2006),Action|Animation|Film-Noir|Sci-Fi|Thriller
+45074,"Wild, The (2006)",Adventure|Animation|Children|Comedy|Fantasy
+45431,Over the Hedge (2006),Adventure|Animation|Children|Comedy
+45517,Cars (2006),Animation|Children|Comedy
+46337,Garfield: A Tail of Two Kitties (2006),Animation|Children|Comedy
+46948,Monster House (2006),Animation|Children|Fantasy|Mystery
+47124,"Ant Bully, The (2006)",Adventure|Animation|Children|Comedy|Fantasy|IMAX
+47404,Mind Game (2004),Adventure|Animation|Comedy|Fantasy|Romance|Sci-Fi
+48414,Open Season (2006),Adventure|Animation|Children|Comedy|IMAX
+48982,Flushed Away (2006),Animation|Comedy
+49274,Happy Feet (2006),Adventure|Animation|Children|Comedy|IMAX
+50872,Ratatouille (2007),Animation|Children|Drama
+50999,"Ugly Duckling and Me!, The (2006)",Animation|Comedy
+51939,TMNT (Teenage Mutant Ninja Turtles) (2007),Action|Adventure|Animation|Children|Comedy|Fantasy
+52287,Meet the Robinsons (2007),Action|Adventure|Animation|Children|Comedy|Sci-Fi
+52435,How the Grinch Stole Christmas! (1966),Animation|Comedy|Fantasy|Musical
+52462,Aqua Teen Hunger Force Colon Movie Film for Theaters (2007),Action|Adventure|Animation|Comedy|Fantasy|Mystery|Sci-Fi
+52885,Paprika (Papurika) (2006),Animation|Mystery|Sci-Fi
+53121,Shrek the Third (2007),Adventure|Animation|Children|Comedy|Fantasy
+53460,Surf's Up (2007),Animation|Children|Comedy
+54272,"Simpsons Movie, The (2007)",Animation|Comedy
+55167,Tekkonkinkreet (Tekkon kinkurîto) (2006),Action|Adventure|Animation|Crime|Fantasy
+55442,Persepolis (2007),Animation|Drama
+55768,Bee Movie (2007),Animation|Comedy
+55995,Beowulf (2007),Action|Adventure|Animation|Fantasy|IMAX
+56152,Enchanted (2007),Adventure|Animation|Children|Comedy|Fantasy|Musical|Romance
+56251,Futurama: Bender's Big Score (2007),Animation|Comedy|Sci-Fi
+57502,Cat Soup (Nekojiru-so) (2001),Adventure|Animation|Drama|Horror
+57504,"Girl Who Leapt Through Time, The (Toki o kakeru shôjo) (2006)",Animation|Comedy|Drama|Romance|Sci-Fi
+58299,Horton Hears a Who! (2008),Adventure|Animation|Children|Comedy
+58404,Justice League: The New Frontier (2008) ,Action|Adventure|Animation|Fantasy|Sci-Fi
+59784,Kung Fu Panda (2008),Action|Animation|Children|Comedy|IMAX
+60069,WALL·E (2008),Adventure|Animation|Children|Romance|Sci-Fi
+60161,Futurama: The Beast with a Billion Backs (2008),Action|Animation|Comedy|Romance|Sci-Fi
+60365,Frosty the Snowman (1969),Animation|Children|Comedy|Fantasy|Musical
+60487,"It's the Great Pumpkin, Charlie Brown (1966)",Animation|Children|Comedy
+60803,"Little Drummer Boy, The (1968)",Animation|Children|Musical
+60979,Batman: Gotham Knight (2008),Action|Animation|Crime
+61160,Star Wars: The Clone Wars (2008),Action|Adventure|Animation|Sci-Fi
+61236,Waltz with Bashir (Vals im Bashir) (2008),Animation|Documentary|Drama|War
+62008,Dead Fury (2008),Action|Animation|Comedy|Horror
+62336,FLCL (2000),Animation|Comedy|Fantasy|Sci-Fi
+62956,Futurama: Bender's Game (2008),Action|Adventure|Animation|Comedy|Fantasy|Sci-Fi
+62999,Madagascar: Escape 2 Africa (2008),Action|Adventure|Animation|Children|Comedy|IMAX
+63859,Bolt (2008),Action|Adventure|Animation|Children|Comedy
+64116,Igor (2008),Animation|Comedy
+64249,Shrek the Halls (2007),Adventure|Animation|Comedy|Fantasy
+64285,Wallace and Gromit in 'A Matter of Loaf and Death' (2008),Animation|Comedy
+64695,Sword of the Stranger (Sutorejia: Mukô hadan) (2007),Action|Adventure|Animation
+64993,5 Centimeters per Second (Byôsoku 5 senchimêtoru) (2007),Animation|Drama|Romance
+65261,Ponyo (Gake no ue no Ponyo) (2008),Adventure|Animation|Children|Fantasy
+65577,"Tale of Despereaux, The (2008)",Adventure|Animation|Children|Comedy|Fantasy
+66097,Coraline (2009),Animation|Fantasy|Thriller
+66297,Futurama: Into the Wild Green Yonder (2009),Action|Animation|Comedy|Sci-Fi
+66335,Afro Samurai: Resurrection (2009),Animation
+66915,Rock-A-Doodle (1991),Adventure|Animation|Children|Musical
+67295,Kung Fu Panda: Secrets of the Furious Five (2008),Action|Animation|Children|Comedy
+67408,Monsters vs. Aliens (2009),Animation|Sci-Fi|IMAX
+68945,Neon Genesis Evangelion: Death & Rebirth (Shin seiki Evangelion Gekijô-ban: Shito shinsei) (1997),Action|Animation|Mystery|Sci-Fi
+68954,Up (2009),Adventure|Animation|Children|Drama
+68959,Fullmetal Alchemist the Movie: Conqueror of Shamballa (Gekijô-ban hagane no renkinjutsushi: Shanbara wo yuku mono) (2005),Action|Adventure|Animation|Drama
+69469,Garfield's Pet Force (2009),Animation
+69644,Ice Age: Dawn of the Dinosaurs (2009),Action|Adventure|Animation|Children|Comedy|Romance
+69685,Daria: Is It College Yet? (2002),Animation|Comedy
+69746,Watchmen: Tales of the Black Freighter (2009),Action|Adventure|Animation|Horror
+70533,Evangelion: 1.0 You Are (Not) Alone (Evangerion shin gekijôban: Jo) (2007),Action|Animation|Sci-Fi
+71057,9 (2009),Adventure|Animation|Sci-Fi
+71129,Green Lantern: First Flight (2009),Action|Adventure|Animation|Fantasy|Sci-Fi
+71264,Cloudy with a Chance of Meatballs (2009),Animation|Children|Fantasy|IMAX
+71484,Metropia (2009),Animation|Sci-Fi
+71494,"Haunted World of El Superbeasto, The (2009)",Action|Animation|Comedy|Horror|Thriller
+71899,Mary and Max (2009),Animation|Comedy|Drama
+72104,Balance (1989),Animation|Drama|Mystery|Sci-Fi|Thriller
+72226,Fantastic Mr. Fox (2009),Adventure|Animation|Children|Comedy|Crime
+72294,"Christmas Carol, A (2009)",Animation|Children|Drama|Fantasy|IMAX
+72356,Partly Cloudy (2009),Animation|Children|Comedy|Fantasy
+72601,Teenage Mutant Ninja Turtles: Turtles Forever (2009),Action|Adventure|Animation|Comedy|Thriller
+72603,Merry Madagascar (2009),Animation
+72692,Mickey's Once Upon a Christmas (1999),Animation|Comedy|Fantasy
+72701,Planet 51 (2009),Adventure|Animation|Children|Comedy|Sci-Fi
+72737,"Princess and the Frog, The (2009)",Animation|Children|Fantasy|Musical|Romance
+73042,Alvin and the Chipmunks: The Squeakquel (2009),Animation|Children|Comedy|Musical
+73854,"Rudolph, the Red-Nosed Reindeer (1964)",Adventure|Animation|Children|Fantasy|Musical
+74095,Wicked City (Yôjû toshi) (1987),Animation|Fantasy|Horror|Sci-Fi
+74553,"Secret of Kells, The (2009)",Animation|Fantasy
+74791,"Town Called Panic, A (Panique au village) (2009)",Animation
+76093,How to Train Your Dragon (2010),Adventure|Animation|Children|Fantasy|IMAX
+76301,"Emperor's New Groove 2: Kronk's New Groove, The (2005)",Animation|Children|Comedy|Romance
+77709,"Sky Crawlers, The (Sukai kurora) (2008)",Adventure|Animation|Drama
+78499,Toy Story 3 (2010),Adventure|Animation|Children|Comedy|Fantasy|IMAX
+78637,Shrek Forever After (a.k.a. Shrek: The Final Chapter) (2010),Adventure|Animation|Children|Comedy|Fantasy|IMAX
+79008,South Park: Imaginationland (2008),Animation|Comedy|Fantasy
+79091,Despicable Me (2010),Animation|Children|Comedy|Crime
+79274,Batman: Under the Red Hood (2010),Action|Animation
+80083,Dragon Ball Z: Dead Zone (Doragon bôru Z 1: Ora no Gohan wo kaese) (1989),Action|Adventure|Animation|Fantasy|Sci-Fi
+80615,Legend of the Guardians: The Owls of Ga'Hoole (2010),Adventure|Animation|Fantasy|IMAX
+80834,Sintel (2010),Animation|Fantasy
+81018,"Illusionist, The (L'illusionniste) (2010)",Animation
+81564,Megamind (2010),Action|Animation|Children|Comedy|Sci-Fi|IMAX
+81847,Tangled (2010),Animation|Children|Comedy|Fantasy|Musical|Romance|IMAX
+83132,"Secret World of Arrietty, The (Kari-gurashi no Arietti) (2010)",Animation|Children|Fantasy
+83803,Day & Night (2010),Animation|Children
+84187,Evangelion: 2.0 You Can (Not) Advance (Evangerion shin gekijôban: Ha) (2009),Action|Animation|Drama|Sci-Fi
+84414,All-Star Superman (2011),Action|Adventure|Animation|Sci-Fi
+84637,Gnomeo & Juliet (2011),Adventure|Animation|Children|Comedy|Fantasy|Romance
+84944,Rango (2011),Action|Adventure|Animation|Children|Comedy|Western
+85179,Summer Wars (Samâ wôzu) (2009),Adventure|Animation|Comedy|Sci-Fi
+85259,Winnie the Pooh and the Honey Tree (1966),Animation|Children
+85261,Mars Needs Moms (2011),Action|Adventure|Animation|Children|Comedy|Sci-Fi|IMAX
+85316,Winnie the Pooh and Tigger Too (1974),Animation|Children
+85736,BURN-E (2008),Adventure|Animation|Children|Sci-Fi
+85780,Family Guy Presents: It's a Trap (2010),Animation|Comedy|Sci-Fi
+86059,Hop (2011),Animation|Children|Comedy
+86286,Daffy Duck's Quackbusters (1988),Animation|Children|Comedy|Horror
+86298,Rio (2011),Adventure|Animation|Children|Comedy
+86721,Idiots and Angels (2008),Animation|Drama|Fantasy
+87222,Kung Fu Panda 2 (2011),Action|Adventure|Animation|Children|Comedy|IMAX
+87834,My Life as McDull (Mak dau goo si) (2001),Animation|Comedy|Drama
+87876,Cars 2 (2011),Adventure|Animation|Children|Comedy|IMAX
+88267,Winnie the Pooh (2011),Animation|Children|Comedy
+88345,Mike's New Car (2002),Animation|Comedy
+88356,"Smurfs, The (2011)",Animation|Children|Comedy
+89586,Phineas and Ferb the Movie: Across the 2nd Dimension (2011),Adventure|Animation|Children
+90603,Batman: Year One (2011),Action|Animation|Crime
+90647,Puss in Boots (2011),Adventure|Animation|Comedy|Fantasy|IMAX
+90746,"Adventures of Tintin, The (2011)",Action|Animation|Mystery|IMAX
+91233,Lifted (2006),Animation|Comedy|Sci-Fi
+91353,Asterix in America (a.k.a Asterix Conquers America) (Astérix et les Indiens) (1994),Adventure|Animation|Children|Comedy
+91355,Asterix and the Vikings (Astérix et les Vikings) (2006),Adventure|Animation|Children|Comedy|Fantasy
+91386,Happy Feet Two (2011),Animation|Children|Comedy|IMAX
+91414,Arthur Christmas (2011),Animation|Children|Comedy|Drama
+91488,"Snowman, The (1982)",Animation|Children|Musical
+91671,Alvin and the Chipmunks: Chipwrecked (2011),Animation|Comedy
+92348,Puss in Boots (Nagagutsu o haita neko) (1969),Adventure|Animation|Children|Comedy|Fantasy|Romance
+93208,Mickey's The Prince and the Pauper (1990),Animation|Children
+93272,Dr. Seuss' The Lorax (2012),Animation|Fantasy|Musical|IMAX
+94160,Dante's Inferno: An Animated Epic (2010),Action|Animation|Fantasy
+94833,"Pirates! Band of Misfits, The (2012)",Adventure|Animation|Children|Comedy
+95004,Superman/Doomsday (2007) ,Action|Animation
+95105,Madagascar 3: Europe's Most Wanted (2012),Adventure|Animation|Children|Comedy|IMAX
+95145,Dragon Ball: The Curse Of The Blood Rubies (Doragon bôru: Shenron no densetsu) (1986),Action|Adventure|Animation|Children
+95147,Dragon Ball: Sleeping Princess in Devil's Castle (Doragon bôru: Majinjô no nemuri hime) (1987),Action|Adventure|Animation|Children
+95149,Superman/Batman: Public Enemies (2009),Action|Animation|Fantasy
+95163,Dragon Ball: Mystical Adventure (Doragon bôru: Makafushigi dai bôken) (1988),Action|Adventure|Animation|Children
+95165,Dragon Ball Z the Movie: The World's Strongest (a.k.a. Dragon Ball Z: The Strongest Guy in The World) (Doragon bôru Z: Kono yo de ichiban tsuyoi yatsu) (1990),Action|Adventure|Animation|Sci-Fi|Thriller
+95167,Brave (2012),Action|Adventure|Animation|Children
+95170,Beauty and the Beast: The Enchanted Christmas (1997),Animation|Children|Fantasy|Musical
+95182,Dragon Ball Z the Movie: The Tree of Might (Doragon bôru Z 3: Chikyû marugoto chô kessen) (1990),Action|Adventure|Animation|Sci-Fi
+95193,Pocahontas II: Journey to a New World (1998) ,Adventure|Animation|Children
+95311,Presto (2008),Animation|Children|Comedy|Fantasy
+95313,Jack-Jack Attack (2005),Adventure|Animation|Children|Comedy
+95377,One Man Band (2005),Animation|Comedy|Musical
+95473,Dragon Ball Z: The Return of Cooler (Doragon bôru Z 6: Gekitotsu! Hyakuoku pawâ no senshi) (1992),Action|Adventure|Animation
+95475,Dragon Ball Z: Cooler's Revenge (Doragon bôru Z 5: Tobikkiri no saikyô tai saikyô) (1991),Action|Adventure|Animation
+95497,Dragon Ball Z: Super Android 13! (Doragon bôru Z 7: Kyokugen batoru!! San dai sûpâ saiyajin) (1992),Action|Adventure|Animation
+95499,Dragon Ball Z: Broly - The Legendary Super Saiyan (Doragon bôru Z 8: Moetsukiro!! Nessen retsusen-chô gekisen) (1993),Action|Adventure|Animation
+95519,Dragon Ball Z: Bojack Unbound (Doragon bôru Z 9: Ginga girigiri!! Butchigiri no sugoi yatsu) (1993),Action|Adventure|Animation|Fantasy
+95543,Ice Age 4: Continental Drift (2012),Adventure|Animation|Comedy
+95654,Geri's Game (1997),Animation|Children
+95771,Dragon Ball Z: Broly Second Coming (Doragon bôru Z 10: Kiken na futari! Sûpâ senshi wa nemurenai) (1994),Action|Adventure|Animation
+95780,Dragon Ball Z: Bio-Broly (Doragon bôru Z 11: Sûpâ senshi gekiha! Katsu no wa ore da) (1994),Action|Adventure|Animation
+95858,For the Birds (2000),Animation|Children|Comedy
+95965,Dragon Ball Z: Bardock - The Father of Goku (Doragon bôru Z: Tatta hitori no saishuu kessen - Furiiza ni itonda Z senshi Kakarotto no chichi) (1990),Action|Adventure|Animation
+96004,Dragon Ball Z: The History of Trunks (Doragon bôru Z: Zetsubô e no hankô!! Nokosareta chô senshi - Gohan to Torankusu) (1993),Action|Adventure|Animation
+96007,Dragon Ball GT: A Hero's Legacy (Doragon bôru GT: Gokû gaiden! Yûki no akashi wa sû-shin-chû) (1997),Action|Adventure|Animation
+96281,ParaNorman (2012),Adventure|Animation|Comedy
+96608,Runaway Brain (1995) ,Animation|Comedy|Sci-Fi
+97172,Frankenweenie (2012),Animation|Comedy|Horror|IMAX
+97225,Hotel Transylvania (2012),Animation|Children|Comedy
+97913,Wreck-It Ralph (2012),Animation|Comedy
+98124,"Batman: The Dark Knight Returns, Part 1 (2012)",Action|Animation|Sci-Fi
+98243,Rise of the Guardians (2012),Adventure|Animation|Children|Fantasy|IMAX
+98491,Paperman (2012),Animation|Comedy|Romance
+98604,From Up on Poppy Hill (Kokuriko-zaka kara) (2011),Animation|Drama|Romance
+98607,Redline (2009),Action|Animation|Sci-Fi
+98799,"Liar's Autobiography: The Untrue Story of Monty Python's Graham Chapman, A (2012)",Animation|Comedy
+99764,It's Such a Beautiful Day (2012),Animation|Comedy|Drama|Fantasy|Sci-Fi
+99813,"Batman: The Dark Knight Returns, Part 2 (2013)",Action|Animation
+100611,Escape from Planet Earth (2013),Adventure|Animation|Comedy|Sci-Fi
+101074,"Legend of Sleepy Hollow, The (1949)",Animation|Comedy|Horror|Musical
+101142,"Croods, The (2013)",Adventure|Animation|Comedy
+101423,Mezzo Forte (1998),Action|Animation|Comedy
+101962,Wolf Children (Okami kodomo no ame to yuki) (2012),Animation|Fantasy
+102007,"Invincible Iron Man, The (2007)",Animation
+102058,Hulk Vs. (2009),Animation
+102084,Justice League: Doom (2012) ,Action|Animation|Fantasy
+102720,Epic (2013),Adventure|Animation|Fantasy
+103141,Monsters University (2013),Adventure|Animation|Comedy
+103210,Fullmetal Alchemist: The Sacred Star of Milos (2011),Action|Adventure|Animation
+103233,LEGO Batman: The Movie - DC Heroes Unite (2013),Action|Adventure|Animation
+103335,Despicable Me 2 (2013),Animation|Children|Comedy|IMAX
+103755,Turbo (2013),Adventure|Animation|Children|Comedy|Fantasy
+104076,"Smurfs 2, The (2013)",Animation|Children|Comedy
+104141,Batman: Mystery of the Batwoman (2003),Action|Animation|Children|Crime
+104245,Planes (2013),Adventure|Animation|Comedy
+104283,"Wind Rises, The (Kaze tachinu) (2013)",Animation|Drama|Romance
+104419,Justice League: Crisis on Two Earths (2010),Action|Animation|Sci-Fi
+104780,"Mystery of the Third Planet, The (Tayna tretey planety) (1981)",Adventure|Animation|Sci-Fi
+105468,Cloudy with a Chance of Meatballs 2 (2013),Animation|Children|Comedy|Fantasy
+105540,"All Dogs Christmas Carol, An (1998)",Animation|Children|Comedy|Musical
+106696,Frozen (2013),Adventure|Animation|Comedy|Fantasy|Musical|Romance
+106873,Evangelion: 3.0 You Can (Not) Redo (2012),Action|Animation|Drama
+107953,Dragon Ball Z: Battle of Gods (2013),Action|Animation|Fantasy|IMAX
+107999,Dragon ball Z 04: Lord Slug (1991),Animation|Children
+108090,Dragon Ball: The Path to Power (Doragon bôru: Saikyô e no michi) (1996),Action|Adventure|Animation|Children
+108540,Ernest & Célestine (Ernest et Célestine) (2012),Adventure|Animation|Children|Comedy|Drama|Romance
+108795,Wonder Woman (2009),Action|Adventure|Animation|Fantasy
+108932,The Lego Movie (2014),Action|Adventure|Animation|Children|Comedy|Fantasy
+109383,"Oversimplification of Her Beauty, An (2012)",Animation|Comedy|Drama|Romance
+109596,Wrinkles (Arrugas) (2011),Animation|Drama
+109633,"Garden of Words, The (Koto no ha no niwa) (2013)",Animation|Romance
+109846,Mr. Peabody & Sherman (2014),Adventure|Animation|Comedy
+109941,Puss in Boots: The Three Diablos (2012),Animation|Comedy
+110130,"Nut Job, The (2014)",Adventure|Animation|Children|Comedy
+110655,Rio 2 (2014),Adventure|Animation|Children|Comedy
+110781,Mulan II (2004),Action|Animation|Children|Comedy|Musical
+111146,Alpha and Omega 3: The Great Wolf Games (2014),Action|Adventure|Animation|Children|Comedy
+112006,Tangled Ever After (2012),Action|Animation|Children
+112175,How to Train Your Dragon 2 (2014),Action|Adventure|Animation
+112460,Planes: Fire & Rescue (2014),Adventure|Animation|Comedy
+112512,Colourful (Karafuru) (2010),Animation|Drama|Fantasy|Mystery
+113278,Batman: Assault on Arkham (2014),Action|Animation|Crime|Thriller
+113374,"Old Lady and the Pigeons, The (La vieille dame et les pigeons) (1997)",Animation|Comedy
+114554,"Tale of Princess Kaguya, The (Kaguyahime no monogatari) (2013)",Animation|Drama|Fantasy
+114627,Angel's Egg (Tenshi no tamago) (1985),Animation|Drama|Fantasy
+115065,Justin and the Knights of Valour (2013),Adventure|Animation
+115111,Ward 13 (2003),Action|Animation|Comedy|Horror
+115617,Big Hero 6 (2014),Action|Animation|Comedy
+115664,The Book of Life (2014),Adventure|Animation|Romance
+115819,Mr Hublot (2013),Animation|Comedy
+115877,"Simpsons: The Longest Daycare, The (2012)",Animation|Comedy
+116941,Jetsons: The Movie (1990),Animation|Children|Comedy|Musical|Sci-Fi
+117368,The Madagascar Penguins in a Christmas Caper (2005),Animation|Comedy
+117444,Song of the Sea (2014),Animation|Children|Fantasy
+117545,Asterix: The Land of the Gods (Astérix: Le domaine des dieux) (2014),Animation
+117851,Penguins of Madagascar (2014),Adventure|Animation|Children|Comedy
+117877,The Rabbi's Cat (Le chat du rabbin) (2011),Adventure|Animation
+117922,Ice Age: A Mammoth Christmas (2011),Adventure|Animation|Children
+118894,Scooby-Doo! Abracadabra-Doo (2010),Animation|Children|Mystery
+120130,Into the Forest of Fireflies' Light (2011),Animation|Drama|Fantasy
+121099,101 Dalmatians II: Patch's London Adventure (2003),Animation|Children
+121781,Stuart Little 3: Call of the Wild (2005),Animation|Children|Comedy|Fantasy
+124404,"Snowflake, the White Gorilla (2011)",Adventure|Animation|Children|Comedy
+124853,Why Man Creates (1968),Animation|Documentary
+126088,A Flintstones Christmas Carol (1994),Animation|Children|Comedy
+126090,Hedgehog in the Fog (1975),Animation
+126482,Strange Magic (2015),Animation|Children|Fantasy|Musical
+126577,"Daddy, I'm A Zombie (2012)",Animation|Comedy|Fantasy
+126921,The Fox and the Hound 2 (2006),Adventure|Animation|Children|Comedy
+127390,Family Guy Presents: Blue Harvest (2007),Animation|Comedy
+128968,Stitch! The Movie (2003),Animation|Children|Comedy
+128991,Johnny Express (2014),Animation|Comedy|Sci-Fi
+129779,Ghost in the Shell Arise - Border 1: Ghost Pain (2013),Action|Animation|Sci-Fi
+130518,The Amazing Screw-On Head (2006),Action|Adventure|Animation|Comedy|Sci-Fi
+130520,Home (2015),Adventure|Animation|Children|Comedy|Fantasy|Sci-Fi
+131098,Saving Santa (2013),Animation|Children|Comedy
+131130,Tom and Jerry: A Nutcracker Tale (2007),Animation|Comedy
+131656,Shaun the Sheep Movie (2015),Adventure|Animation|Children|Comedy
+131739,Batman vs. Robin (2015),Action|Adventure|Animation
+132362,Patlabor 2: The Movie (1993),Action|Animation|Sci-Fi
+134019,The Monkey King (1964),Animation
+134095,My Love (2006),Animation|Drama
+134849,Duck Amuck (1953),Animation|Children|Comedy
+134853,Inside Out (2015),Adventure|Animation|Children|Comedy|Drama|Fantasy
+135436,The Secret Life of Pets (2016),Animation|Comedy
+135456,Ghost in the Shell: Stand Alone Complex - The Laughing Man (2005),Action|Animation|Crime|Sci-Fi
+135887,Minions (2015),Adventure|Animation|Children|Comedy
+136016,The Good Dinosaur (2015),Adventure|Animation|Children|Comedy|Fantasy
+136024,The Professional: Golgo 13 (1983),Action|Animation|Crime
+136297,Mortal Kombat: The Journey Begins (1995),Action|Animation
+136341,Scooby-Doo! and the Samurai Sword (2009),Animation|Children|Comedy
+136353,Scooby-Doo! and the Loch Ness Monster (2004),Animation|Children|Comedy
+136355,Big Top Scooby-Doo! (2012),Animation|Children|Comedy
+136359,Scooby-Doo Goes Hollywood (1979),Animation|Children|Comedy
+136449,Ghost in the Shell 2.0 (2008),Action|Animation|Sci-Fi
+136503,Tom and Jerry: Shiver Me Whiskers (2006),Animation|Children|Comedy
+136556,Kung Fu Panda: Secrets of the Masters (2011),Animation|Children
+137859,Dragon Ball Z Gaiden: The Plot to Destroy the Saiyans (1993),Action|Adventure|Animation
+137863,Dragon Ball Z: Resurrection of F (2015),Action|Adventure|Animation|Fantasy
+138702,Feast (2014),Animation|Children|Comedy|Drama|Romance
+138835,Return to Treasure Island (1988),Adventure|Animation|Comedy
+138966,Nasu: Summer in Andalusia (2003),Animation
+139130,Afro Samurai (2007),Action|Adventure|Animation|Drama|Fantasy
+139640,Ooops! Noah is Gone... (2015),Animation
+139855,Anomalisa (2015),Animation|Comedy|Fantasy
+139859,Ghost in the Shell Arise - Border 2: Ghost Whispers (2013),Action|Animation|Sci-Fi|Thriller
+140481,"Family Guy Presents: Something, Something, Something, Dark Side (2009)",Animation|Comedy|Sci-Fi
+140541,The Electric Hotel (1908),Animation|Comedy|Sci-Fi
+142056,Iron Man & Hulk: Heroes United (2013),Action|Adventure|Animation
+142997,Hotel Transylvania 2 (2015),Animation|Comedy
+143245,The Little Prince (2015),Animation|Fantasy
+145080,Extraordinary Tales (2015),Animation|Horror|Mystery
+145935,"Peanuts Movie, The (2015)",Adventure|Animation|Children|Comedy
+146309,The Boy and the Beast (2015),Action|Adventure|Animation
+146662,Dragons: Gift of the Night Fury (2011),Adventure|Animation|Comedy
+146684,Cosmic Scrat-tastrophe (2015),Animation|Children|Comedy
+148881,World of Tomorrow (2015),Animation|Comedy
+148978,Blue Exorcist: The Movie (2012),Animation|Fantasy|Horror|Mystery
+149406,Kung Fu Panda 3 (2016),Action|Adventure|Animation
+151769,Three from Prostokvashino (1978),Animation
+151781,Ghost in the Shell: Solid State Society (2006),Action|Animation|Crime|Sci-Fi|Thriller
+152081,Zootopia (2016),Action|Adventure|Animation|Children|Comedy
+153236,Genius Party (2007),Animation
+156025,Ice Age: The Great Egg-Scapade (2016),Adventure|Animation|Children|Comedy
+156553,Zoom (2015),Animation|Comedy|Drama
+157296,Finding Dory (2016),Adventure|Animation|Comedy
+157340,The Angry Birds Movie (2016),Animation|Comedy
+157775,Tenchi Muyô! In Love (1996),Animation|Comedy
+157865,Ratchet & Clank (2016),Action|Adventure|Animation|Children|Comedy|Sci-Fi
+158035,Gintama: The Final Chapter - Be Forever Yorozuya (2013),Action|Animation|Comedy
+158872,Sausage Party (2016),Animation|Comedy
+159403,Neo Tokyo (1987),Adventure|Animation|Fantasy|Horror|Sci-Fi
+159811,The Bremen Town Musicians (1969),Animation|Drama|Fantasy
+160569,Ice Age: Collision Course (2016),Adventure|Animation|Children|Comedy
+160718,Piper (2016),Animation
+160848,The Red Turtle (2016),Animation
+161354,Batman: The Killing Joke (2016),Action|Animation|Crime|Drama
+161594,Kingsglaive: Final Fantasy XV (2016),Action|Adventure|Animation|Drama|Fantasy|Sci-Fi
+162578,Kubo and the Two Strings (2016),Adventure|Animation|Children|Fantasy
+162968,Kizumonogatari Part 1: Tekketsu (2016),Action|Animation|Mystery
+162982,Steins;Gate the Movie: The Burden of Déjà vu (2013),Animation|Drama|Sci-Fi
+163072,Winnie Pooh (1969),Animation|Children
+163112,Winnie the Pooh Goes Visiting (1971),Animation
+163134,Your Name. (2016),Animation|Drama|Fantasy|Romance
+163386,Winnie the Pooh and the Day of Concern (1972),Animation
+163639,DC Super Hero Girls: Hero of the Year (2016),Animation
+163809,Over the Garden Wall (2013),Adventure|Animation|Drama
+163925,"Wings, Legs and Tails (1986)",Animation|Comedy
+164200,Storks (2016),Animation|Children|Comedy
+165959,Alesha Popovich and Tugarin the Dragon (2004),Animation|Comedy|Drama
+166183,Junior and Karlson (1968),Adventure|Animation|Children
+166291,A Silent Voice (2016),Animation|Drama|Romance
+166461,Moana (2016),Adventure|Animation|Children|Comedy|Fantasy
+167036,Sing (2016),Animation|Children|Comedy
+167746,The Lego Batman Movie (2017),Action|Animation|Comedy
+167772,The Spirit of Christmas (1995),Animation|Comedy
+168090,Kizumonogatari II: Passionate Blood (2016),Animation|Fantasy|Mystery
+168218,Kizumonogatari III: Cold Blood (2017),Animation|Fantasy|Mystery
+168418,The Boss Baby (2017),Animation|Children|Comedy
+170297,Ultimate Avengers 2 (2006),Action|Animation|Sci-Fi
+170597,A Plasticine Crow (1981),Animation
+170777,There Once Was a Dog (1982),Animation|Children|Comedy
+170939,Captain Underpants: The First Epic Movie (2017),Action|Animation|Children|Comedy
+170957,Cars 3 (2017),Adventure|Animation|Comedy
+172547,Despicable Me 3 (2017),Adventure|Animation|Children|Comedy
+172577,Last Year's Snow Was Falling (1983),Animation|Children|Comedy|Fantasy
+172583,Investigation Held by Kolobki (1986),Animation
+172585,Karlson Returns (1970),Adventure|Animation|Children
+172587,Vacations in Prostokvashino (1980),Animation
+172589,Winter in Prostokvashino (1984),Animation
+172637,Priklyucheniya Kapitana Vrungelya (1979),Action|Adventure|Animation|Comedy
+172793,Vovka in the Kingdom of Far Far Away (1965),Adventure|Animation|Children|Fantasy
+172825,Adventures of Mowgli: The Kidnapping (1968),Adventure|Animation|Children
+172875,A Detective Story (2003),Animation|Sci-Fi
+172881,Final Flight of the Osiris (2003),Action|Animation|Sci-Fi
+172887,Kid's Story (2003),Animation|Sci-Fi
+172909,Cheburashka (1971),Animation
+173351,Wow! A Talking Fish! (1983),Animation|Children|Comedy|Fantasy
+173355,Travels of an Ant (1983),Animation
+174141,Belladonna of Sadness (1973),Animation|Drama|Fantasy
+175293,Gena the Crocodile (1969),Animation|Children
+175387,On the Trail of the Bremen Town Musicians (1973),Adventure|Animation|Children
+175397,"In the blue sea, in the white foam. (1984)",Animation|Children|Fantasy
+175401,Wolf and Calf (1984),Animation
+175431,Bobik Visiting Barbos (1977),Animation|Comedy
+175435,The Magic Ring (1982),Animation|Fantasy
+175475,The Emoji Movie (2017),Animation|Children|Comedy
+176051,LEGO DC Super Hero Girls: Brain Drain (2017),Animation
+176389,The Nut Job 2: Nutty by Nature (2017),Adventure|Animation|Children|Comedy
+176621,Boniface's Holiday (1965),Animation|Children|Comedy|Romance
+177285,Sword Art Online The Movie: Ordinal Scale (2017),Action|Adventure|Animation|Fantasy|Sci-Fi
+177765,Coco (2017),Adventure|Animation|Children
+177939,"The Night Is Short, Walk on Girl (2017)",Animation|Romance
+178111,"Fireworks, Should We See It from the Side or the Bottom? (2017)",Animation
+178827,Paddington 2 (2017),Adventure|Animation|Children|Comedy
+179133,Loving Vincent (2017),Animation|Crime|Drama
+180987,Ferdinand (2017),Animation|Children|Comedy
+182293,Hare-um Scare-um (1939),Animation|Children|Comedy
+182297,Porky in Wackyland (1938),Animation|Comedy|Fantasy
+182299,Porky's Hare Hunt (1938),Animation|Children|Comedy
+182639,The Second Renaissance Part II (2003),Animation|Sci-Fi
+183897,Isle of Dogs (2018),Animation|Comedy
+187541,Incredibles 2 (2018),Action|Adventure|Animation|Children
+190219,Bunny (1998),Animation
+193565,Gintama: The Movie (2010),Action|Animation|Comedy|Sci-Fi
+193567,anohana: The Flower We Saw That Day - The Movie (2013),Animation|Drama
+193573,Love Live! The School Idol Movie (2015),Animation
+193581,Black Butler: Book of the Atlantic (2017),Action|Animation|Comedy|Fantasy
+193583,No Game No Life: Zero (2017),Animation|Comedy|Fantasy
+193587,Bungo Stray Dogs: Dead Apple (2018),Action|Animation
