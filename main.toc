@@ -3,8 +3,9 @@
 \contentsline {section}{\numberline {3}Network analysis}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}User-to-user network}{3}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Movie-to-Movie network}{3}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Algorithms}{3}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Task 1}{4}{section.4}%
+\contentsline {subsection}{\numberline {3.3}User and movie bipartite network}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Algorithms}{3}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Task 1}{5}{section.4}%
 \contentsline {section}{\numberline {5}Task 2}{6}{section.5}%
 \contentsline {section}{\numberline {6}Task 3}{7}{section.6}%
 \contentsline {section}{\numberline {7}Conclusions}{8}{section.7}%
