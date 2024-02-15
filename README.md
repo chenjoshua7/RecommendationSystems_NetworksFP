@@ -15,3 +15,6 @@ Things to do
 - [ ] Graphical Neural Networks (https://www.youtube.com/watch?v=8bD8Pagirao
 https://dl.acm.org/doi/full/10.1145/3568022)
 
+To install LaTex: https://mathjiajia.github.io/vscode-and-latex/ 
+https://hackmd.io/@x5758x/maclatex 
+
