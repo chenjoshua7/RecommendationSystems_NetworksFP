@@ -8,7 +8,7 @@ Things to do
 - [ ] Genre Breakdown EDA
 - [ ] Genre User Network
 - [ ] Weighted Community Detection???
-- [ ] Movie to Movie Network
+- [x] Movie to Movie Network
 - [ ] Building a Recommendation System
 - [ ] Influencer Credit (Weight by how many movies are watched)
 - [ ] Graphical Neural Networks
