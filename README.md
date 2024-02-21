@@ -6,7 +6,7 @@ Things to do
 - [ ] User to User Community Detection
     - [ ] We need to either get a package to do dc-sbm or we code it ourselves (low performance - Homework 2)
 - [x] Genre Breakdown - Completed
-- [ ] Genre Breakdown EDA
+- [x] Genre Breakdown EDA
 - [ ] Genre User Network
 - [ ] Weighted Community Detection??? 
 - [x] Movie to Movie Network
