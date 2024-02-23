@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  15 FEB 2024 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.13)  19 FEB 2024 16:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -886,7 +886,7 @@ Package hyperref Info: Link coloring OFF on input line 96.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<Images//bse_logo.png, id=44, 322.20375pt x 157.58875pt>
+<Images//bse_logo.png, id=48, 322.20375pt x 157.58875pt>
 File: Images//bse_logo.png Graphic file (type png)
 <use Images//bse_logo.png>
 Package pdftex.def Info: Images//bse_logo.png  used on input line 100.
@@ -927,45 +927,21 @@ l.139
        [1]
 
 LaTeX Warning: Reference `fig:count_ratings' on page 2 undefined on input line 
-152.
+154.
 
-<Images//count_rating.png, id=91, 867.24pt x 578.16pt>
+<Images//count_rating.png, id=85, 867.24pt x 578.16pt>
 File: Images//count_rating.png Graphic file (type png)
 <use Images//count_rating.png>
-Package pdftex.def Info: Images//count_rating.png  used on input line 160.
+Package pdftex.def Info: Images//count_rating.png  used on input line 162.
 (pdftex.def)             Requested size: 228.0545pt x 152.02951pt.
-<Images//count_genre.png, id=93, 867.24pt x 578.16pt>
+<Images//count_genre.png, id=87, 867.24pt x 578.16pt>
 File: Images//count_genre.png Graphic file (type png)
 <use Images//count_genre.png>
-Package pdftex.def Info: Images//count_genre.png  used on input line 167.
+Package pdftex.def Info: Images//count_genre.png  used on input line 169.
 (pdftex.def)             Requested size: 228.0545pt x 152.02951pt.
-[2 <./Images//count_rating.png> <./Images//count_genre.png>] [3{/usr/local/texl
-ive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+[2 <./Images//count_rating.png> <./Images//count_genre.png>] [3] [4]
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-
- []
-
-
-LaTeX Warning: Citation 'web:tsp' on page 4 undefined on input line 235.
-
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
-
- []
-
-[6] [7] [8]
-
-LaTeX Warning: Empty bibliography on input line 365.
+LaTeX Warning: Empty bibliography on input line 198.
 
 
 Package caption Warning: Unused \captionsetup[sub] on input line 21.
@@ -975,55 +951,37 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 7FA47072D0C023FE0206342170C9DE8D;1071
-(rerunfilecheck)             After:  0AC18E424C936E1D7905FBD4540549DB;1301.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4D144FBEC42395124506EBE168C72812;1597.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22407 strings out of 476025
- 387713 string characters out of 5790017
- 1878388 words of memory out of 5000000
- 42519 multiletter control sequences out of 15000+600000
- 533020 words of font info for 80 fonts, out of 8000000 for 9000
+ 22191 strings out of 476025
+ 383669 string characters out of 5790017
+ 1859388 words of memory out of 5000000
+ 42326 multiletter control sequences out of 15000+600000
+ 529091 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,16n,68p,1877b,1124s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
-xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texl
-ive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texliv
-e/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/
-2023/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2023
-/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2023/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf
--dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/texmf-d
-ist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (9 pages, 353400 bytes).
+ 66i,11n,68p,1877b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/l
+ocal/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/loc
+al/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/t
+exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/tex
+live/2023/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
+/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2
+023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (5 pages, 247712 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
