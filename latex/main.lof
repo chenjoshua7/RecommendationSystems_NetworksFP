@@ -1,2 +1,4 @@
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Count of Movies per Rating\relax }}{2}{figure.caption.2}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Count of Movies per Genre\relax }}{2}{figure.caption.2}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Count of Movies per Rating\relax }}{3}{figure.caption.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Count of Movies per Genre\relax }}{3}{figure.caption.1}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Count of Movies per User\relax }}{3}{figure.caption.2}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Time Series Analysis of Ratings with Prophet\relax }}{3}{figure.caption.2}%
