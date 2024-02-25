@@ -6,6 +6,9 @@
 \addbibresource{sample.bib}
 \usepackage{url}
 \usepackage[utf8]{inputenc}
+\usepackage{booktabs} % For prettier tables
+\usepackage{siunitx} % For aligning numbers at the decimal point
+\usepackage{caption} % For captions
 \usepackage{amsmath}
 \usepackage{setspace}
 \usepackage{graphicx}
@@ -196,14 +199,34 @@ constructed a user-to-user network - a symmetric unipartite network capturing th
 
 \subsection{User and movie bipartite network}
 
+To create the user/movie bipartite network, we used the Networkx package in Python. We selected the unique User Ids as one set of nodes and the movie titles as another. Edges were then added if a user has seen a movie. Note that this is a undirected, unweighted graph. Ratings are not considered here.
+
 Despite an incredibly sparse matrix, understandably with close to 10,000 movies - this results in a connected graph - meaning there is only one component.
 
+\begin{figure}[h!]
+\centering
+    \begin{minipage}[b]{0.49\linewidth}
+         \centering
+  	\includegraphics[width=0.99\textwidth]{sample_graph.png}
+  	\caption{Subset of User to Movie Network}
+  	\label{fig:count_ranking}
+    \end{minipage}
+    \hspace{0.01cm}
+    \begin{minipage}[b]{0.49\linewidth}
+        \centering
+  	\includegraphics[width=0.99\textwidth]{bipartite.png}
+  	\caption{BipartiteLayout}
+  	\label{fig:ranking_ts}
+    \end{minipage}
+\end{figure}
+
+
 To better understand that users and movies, we calculated the centrality for each of them:
-With this graph - the degree centrality for users and movies are aligned with how many reviews they have. The centrality score for users is much higher than that for movies as there are many more reviews per user than there are per movie.
+With this graph - the degree centrality for users and movies are aligned with how many reviews they have. The centrality score for users is much higher than that for movies as there are many more reviews per user than there are per movie. 
 
-However, this may not be the best way to actually capture centrality as highly central movies and users might not just be how many direct nodes that they have. Therefore, we also calculated the betweenness and closeness centralities
+However, this may not be the best way to actually capture centrality as highly central movies and users might not just be how many direct nodes that they have. Therefore, we also calculated the betweenness and closeness centralities. Take, for example, The Avengers (2012). Regardless of how many reviews it may have, it will probably be an important bridge (betweeness) between the Marvel movies. It is relationships like these that we are hoping to capture. However, there seems to be very little difference in the rankings of these centrality metrics as the top scores keep generally the same order. A couple near the bottom were pushed down but there was no large shuffling.
 
-\begin{figure}[H]
+\begin{figure}[h!]
 \centering
 \caption{Network Centrality Measures and Comparative Metrics for Movies}
     \begin{tabular}{|c|c|c|c|}
@@ -242,9 +265,20 @@ However, this may not be the best way to actually capture centrality as highly c
         \hline
     \end{tabular}
 \end{figure}
+
+It is important to note already that the most highly centralized movies are all produced before 2000 (in fact, this extends far beyond just the top 10), despite most of the reviews coming after the 2020s. This is understandable as movies that have been around longer are more likely to have more reviews.
+
 \subsection{User-to-user network}
 
-The user-to-user network is calculated by 
+To construct the user-to-user network, we calculated the similarity between all users as our edges.  We first pivoted the Ratings dataframe on the \textit{UserId}. Our resulting dataframe has the UserId as the index, the Movies as the columns, and any user ratings inside. This is exactly the adjacency matrix for the User to Movie network that we created in the previous section; however, just weighted edges based on ratings.
+
+We used cosine similarity as our node embedding technique to map user vectors into Euclidean space. Cosine similarity is a common space because it ignores magnitude and focuses only on directions in space. For example, A harsh critic might rate an average movie a 2 but a more generous critic might consider average to be 3. This would not affect at all the cosine similarity (if we kept the ratings positive). A similarity measure such as Euclidean distance would fail here because the more movies you add can only possibly add distance. Therefore people are punished for actually having seen more of the same films.
+
+Because this is an incredibly sparse matrix, in order to calculate similarity scores, we only used the films that people had shared reviews for. However, this could result in the case where two people are assigned similarities despite having very little in common. For example, if two people who have wildly different preferences watched one random movie and both gave it 4 stars, these two people would be assigned a perfect similarity when, clearly, this should not be the case. To mitigate this, we only kept similarity scores for people that have rated 10 or more movies in common.
+
+We actually calculated two similarity scores. Because ratings are all positive, all vectors will only be in the positive space. Therefore, cosine similarities are limited to only positive values as any two vectors cannot exceed more than a right angle. We constructed a similarity matrix using this framework which will henceforth in the paper be referred to as simply the User Network.
+
+However, we also constructed another network where we subtracted 2.5 from all ratings. This allows for negative cosine similarities but has two important implications. First, in the example above regarding the harsh vs the generous critic, this is no longer true as now, their vectors are directly opposite (-0.5 vs 0.5). This model will be less able to adjust for user biases within their personal ratings. However, a large benefit of this approach is that it also captures \textit{dissimilarity} as well. For example, if two users have seen the same movie but have rated it 0.5 and 5.0, while these ratings are clearly diametrically opposed, this still add similarity towards their score. Now, when we subtract 2.5, essentially set 2.5 as the "neutral" threshold. Anything below is considered negative and anything above is considered positive. Users who share negative or positive scores will be rewarded with similarity and users who have disagreements will negative similarity. 
 
 \subsection{Movie-to-Movie network}
 
