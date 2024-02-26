@@ -5,3 +5,10 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Subset of User to Movie Network\relax }}{4}{figure.caption.3}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces BipartiteLayout\relax }}{4}{figure.caption.3}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Network Centrality Measures and Comparative Metrics for Movies\relax }}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Degree Information for User Network\relax }}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Fans per Genre\relax }}{7}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Users - Genre Bipartite Graph\relax }}{7}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces User Degrees\relax }}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces New Fans per Genre\relax }}{9}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces New User-Genre Bipartite Graph\relax }}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Poisson fit with $n = 5.5$\relax }}{9}{figure.caption.9}%

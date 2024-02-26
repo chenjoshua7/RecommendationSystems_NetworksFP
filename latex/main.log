@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.13)  24 FEB 2024 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.13)  26 FEB 2024 14:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,6 +23,13 @@ File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -511,6 +518,17 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen178
 \Gin@req@width=\dimen179
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
@@ -530,17 +548,6 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count422
 \enitdp@description=\count423
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip80
@@ -867,7 +874,7 @@ Package biblatex Warning: Load 'inputenc' before biblatex.
 \@quotelevel=\count458
 \@quotereset=\count459
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 99.
+h' as default language. on input line 103.
 (./main.aux
 
 LaTeX Warning: Label `fig:count_ranking' multiply defined.
@@ -875,27 +882,42 @@ LaTeX Warning: Label `fig:count_ranking' multiply defined.
 
 LaTeX Warning: Label `fig:ranking_ts' multiply defined.
 
+
+LaTeX Warning: Label `fig:fanspergenre' multiply defined.
+
+
+LaTeX Warning: Label `fig:fanspergenre' multiply defined.
+
+
+LaTeX Warning: Label `fig:fanspergenre' multiply defined.
+
+
+LaTeX Warning: Label `fig:fanspergenre' multiply defined.
+
+
+LaTeX Warning: Label `fig:fanspergenre' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -917,8 +939,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 99.
-Package biblatex Info: Reference segment=0 on input line 99.
+Package biblatex Info: Reference section=0 on input line 103.
+Package biblatex Info: Reference segment=0 on input line 103.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
@@ -926,7 +948,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 99.
+or `english'. on input line 103.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -951,24 +973,24 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count466
-Package hyperref Info: Link coloring OFF on input line 99.
+Package hyperref Info: Link coloring OFF on input line 103.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<Images//bse_logo.png, id=48, 322.20375pt x 157.58875pt>
+<Images//bse_logo.png, id=52, 322.20375pt x 157.58875pt>
 File: Images//bse_logo.png Graphic file (type png)
 <use Images//bse_logo.png>
-Package pdftex.def Info: Images//bse_logo.png  used on input line 103.
+Package pdftex.def Info: Images//bse_logo.png  used on input line 107.
 (pdftex.def)             Requested size: 225.54108pt x 110.31136pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 130
+LaTeX Font Info:    Trying to load font information for U+msa on input line 134
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 130
+LaTeX Font Info:    Trying to load font information for U+msb on input line 134
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -994,48 +1016,48 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 
+l.146 
        [1]
 
 LaTeX Warning: Reference `fig:count_rating' on page 2 undefined on input line 1
-59.
+63.
 
-<Images//count_rating.png, id=93, 867.24pt x 578.16pt>
+<Images//count_rating.png, id=111, 867.24pt x 578.16pt>
 File: Images//count_rating.png Graphic file (type png)
 <use Images//count_rating.png>
-Package pdftex.def Info: Images//count_rating.png  used on input line 164.
+Package pdftex.def Info: Images//count_rating.png  used on input line 168.
 (pdftex.def)             Requested size: 228.0545pt x 152.02951pt.
-<Images//count_genre.png, id=95, 867.24pt x 578.16pt>
+<Images//count_genre.png, id=113, 867.24pt x 578.16pt>
 File: Images//count_genre.png Graphic file (type png)
 <use Images//count_genre.png>
-Package pdftex.def Info: Images//count_genre.png  used on input line 171.
+Package pdftex.def Info: Images//count_genre.png  used on input line 175.
 (pdftex.def)             Requested size: 228.0545pt x 152.02951pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images//count_user.png, id=96, 867.24pt x 578.16pt>
+<Images//count_user.png, id=114, 867.24pt x 578.16pt>
 File: Images//count_user.png Graphic file (type png)
 <use Images//count_user.png>
-Package pdftex.def Info: Images//count_user.png  used on input line 182.
+Package pdftex.def Info: Images//count_user.png  used on input line 186.
 (pdftex.def)             Requested size: 228.0545pt x 152.02951pt.
-<Images//prophet.png, id=97, 867.24pt x 578.16pt>
+<Images//prophet.png, id=115, 867.24pt x 578.16pt>
 File: Images//prophet.png Graphic file (type png)
 <use Images//prophet.png>
-Package pdftex.def Info: Images//prophet.png  used on input line 189.
+Package pdftex.def Info: Images//prophet.png  used on input line 193.
 (pdftex.def)             Requested size: 228.0545pt x 152.02951pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2]
-<Images//sample_graph.png, id=102, 910.602pt x 570.933pt>
+<Images//sample_graph.png, id=120, 910.602pt x 570.933pt>
 File: Images//sample_graph.png Graphic file (type png)
 <use Images//sample_graph.png>
-Package pdftex.def Info: Images//sample_graph.png  used on input line 210.
+Package pdftex.def Info: Images//sample_graph.png  used on input line 214.
 (pdftex.def)             Requested size: 228.0545pt x 142.98553pt.
-<Images//bipartite.png, id=103, 910.602pt x 570.933pt>
+<Images//bipartite.png, id=121, 910.602pt x 570.933pt>
 File: Images//bipartite.png Graphic file (type png)
 <use Images//bipartite.png>
-Package pdftex.def Info: Images//bipartite.png  used on input line 217.
+Package pdftex.def Info: Images//bipartite.png  used on input line 221.
 (pdftex.def)             Requested size: 228.0545pt x 142.98553pt.
 
 
@@ -1043,29 +1065,92 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./Images//count_rating.png> <./Images//count_genre.png> <./Images//count_us
 er.png> <./Images//prophet.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 []|\T1/cmr/bx/n/12 Degree
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 []|\T1/cmr/bx/n/12 Betweeness
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 []|\T1/cmr/bx/n/12 Closeness
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./Images//sample_graph.png> <./Images//bipartite.png>] [5] [6] [7]
+[4 <./Images//sample_graph.png> <./Images//bipartite.png>] [5]
+<Images//UN_degreeinfo.png, id=141, 570.2103pt x 255.1131pt>
+File: Images//UN_degreeinfo.png Graphic file (type png)
+<use Images//UN_degreeinfo.png>
+Package pdftex.def Info: Images//UN_degreeinfo.png  used on input line 292.
+(pdftex.def)             Requested size: 423.09673pt x 189.29846pt.
+ [6 <./Images//UN_degreeinfo.png>]
+<Images//fans_per_genre.png, id=148, 488.5452pt x 359.1819pt>
+File: Images//fans_per_genre.png Graphic file (type png)
+<use Images//fans_per_genre.png>
+Package pdftex.def Info: Images//fans_per_genre.png  used on input line 320.
+(pdftex.def)             Requested size: 228.0545pt x 167.67004pt.
+<Images//genre_bipartite.png, id=149, 476.982pt x 360.6273pt>
+File: Images//genre_bipartite.png Graphic file (type png)
+<use Images//genre_bipartite.png>
+Package pdftex.def Info: Images//genre_bipartite.png  used on input line 327.
+(pdftex.def)             Requested size: 228.0545pt x 172.4223pt.
+<Images//genre_degree1.png, id=150, 570.2103pt x 255.1131pt>
+File: Images//genre_degree1.png Graphic file (type png)
+<use Images//genre_degree1.png>
+Package pdftex.def Info: Images//genre_degree1.png  used on input line 340.
+(pdftex.def)             Requested size: 465.41214pt x 208.23259pt.
+<Images//binomialfit.png, id=151, 412.6617pt x 328.8285pt>
+File: Images//binomialfit.png Graphic file (type png)
+<use Images//binomialfit.png>
+Package pdftex.def Info: Images//binomialfit.png  used on input line 347.
+(pdftex.def)             Requested size: 235.05533pt x 187.30373pt.
+ [7 <./Images//fans_per_genre.png> <./Images//genre_bipartite.png>]
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 355
+.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+)
+<Images//fansgenre1.png, id=160, 488.5452pt x 370.7451pt>
+File: Images//fansgenre1.png Graphic file (type png)
+<use Images//fansgenre1.png>
+Package pdftex.def Info: Images//fansgenre1.png  used on input line 363.
+(pdftex.def)             Requested size: 232.70605pt x 176.59792pt.
 
-LaTeX Warning: Empty bibliography on input line 300.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images//newgenrebipartite.png, id=161, 476.982pt x 360.6273pt>
+File: Images//newgenrebipartite.png Graphic file (type png)
+<use Images//newgenrebipartite.png>
+Package pdftex.def Info: Images//newgenrebipartite.png  used on input line 372.
+
+(pdftex.def)             Requested size: 232.70605pt x 175.94405pt.
+<Images//poissondegree.png, id=162, 412.6617pt x 328.8285pt>
+File: Images//poissondegree.png Graphic file (type png)
+<use Images//poissondegree.png>
+Package pdftex.def Info: Images//poissondegree.png  used on input line 379.
+(pdftex.def)             Requested size: 232.70605pt x 185.4322pt.
+
+Overfull \hbox (8.0664pt too wide) in paragraph at lines 370--383
+[][]   [] 
+ []
 
 
-Package caption Warning: Unused \captionsetup[sub] on input line 24.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./Images//genre_degree1.png> <./Images//binomialfit.png>] [9 <./Images//fan
+sgenre1.png> <./Images//newgenrebipartite.png> <./Images//poissondegree.png>]
+[10]
+
+LaTeX Warning: Empty bibliography on input line 403.
+
+
+Package caption Warning: Unused \captionsetup[sub] on input line 28.
 See the caption package documentation for explanation.
 
 (./main.aux)
@@ -1076,36 +1161,43 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E1F5FF11E4DDF6DA3827E3D5377EEF8A;1597.
+(rerunfilecheck)             Checksum: B224CC4AC0FBDB0319321558E4C21F09;1704.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25831 strings out of 476025
- 496241 string characters out of 5790017
+ 25974 strings out of 476025
+ 499775 string characters out of 5790017
  1870388 words of memory out of 5000000
- 45941 multiletter control sequences out of 15000+600000
- 529091 words of font info for 74 fonts, out of 8000000 for 9000
+ 46055 multiletter control sequences out of 15000+600000
+ 531016 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,12n,68p,1877b,939s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local
-/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/t
-exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texli
-ve/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2
-023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (8 pages, 663072 bytes).
+ </Users/joshuachen/Library/texlive/2023/texmf-var/fonts/pk/ljfour/public/bbm
+/bbm12.600pk></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
+fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/loca
+l/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/
+texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/te
+xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texl
+ive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/
+2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (11 pages, 1321801 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 

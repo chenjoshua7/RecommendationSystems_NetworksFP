@@ -1,4 +1,7 @@
+
 \documentclass[12pt]{article}
+
+\usepackage{bbm}
 \usepackage{float}
 \usepackage{caption, subcaption}
 \usepackage[T1]{fontenc}
@@ -12,6 +15,7 @@
 \usepackage{amsmath}
 \usepackage{setspace}
 \usepackage{graphicx}
+\usepackage{amssymb}
 \graphicspath{{Images/}}
 \usepackage{parskip}
 \usepackage{multirow}
@@ -278,11 +282,109 @@ Because this is an incredibly sparse matrix, in order to calculate similarity sc
 
 We actually calculated two similarity scores. Because ratings are all positive, all vectors will only be in the positive space. Therefore, cosine similarities are limited to only positive values as any two vectors cannot exceed more than a right angle. We constructed a similarity matrix using this framework which will henceforth in the paper be referred to as simply the User Network.
 
-However, we also constructed another network where we subtracted 2.5 from all ratings. This allows for negative cosine similarities but has two important implications. First, in the example above regarding the harsh vs the generous critic, this is no longer true as now, their vectors are directly opposite (-0.5 vs 0.5). This model will be less able to adjust for user biases within their personal ratings. However, a large benefit of this approach is that it also captures \textit{dissimilarity} as well. For example, if two users have seen the same movie but have rated it 0.5 and 5.0, while these ratings are clearly diametrically opposed, this still add similarity towards their score. Now, when we subtract 2.5, essentially set 2.5 as the "neutral" threshold. Anything below is considered negative and anything above is considered positive. Users who share negative or positive scores will be rewarded with similarity and users who have disagreements will negative similarity. 
+However, we also constructed another network where we subtracted 2.5 from all ratings. This allows for negative cosine similarities but has two important implications. First, in the example above regarding the harsh vs the generous critic, this is no longer true as now, their vectors are directly opposite (-0.5 vs 0.5). This model will be less able to adjust for user biases within their personal ratings. However, a large benefit of this approach is that it also captures \textit{dissimilarity} as well. For example, if two users have seen the same movie but have rated it 0.5 and 5.0, while these ratings are clearly diametrically opposed, this still add similarity towards their score. Now, when we subtract 2.5, essentially set 2.5 as the "neutral" threshold. Anything below is considered negative and anything above is considered positive. Users who share negative or positive scores will be rewarded with similarity and users who have disagreements will negative similarity. This network will henceforth be referred to as the Midrange-Adjusted User Network.
+
+Again, these similarities can be conceived of as an adjacency matrix - this for a unipartite, weighted, bidirectional graph (i.e. the matrix is symmetric as the similarity from user a to user b is the same as user b to user a). From these graphs we made an unweighted graph by setting a threshold of 0.9 for the User Network and 0.5 for the Midrange-Adjusted User Network. These thresholds were chose as they both return similar numbers of edges (around 68,000). If the similarity score is greater than the threshold, an edge is created.
+
+\begin{figure}[h!]
+    \begin{minipage}[b]{01\linewidth}
+         \centering
+  	\includegraphics[width=0.9\textwidth]{UN_degreeinfo.png}
+  	\caption{Degree Information for User Network}
+  	\label{fig:UN_degreeinfo}
+    \end{minipage}
+\end{figure}
 
 \subsection{Movie-to-Movie network}
 
 \subsection{User-to-Genre network}
+
+Many recommendation systems, including Random Walks and Collaborative Filtering which we will discuss later, only take into account user and item interactions. The content of the films is irrelevant and no relationship between the items is captured beyond what was described in the matrices above. Clearly, if we were able to capture these relationships, we could then build much stronger recommendations. One simple ubiquitous covariate is the genre of the film. It wouldn't feel quite right to sit down for family movie night and be recommended The Shining because you watched The Lion King last week - despite both movies probably having somewhat similar cosine similarity as both movies are generally well regarded. Item-to-item recommendations should consistently stay within the same category and, often, user-recommendations are filtered by said categories.
+
+Therefore, we took a network approach to deepen our understanding between users and genres. Our goal is to quantitatively capture relationships between users and genres to provide better recommendations. In order to do this, we first classified out movies. The movie dataset contains a string of genres separated by a |. We split up the string and then filtered each movie into their respective genres. Movies with no listed genres were dropped. We then calculated the average rating per person as well as the average rating per genre per person. We also counted, the total number of reviews, as well as the total number of reviews per genre. 
+
+For each genre, we then had to create a formula to determine whether or not someone was a fan of a genre. We settled on the following formula:
+
+\[
+\text{F}_{gi}= \text{tanh}\left(\frac{P_{gi} R_{gi}\ln(C_{gi})}{3}\right)
+\]
+
+$P_g$ is the percentage of user reviews within genre $g$. Naturally, if a larger percentage of a person's movies belong to a single genre, this should be rewarded. Similarly, $R_g$ represents the average review for a user within a genre. The higher the reviews, the greater the score. Finally, we wanted to factor in the number of films within the genre watched. While this should be somewhat accounted for in $P_g$, this may be helpful for identifying super fans or "influencers". This is reward logarithmically and we divide by 3 as a scaling constant.
+This is then passed through tanh to give us fan scores between 0 and 1 (as this score can never be negative unless we adjust with midrange which then could capture a possible "hater score").
+
+Then we arbitrarily chose 0.8 as the threshold. For users with over a 0.8, they were considered a fan. 
+
+\begin{figure}[h!]
+    \begin{minipage}[b]{0.49\linewidth}
+         \centering
+  	\includegraphics[width=0.99\textwidth]{fans_per_genre.png}
+  	\label{fig:fanspergenre}
+	 \caption{Fans per Genre}
+    \end{minipage}
+    \hspace{0.01 cm}
+    \begin{minipage}[b]{0.49\linewidth}
+         \centering
+  	\includegraphics[width=0.99\textwidth]{genre_bipartite.png}
+  	\caption{\\Users - Genre Bipartite Graph}
+  	\label{fig:genre_bipartite}
+    \end{minipage}
+\end{figure}
+
+Once again, we can create an unweight bipartite adjacency matrix from this with, the users as one set of nodes and the movies as the other (visualized in Figure 4.6).
+
+Here, the degree represents how the number of genres for which that user is considered a fan. With the degree histogram, we see a strong fit of a binomial distribution with $n = 19$ (the number of genres) and $p = \frac{4.5}{19}$
+
+\begin{figure}[h!]
+    \begin{minipage}[b]{1\linewidth}
+         \centering
+  	\includegraphics[width=0.99\textwidth]{genre_degree1.png}
+  	\label{fig:fanspergenre}
+	 \caption{User Degrees}
+    \end{minipage}
+    \vspace{0.1cm}
+    \begin{minipage}[b]{1\linewidth}
+         \centering
+  	\includegraphics[width=0.5\textwidth]{binomialfit.png}
+  	\label{fig:fanspergenre}
+    \end{minipage}
+\end{figure}
+
+However, looking at Figure 4.5, we see an issue. It appears here that we are just measure how many movies there are per genre. Our formula, while it could be effective for large relatively balanced sets, fails in this context. Therefore, we will attempt to create a definition of "fan" that is more accounts for movie imbalances.
+
+\[
+F_{gi}^* = \left(\frac{R_{gi} - R_i}{R_g}\right)\mathbbm{1}{\{C_g > 10\}}
+\]
+
+This simplified version finds the difference between a user's score per genre with the average rating per genre and normalizes it by the average rating of that user. Here are the results:
+\begin{figure}[h!]
+\centering
+    \begin{minipage}[b]{0.5\linewidth}
+         \centering
+  	\includegraphics[width=0.99\textwidth]{fansgenre1.png}
+  	\label{fig:fanspergenre}
+	 \caption{New Fans per Genre}
+    \end{minipage} 
+\end{figure}
+
+\begin{figure}[h!]
+    \begin{minipage}[b]{0.5\linewidth}
+         \centering
+  	\includegraphics[width=0.99\textwidth]{newgenrebipartite.png}
+  	\label{fig:fanspergenre}
+	 \caption{New User-Genre Bipartite Graph}
+    \end{minipage} 
+    \hspace{0.1cm}
+    \begin{minipage}[b]{0.5\linewidth}
+         \centering
+  	\includegraphics[width=0.99\textwidth]{poissondegree.png}
+  	\label{fig:fanspergenre}
+	 \caption{Poisson fit with $n = 5.5$}
+    \end{minipage} 
+\end{figure}
+
+Notice drastic differences
+
+\section{Random Walks}
 
 \section{Collaborative Filtering}
 
@@ -291,6 +393,7 @@ However, we also constructed another network where we subtracted 2.5 from all ra
 \newpage
 \section{Conclusions}
 \vspace{1em} 
+
 
 
 %\bibliographystyle{plain}
