@@ -355,7 +355,7 @@ However, looking at Figure 4.5, we see an issue. It appears here that we are jus
 F_{gi}^* = \left(\frac{R_{gi} - R_i}{R_g}\right)\mathbbm{1}{\{C_g > 10\}}
 \]
 
-This simplified version finds the difference between a user's score per genre with the average rating per genre and normalizes it by the average rating of that user. Here are the results:
+This simplified version finds the difference between a user's score per genre with the average rating per genre and normalizes it by the average rating of that user. The threshold for being a fan here was set to 0.5. Here are the results:
 \begin{figure}[h!]
 \centering
     \begin{minipage}[b]{0.5\linewidth}
@@ -382,7 +382,7 @@ This simplified version finds the difference between a user's score per genre wi
     \end{minipage} 
 \end{figure}
 
-Notice drastic differences
+The distribution of fans across genres is now much more even and the degree distribution among fans aligns closely a Poisson with mean 5.5.
 
 \section{Random Walks}
 
