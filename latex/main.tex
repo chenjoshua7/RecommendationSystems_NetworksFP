@@ -384,7 +384,23 @@ This simplified version finds the difference between a user's score per genre wi
 
 The distribution of fans across genres is now much more even and the degree distribution among fans aligns closely a Poisson with mean 5.5.
 
-\section{Random Walks}
+\section{Probabilistic Spreading}
+
+In this section we consider recommendation systems that use probabilistic spreading algorithms. These are based off a random walk process which directly use a binary user-items bipartite network to provide a ranking to movies that they have not seen.
+
+For a given user \textit{i} , the algorithm initialises by giving a unit amount of resource to all items that they are connected to. The algorithm then employs a two-step random walk process to redistribute these resources, aiming to accentuate items preferred by users with similar tastes.
+
+In the first step, each item's allocated resource is evenly distributed among users connected to it. This step effectively maps out the extent of shared interests between users based on the items they are associated with. Subsequently, the second step redistributes the resources accumulated by each user back to the items they are connected to, but now the distribution is equal among all such items. Through this reciprocal resource exchange, the algorithm iteratively refines the weight or importance of each item based on the density and depth of shared user preferences. Finally, the scores of items already connected with user \textit{i} are set to zero so as to not recommend items already connected with the user. A graphical representation of this process is shown in Figure \ref{figure:Prob S} below.
+
+\begin{figure}[!ht]
+\centering 
+\includegraphics[width=0.8\textwidth]{Prob S algorithm}
+\caption{Illustrations of Prob S Algorithm. Circles and squares represent users and items, respectively. The color-marked circle represents the target user for whom the recommendation is being computed. Figure taken from \cite{YU2016192}}
+\label{figure:Prob S}
+\end{figure}
+
+
+
 
 \section{Collaborative Filtering}
 
