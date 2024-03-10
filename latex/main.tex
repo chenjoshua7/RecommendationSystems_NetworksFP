@@ -13,8 +13,11 @@
 \usepackage{siunitx} % For aligning numbers at the decimal point
 \usepackage{caption} % For captions
 \usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{setspace}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{amssymb}
 \graphicspath{{Images/}}
 \usepackage{parskip}
@@ -213,14 +216,14 @@ Despite an incredibly sparse matrix, understandably with close to 10,000 movies 
          \centering
   	\includegraphics[width=0.99\textwidth]{sample_graph.png}
   	\caption{Subset of User to Movie Network}
-  	\label{fig:count_ranking}
+  	\label{fig:count_ranking 2} 
     \end{minipage}
     \hspace{0.01cm}
     \begin{minipage}[b]{0.49\linewidth}
         \centering
   	\includegraphics[width=0.99\textwidth]{bipartite.png}
   	\caption{BipartiteLayout}
-  	\label{fig:ranking_ts}
+  	\label{fig:ranking_ts 2}
     \end{minipage}
 \end{figure}
 
@@ -384,24 +387,145 @@ This simplified version finds the difference between a user's score per genre wi
 
 The distribution of fans across genres is now much more even and the degree distribution among fans aligns closely a Poisson with mean 5.5.
 
-\section{Probabilistic Spreading}
+\section{Random Walk Models}
 
-In this section, we consider recommendation systems that use probabilistic spreading algorithms. These are based off a random walk process which directly use a binary user-items bipartite network to provide a ranking to movies that they have not seen.
+In this section, we explore recommendation systems that directly leverage the network structure of the data. In particular, we consider Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms which are based off a random walk process which directly use a binary user-items bipartite network to provide a ranking to movies that they have not seen.
 
-For a given user \textit{i} , the algorithm initialises by giving a unit amount of resource to all items that they are connected to. The algorithm then employs a two-step random walk process to redistribute these resources, aiming to accentuate items preferred by users with similar tastes.
+In this section, we explore recommendation systems that directly leverage the network structure of the data. Specifically, we focus on the Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms, which employ a random walk process within a binary user-item bipartite network. 
 
-In the first step, each item's allocated resource is evenly distributed among users connected to it. This step effectively maps out the extent of shared interests between users based on the items they are associated with. Subsequently, the second step redistributes the resources accumulated by each user back to the items they are connected to, but now the distribution is equal among all such items. Through this reciprocal resource exchange, the algorithm iteratively refines the weight or importance of each item based on the density and depth of shared user preferences. Finally, the scores of items already connected with user \textit{i} are set to zero so as to not recommend items already connected with the user. A graphical representation of this process is shown in Figure \ref{figure:Prob S} below.
+For a given user \textit{i} , the ProbS algorithm initialises by giving a unit amount of resource to all items that they are connected to. The algorithm then employs a two-step random walk process to redistribute these resources, aiming to accentuate items preferred by users with similar tastes.
 
-t
+In the first step, each item's allocated resource is evenly distributed among users connected to it. This step effectively maps out the extent of shared interests between users based on the items they are associated with. Subsequently, the second step redistributes the resources accumulated by each user back to the items they are connected to, but now the distribution is equal among all such items. Through this reciprocal resource exchange, the algorithm iteratively refines the weight or importance of each item based on the density and depth of shared user preferences. Finally, the scores of items already connected with user \textit{i} are set to zero so as to not recommend items already connected with the user. A graphical representation of this process is shown in Figure \ref{subfig:prob_s}.
+
+HeatS works in a very similar way to ProbS except a nodes score in the first and second steps are calculate as a simple average of the nodes it is connected to. A  graphical representation of this process is shown in Figure \ref{subfig:heat_s}.
 
 \begin{figure}[!ht]
-\centering 
-\includegraphics[width=0.8\textwidth]{Prob S algorithm}
-\caption{Illustrations of Prob S Algorithm. Circles and squares represent users and items, respectively. The color-marked circle represents the target user for whom the recommendation is being computed. Figure taken from \cite{YU2016192}}
-\label{figure:Prob S}
+\centering
+\begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Prob S algorithm}
+    \caption{ProbS Algorithm}
+    \label{subfig:prob_s}
+\end{subfigure}
+\hfill % This adds space between the two subfigures
+\begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Heat S.jpg}
+    \caption{HeatS Algorithm}
+    \label{subfig:heat_s}
+\end{subfigure}
+\caption{Illustrations of the Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms. In both diagrams, circles and squares represent users and items, respectively. The color-marked circle signifies the target user for whom the recommendations are being computed. Figures adapted from \cite{YU2016192}.}
+\label{fig:algorithms}
 \end{figure}
 
-In order to evaluate the effectiveness of the recommender system, we perform a train-test split by randomly removing 20\% of each users ratings and subsequently calculate the AUC. The former metric measures the percentage of the top 10 recommendations that have been watched by the user, while the latter reports the percentage of the users top 10 favourite films that were recommended by the algorithm. 
+Although the distinction between the two algorithms is subtle, there is a stark difference between the recommendations they produce. The ProbS method exhibits a stronger preference for popular items as the process is cumulative; therefore, an item enhances its likelihood of achieving a high score by accumulating numerous links. In contrast, the HeatS approach tends to favour less popular items. This preference is due to the averaging nature of the HeatS algorithm, where an item can increase its potential for a high score by having a limited number of links to users who possess a significant amount of resource value. This distinction between the two methods highlights their unique approaches to leveraging network dynamics, where ProbS capitalizes on the popularity and widespread connectivity of items, whereas HeatS leverages the principle of scarcity and targeted endorsements from highly resourced users.
+
+As an extension of these algorithm, we also experiment with initialising weights proportional to the rating a user gave each movie. By doing so, we hope to provide prioritise movies that the user enjoyed more, potentially leading to more tailored recommendations. 
+
+
+\subsection{Temporal Analysis}
+
+To gain deeper insights into the long-term effects of these recommendation algorithms, we examine the evolving dynamics of the network with iterative applications of the algorithm. In each cycle, we posit that the user selects and watches the top-recommended movie, subsequently leading to an update of the binary bipartite network to reflect this new user-item interaction. The recommendation algorithm is then reapplied, taking into account the updated state of the network. This process is repeated, allowing us to observe how the network—and thus the recommendations—might evolve over time with continuous user engagement.
+
+Figure \ref{fig:temporal prob S} shows the recommendation counts after 1,  10 and 100 iterations of the binary ProbS algorithm, and the effect this has on the degree of each user.  The recommendation counts clearly illustrates a power-law distribution, indicating a strong preference by the algorithm for particular items. As a result, certain movies become highly connected, reaching a saturation point where nearly all users have watched with them. This saturation compels the algorithm to diversify its recommendations, thereby incrementally expanding the range of movies suggested to users. 
+
+
+\begin{figure}[!ht]
+\centering
+
+% First row with three figures
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Prob S movie rank plot - 1 iterations.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Prob S movie rank plot - 10 iterations.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Prob S movie rank plot - 100 iterations.png}
+\end{subfigure}
+
+\vspace{1em} % Add some vertical spacing between the rows
+
+% Second row with three figures
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Prob S movie recommendations - 1 iterations.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Prob S movie recommendations - 10 iterations.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Prob S movie recommendations - 100 iterations.png}
+\end{subfigure}
+
+\caption{ProbS - Recommendation Dynamics}
+\label{fig:temporal prob S}
+
+\end{figure}
+
+Figure \ref{fig:temporal heat S} shows the temporal analysis of the binary HeatS algorithm
+
+\begin{figure}[!ht]
+\centering
+
+% First row with three figures
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Heat S movie rank plot - 1 iterations.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Heat S movie rank plot - 10 iterations.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Heat S movie rank plot - 100 iterations.png}
+\end{subfigure}
+
+\vspace{1em} % Add some vertical spacing between the rows
+
+% Second row with three figures
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Heat S movie recommendations - 1 iterations.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Heat S movie recommendations - 10 iterations.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+    \includegraphics[width=\textwidth]{Heat S movie recommendations - 100 iterations.png}
+\end{subfigure}
+
+\caption{HeatS - Recommendation Dynamics}
+\label{fig:temporal heat S}
+
+\end{figure}
+
+
+
+\subsection{Out of Sample Performance}
+
+In order to evaluate the effectiveness of these recommender system, we perform a train-test split by randomly removing 20\% of each users ratings and subsequently calculate the Area Under the Curve (AUC) and average precision (i.e. percentage of recommendations that were actually liked by the user). The AUC is a performance metric used to evaluate the quality of binary classification models, which seemed a natural way to assess the performance of these algorithms since we can easily normalise the recommendation score given to be between 0 and 1. It represents tradeoff between the true and false positive rates at various threshold settings. The AUC ranges from 0 to 1, where a model with an AUC of 1 perfectly distinguishes between the two classes, and an AUC of 0.5 indicates no discriminative power, equivalent to random guessing. For the evaluation, a movie in the test set is deemed "liked" by a user if its rating exceeds the user's average rating across all movies in the training set, and thus we classify it as a good movie for the algorithm to recommend. To benchmark the results, we also calculate the average precision and AUC for a recommender system simply based on the average rating for each movie.
+
+\begin{figure}[!ht]
+    \centering  % Centers the table
+    \begin{tabular}{|p{6cm}|r|r|}
+        \hline
+        \textbf{Model} & \multicolumn{1}{p{4cm}|}{\textbf{AUC}} & \multicolumn{1}{p{4cm}|}{\textbf{Average Precision}}  \\
+        \hline
+        Using Average Rating & 0.67 & 0.67 \\
+        Prob S - uniform weight & 0.57 & 0.62 \\
+        Prob S - using ratings & 0.59 & 0.62 \\
+        Heat S - uniform weight & 0.51 & 0.54 \\
+        Heat S - using ratings & 0.54 & 0.57 \\
+        \hline
+    \end{tabular}
+    \caption{ProbS - Model performance} % Add your caption
+    \label{fig:prob s performance} % Label your figure for reference
+\end{figure}
+
+As shown in Figure \ref{fig:prob s performance}, both the ProbS and HeatS models perform worse than the recommendations from using a movies average rating, with the incorporations of ratings only resulting in a small improvement. This underperformance could be due to data sparsity and the "cold-start problem", where the Prob S algorithm struggles to make accurate predictions because of insufficient user-item interaction data. In contrast, average ratings don't rely on user interaction and can recommend popular items effectively.
 
 
 

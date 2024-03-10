@@ -6,7 +6,9 @@
 \contentsline {subsection}{\numberline {4.2}User-to-user network}{5}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Movie-to-Movie network}{7}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}User-to-Genre network}{7}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Probabilistic Spreading}{10}{section.5}%
-\contentsline {section}{\numberline {6}Collaborative Filtering}{11}{section.6}%
-\contentsline {section}{\numberline {7}Graphical Neural Networks}{11}{section.7}%
-\contentsline {section}{\numberline {8}Conclusions}{12}{section.8}%
+\contentsline {section}{\numberline {5}Random Walk Models}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Temporal Analysis}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Out of Sample Performance}{12}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Collaborative Filtering}{14}{section.6}%
+\contentsline {section}{\numberline {7}Graphical Neural Networks}{14}{section.7}%
+\contentsline {section}{\numberline {8}Conclusions}{15}{section.8}%

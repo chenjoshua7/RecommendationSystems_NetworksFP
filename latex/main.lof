@@ -12,4 +12,7 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces New Fans per Genre\relax }}{10}{figure.caption.8}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces New User-Genre Bipartite Graph\relax }}{10}{figure.caption.9}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Poisson fit with $n = 5.5$\relax }}{10}{figure.caption.9}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Illustrations of Prob S Algorithm. Circles and squares represent users and items, respectively. The color-marked circle represents the target user for whom the recommendation is being computed. Figure taken from \blx@tocontentsinit {0}\cite {YU2016192}\relax }}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Illustrations of the Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms. In both diagrams, circles and squares represent users and items, respectively. The color-marked circle signifies the target user for whom the recommendations are being computed. Figures adapted from \blx@tocontentsinit {0}\cite {YU2016192}.\relax }}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces ProbS - Recommendation Dynamics\relax }}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces HeatS - Recommendation Dynamics\relax }}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces ProbS - Model performance\relax }}{13}{figure.caption.13}%
