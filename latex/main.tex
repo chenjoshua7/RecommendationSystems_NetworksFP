@@ -464,7 +464,7 @@ Figure \ref{fig:temporal prob S} shows the recommendation counts after 1,  10 an
 
 \end{figure}
 
-Figure \ref{fig:temporal heat S} shows the temporal analysis of the binary HeatS algorithm
+Figure \ref{fig:temporal heat S} shows the temporal analysis of the binary HeatS algorithm. Unlike ProbS, HeatS distributes its recommendations more evenly among items, as evidenced by the flatter distribution of recommendation counts over iterations. Items less connected in the user-item bipartite network are given relatively higher visibility, shown by the degree of lesser connected movies increasing while that of more connected films stays relatively unchanged. This prevents the dominance of a few movies, giving users recommendations from a broader array of content.
 
 \begin{figure}[!ht]
 \centering
@@ -525,11 +525,9 @@ In order to evaluate the effectiveness of these recommender system, we perform a
     \label{fig:prob s performance} % Label your figure for reference
 \end{figure}
 
-As shown in Figure \ref{fig:prob s performance}, both the ProbS and HeatS models perform worse than the recommendations from using a movies average rating, with the incorporations of ratings only resulting in a small improvement. This underperformance could be due to data sparsity and the "cold-start problem", where the Prob S algorithm struggles to make accurate predictions because of insufficient user-item interaction data. In contrast, average ratings don't rely on user interaction and can recommend popular items effectively.
+As shown in Figure \ref{fig:prob s performance}, both the ProbS and HeatS models perform worse than the recommendations from using a movies average rating, with the incorporations of ratings only resulting in a small improvement. Furthermore, HeatS only performs slightly better than random. This underperformance could be due to data sparsity and the "cold-start problem", where the algorithms struggles to make accurate predictions because of insufficient user-item interaction data. In contrast, average ratings don't rely on user interaction and can recommend popular items effectively.
 
-
-
-
+This said, the poor performance of the random walk models in terms of AUC does not necessarily mean that they are of no use.  One key limitation is that our assessment is based solely on the movies held out in test that a user has already watched. These models might excel at suggesting new and diverse content that aligns with user preferences, yet this aspect remains unmeasured in this setting. This is likely to be particularly true of HeatS, which offers a more diverse array of suggests than ProbS or HeatS, which will often recommend items a user is already aware of.
 
 
 \section{Collaborative Filtering}
