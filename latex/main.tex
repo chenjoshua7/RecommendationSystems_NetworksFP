@@ -1,12 +1,11 @@
 
 \documentclass[12pt]{article}
 
+
 \usepackage{bbm}
 \usepackage{float}
 \usepackage{caption, subcaption}
 \usepackage[T1]{fontenc}
-\usepackage[backend=bibtex, maxbibnames=99, sorting=none]{biblatex}
-\addbibresource{sample.bib}
 \usepackage{url}
 \usepackage[utf8]{inputenc}
 \usepackage{booktabs} % For prettier tables
@@ -24,6 +23,11 @@
 \usepackage{multirow}
 \usepackage{enumitem}
 \usepackage{amssymb}
+
+\usepackage[backend=bibtex, maxbibnames=99, sorting=none]{biblatex}
+\addbibresource{sample.bib}
+
+
 \usepackage{framed}
 \usepackage{fancyhdr}
 \usepackage{vmargin}
@@ -151,11 +155,15 @@
 
 \section{Introduction}
 
-Popular recommendation techniques in Machine Learning often apply many network and network-adjacent concepts to create personalized recommendations. The matrix of user-to-item scores can be thought of as the adjacency matrix of a bipartite network - with the users representing one set of nodes and the items representing the other. The edges are represented either by binary or scalar relationships between users and items, implying unweighted or weighted graphs respectively.
+With the increase in choice across various domains, from entertainment to online social networks, recommendation systems have become increasingly crucial in alleviating information overload and shaping experience in every-day life. This has fueled demand for ever more sophisticated methods to delivery personalised recommendations as the variety of choice continues to expand. Historically, personal recommendations were primarily sourced from one's social circles, operating on the premise that friends or acquaintances with similar interests or tastes could offer valuable suggestions. This traditional approach, while effective to a degree, was inherently limited by the scope of one's immediate social network. However, modern recommendations systems now operate and build on a similar premise, leveraging network and network-adjacent concepts to understand the connections between people and tailor recommendations to individuals preference. By using historic consumer preference data, one can build a matrix of user-to-item scores that can be thought of as the adjacency matrix of a bipartite network - with the users representing one set of nodes and the items representing the other. The edges are represented either by binary or scalar relationships between users and items, implying unweighted or weighted graphs respectively.
 
-Our project is two-fold. Using the concepts learned in this course, we will first analyze one of these networks to identify trends and patterns and extract information. We will then study and build recommendation systems and propose/implement new strategies and techniques derived from the first part to improve methodologies.
+Our project is two-fold. Using the concepts learned in this course, we will first analyse the properties of a network build from the MovieLens dataset. We will then review and build recommendation systems using a variety of network techniques commonly used in the literature.
 
 \section{Literature Review}
+
+The exploration and application of network analysis in the context of building recommender systems is a widely studied topic. This began with the development of the Collaborative Filtering (CF) in the 1990s - a technique that pioneered the construction of user preference networks to tailor recommendations. CF has been applied and studied in many scenarios using a wide variety of datasets, for example, Amazon first began using collaborative filtering in the late 1990s to recommend users products \cite{collab_f}. While, according to \cite{survey_reccomendation}, Collaborative Filtering is the most widely studied recommendation model, accounting for over 41\% of all papers, research on the topic has begun to decline since 2014.
+
+Recent trends in recommendation system research have built on the foundational work of CF and shifted towards other techniques such random walk processes \cite{prob_s} and, more prominently, Graphical Neural Networks (GNN). GNNs can encode the complex relationships within user-item interaction graphs into dense, low-dimensional vector representations,  uncovering subtle relationships and patterns overlooked by traditional CF models . As a result, GNNs have been used in a wide variety of practical applications including designing web-scale reccomedation systems based on networks with billions of nodes \cite{GNNwebscale}. This said, they are harder to build and interpret than traditional CF models, and come at greater computational cost \cite{collab_f}. 
 
 \section{Dataset}
 
@@ -387,11 +395,9 @@ This simplified version finds the difference between a user's score per genre wi
 
 The distribution of fans across genres is now much more even and the degree distribution among fans aligns closely a Poisson with mean 5.5.
 
-\section{Random Walk Models}
+\section{Random Walk Recommendation Systems}
 
-In this section, we explore recommendation systems that directly leverage the network structure of the data. In particular, we consider Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms which are based off a random walk process which directly use a binary user-items bipartite network to provide a ranking to movies that they have not seen.
-
-In this section, we explore recommendation systems that directly leverage the network structure of the data. Specifically, we focus on the Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms, which employ a random walk process within a binary user-item bipartite network. 
+In this section, we explore recommendation systems that directly leverage the network structure of the data. Specifically, we focus on the Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms, which employ a random walk process within a binary user-item bipartite network to provide a ranking to movies that a user has not seen.
 
 For a given user \textit{i} , the ProbS algorithm initialises by giving a unit amount of resource to all items that they are connected to. The algorithm then employs a two-step random walk process to redistribute these resources, aiming to accentuate items preferred by users with similar tastes.
 
@@ -412,7 +418,7 @@ HeatS works in a very similar way to ProbS except a nodes score in the first and
     \caption{HeatS Algorithm}
     \label{subfig:heat_s}
 \end{subfigure}
-\caption{Illustrations of the Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms. In both diagrams, circles and squares represent users and items, respectively. The color-marked circle signifies the target user for whom the recommendations are being computed. Figures adapted from \cite{YU2016192}.}
+\caption{Illustrations of the Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms. In both diagrams, circles and squares represent users and items, respectively. The color-marked circle signifies the target user for whom the recommendations are being computed. Figures adapted from \cite{prob_s}.}
 \label{fig:algorithms}
 \end{figure}
 
@@ -540,10 +546,11 @@ This said, the poor performance of the random walk models in terms of AUC does n
 
 
 
-%\bibliographystyle{plain}
-%\bibliography{Bibliography.bib}
 
 \newpage
-\printbibliography[heading=bibintoc]
+
+
+
+\printbibliography
 
 \end{document}
