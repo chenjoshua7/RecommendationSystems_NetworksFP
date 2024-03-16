@@ -367,22 +367,13 @@ F_{gi}^* = \left(\frac{R_{gi} - R_i}{R_g}\right)\mathbbm{1}{\{C_g > 10\}}
 \]
 
 This simplified version finds the difference between a user's score per genre with the average rating per genre and normalizes it by the average rating of that user. The threshold for being a fan here was set to 0.5. Here are the results:
+
 \begin{figure}[h!]
-\centering
     \begin{minipage}[b]{0.5\linewidth}
          \centering
   	\includegraphics[width=0.99\textwidth]{fansgenre1.png}
   	\label{fig:fanspergenre}
 	 \caption{New Fans per Genre}
-    \end{minipage} 
-\end{figure}
-
-\begin{figure}[h!]
-    \begin{minipage}[b]{0.5\linewidth}
-         \centering
-  	\includegraphics[width=0.99\textwidth]{newgenrebipartite.png}
-  	\label{fig:fanspergenre}
-	 \caption{New User-Genre Bipartite Graph}
     \end{minipage} 
     \hspace{0.1cm}
     \begin{minipage}[b]{0.5\linewidth}
@@ -535,13 +526,68 @@ As shown in Figure \ref{fig:prob s performance}, both the ProbS and HeatS models
 
 This said, the poor performance of the random walk models in terms of AUC does not necessarily mean that they are of no use.  One key limitation is that our assessment is based solely on the movies held out in test that a user has already watched. These models might excel at suggesting new and diverse content that aligns with user preferences, yet this aspect remains unmeasured in this setting. This is likely to be particularly true of HeatS, which offers a more diverse array of suggests than ProbS or HeatS, which will often recommend items a user is already aware of.
 
-
 \section{Collaborative Filtering}
+For comparison, we implemented a basic user-based Collaborative Filtering system. Using the user similarity network and user-to-movie reviews, we are able to calculate predicted scores using the following formula:
 
+\[
+\hat{R_j} = \frac{\sum_{i=1}^n S_{ij}R_i}{\sum_{i=1}^n S_{ij}}
+\]
+
+$R_j$ is the predicted score for user j and $S_{ij}$ is the similarity score between user i and user j. Esentially, we are taking an average of all other reviews weighting by similarity score.
+
+One issue we quickly found is that there were a couple movies that were always getting predicted repeatedly at 5.0.  We then realized is that this was because these movies only had one or two perfect reviews. Therefore we only apply this formula to movies that user j hasn't seen with at least 5 people in common (at least 5 similarities).
+
+Therefore, to pick a recommendation for a user, we cycle through all movies that the user j hasn't seen and calculate predicted scores. We then select recommendations based off of highest predicted ratings.
+
+\begin{figure}[h!]
+    \begin{minipage}[b]{01\linewidth}
+         \centering
+  	\includegraphics[width=0.9\textwidth]{314_recs}
+  	\caption{Recomendations for User 314}
+  	\label{fig:UN_degreeinfo}
+    \end{minipage}
+\end{figure}
+
+After running this for every single user, we see a pattern for the top reviews recommend. Figure 6.2 shows that top 10 top-recommended movies. We see the cold start problem. All top recommended movies are movies that are generally highly rated and with a lot of reviews. All top 10 movies were released before 2000 despite this being not at all rerpresentative of the total population of movies.
+
+\begin{figure}[h!]
+    \begin{minipage}[b]{01\linewidth}
+         \centering
+  	\includegraphics[width=0.9\textwidth]{colab_filter.png}
+  	\caption{Top Recommendation of Movies}
+  	\label{fig:UN_degreeinfo}
+    \end{minipage}
+\end{figure}
+
+\subsection{Validation}
+
+\subsubsection{Mean Square Error}
+Because this model is able to produce predictied ratings, we are able to use mean square error to calculate model performance.  Because it would too computationally expensive to test every single movie, we take a Monte Carlo approach towards this. We randomly select a user and from the users films, we randomly select a movie they have seen. We calculate the expected rating given our model and calculate the mean squared error. We do this for 1000 movies.
+
+After conducting this 20 times, we get an average Mean Squared Error of 0.9694. For reference, by just predicting the average rating, following the same process, we get an average Mean Squared Error of 1.079. Therefore, it's slightly better than average but not by much.
+
+While the ability to output interpretable predict ratings is a nice benefit of this simple collaborative filtering system, it's not necessarily that useful. When watching recommended movies, while it might be nice to get a 5.0 movies instead of a 4.8 movie, the difference is generally indstinguishable and either one would be considered a successs. Generally, the only thing that matters is whether or not a movie should or shouldn't have been recommended. If you lliked the movie, then the recommendation worked. If you didn't then the recommendation did not work. Therefore this becomes a binary classification problem.
+
+\subsubsection{Binary Classification}
+
+We will evalutate peformance based on Precisinon, Recall, and Accuracy, That way, we can also compare the peformance of the ProbS and HeatS models. For binary classification, we consider a rating to be positive if it is 4 or above. From our samples of reviews, we have a pretty balanced dataset with 48580 positive reviews, and 52256 negative reviews.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.5\textwidth]{conf_mat.png}
+  \caption{Confusion Matrix with Collaborative Filtering}
+  \label{fig:UN_degreeinfo}
+\end{figure}
+
+Figure 6.3 is the Confusion Matrix after running this with 90418 reviews. What we see is a huge inbalance towards preditcing negative reviews. This results in an accuracy of 0.546, recall of 0.241, and precision of 0.770.
+
+However, the most important metric here is precision. When discussing with an industry professional who worked on a system for a e-commerce website, he said that they mostly looked at recall. In that situation, it make snse that the "error" of recommending an item that a user doesn't want is not as bad as not recommending something the user would've bought. One is a negligible annoyance and the other is missed revenue. However, in our case, it is much more important to recommend ONLY movies that people enjoy moreso than recdommedning all movies that a person would enjoy. 
+
+Therefore, we see that even this simple Collaborative Filtering system beats ProbS, HeatS, and the baseline.
 \section{Graphical Neural Networks}
 
-\newpage
 \section{Conclusions}
+
 \vspace{1em} 
 
 
