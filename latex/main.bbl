@@ -1,0 +1,295 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{collab_f}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EMD}{%
+         family={Ekstrand},
+         familyi={E\bibinitperiod},
+         given={Michael\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RJT}{%
+         family={Riedl},
+         familyi={R\bibinitperiod},
+         given={John\bibnamedelima T.},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=KJA}{%
+         family={Konstan},
+         familyi={K\bibinitperiod},
+         given={Joseph\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EMDRJTKJA1}
+    \strng{fullhash}{EMDRJTKJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1561/1100000009
+    \endverb
+    \field{issn}{1551-3955}
+    \field{number}{2}
+    \field{pages}{81\bibrangedash 173}
+    \field{title}{Collaborative Filtering Recommender Systems}
+    \verb{url}
+    \verb http://dx.doi.org/10.1561/1100000009
+    \endverb
+    \field{volume}{4}
+    \field{journaltitle}{Foundations and Trends{\textregistered} in
+  Human--Computer Interaction}
+    \field{year}{2011}
+  \endentry
+
+  \entry{survey_reccomendation}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KH}{%
+         family={Ko},
+         familyi={K\bibinitperiod},
+         given={Hyeyoung},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Suyeon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PY}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Yoonseo},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KH+1}
+    \strng{fullhash}{KHLSPYCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    This paper reviews the research trends that link the advanced technical
+  aspects of recommendation systems that are used in various service areas and
+  the business aspects of these services. First, for a reliable analysis of
+  recommendation models for recommendation systems, data mining technology, and
+  related research by application service, more than 135 top-ranking articles
+  and top-tier conferences published in Google Scholar between 2010 and 2021
+  were collected and reviewed. Based on this, studies on recommendation system
+  models and the technology used in recommendation systems were systematized,
+  and research trends by year were analyzed. In addition, the application
+  service fields where recommendation systems were used were classified, and
+  research on the recommendation system model and recommendation technique used
+  in each field was analyzed. Furthermore, vast amounts of application
+  service-related data used by recommendation systems were collected from 2010
+  to 2021 without taking the journal ranking into consideration and reviewed
+  along with various recommendation system studies, as well as applied service
+  field industry data. As a result of this study, it was found that the flow
+  and quantitative growth of various detailed studies of recommendation systems
+  interact with the business growth of the actual applied service field. While
+  providing a comprehensive summary of recommendation systems, this study
+  provides insight to many researchers interested in recommendation systems
+  through the analysis of its various technologies and trends in the service
+  field to which recommendation systems are applied.%
+    }
+    \verb{doi}
+    \verb 10.3390/electronics11010141
+    \endverb
+    \field{issn}{2079-9292}
+    \field{number}{1}
+    \field{title}{A Survey of Recommendation Systems: Recommendation Models,
+  Techniques, and Application Fields}
+    \verb{url}
+    \verb https://www.mdpi.com/2079-9292/11/1/141
+    \endverb
+    \field{volume}{11}
+    \field{journaltitle}{Electronics}
+    \field{year}{2022}
+  \endentry
+
+  \entry{prob_s}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YF}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zeng},
+         familyi={Z\bibinitperiod},
+         given={An},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gillard},
+         familyi={G\bibinitperiod},
+         given={S{\'e}bastien},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Medo},
+         familyi={M\bibinitperiod},
+         given={Mat{\'u}{\v s}},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Information filtering, Recommender systems, Complex networks, Random
+  walk}
+    \strng{namehash}{YF+1}
+    \strng{fullhash}{YFZAGSMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Recommender systems are a vital tool that helps us to overcome the
+  information overload problem. They are being used by most e-commerce web
+  sites and attract the interest of a broad scientific community. A recommender
+  system uses data on users' past preferences to choose new items that might be
+  appreciated by a given individual user. While many approaches to
+  recommendation exist, the approach based on a network representation of the
+  input data has gained considerable attention in the past. We review here a
+  broad range of network-based recommendation algorithms and for the first time
+  compare their performance on three distinct real datasets. We present
+  recommendation topics that go beyond the mere question of which algorithm to
+  use--such as the possible influence of recommendation on the evolution of
+  systems that use it--and finally discuss open research directions and
+  challenges.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.physa.2016.02.021
+    \endverb
+    \field{issn}{0378-4371}
+    \field{pages}{192\bibrangedash 208}
+    \field{title}{Network-based recommendation algorithms: A review}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0378437116001874
+    \endverb
+    \field{volume}{452}
+    \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+    \field{year}{2016}
+  \endentry
+
+  \entry{GNNwebscale}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=YR}{%
+         family={Ying},
+         familyi={Y\bibinitperiod},
+         given={Rex},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Ruining},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Kaifeng},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Eksombatchai},
+         familyi={E\bibinitperiod},
+         given={Pong},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HWL}{%
+         family={Hamilton},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima L.},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Leskovec},
+         familyi={L\bibinitperiod},
+         given={Jure},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{scalability, recommender systems, graph convolutional networks, deep
+  learning}
+    \strng{namehash}{YR+1}
+    \strng{fullhash}{YRHRCKEPHWLLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Recent advancements in deep neural networks for graph-structured data have
+  led to state-of-the-art performance on recommender system benchmarks.
+  However, making these methods practical and scalable to web-scale
+  recommendation tasks with billions of items and hundreds of millions of users
+  remains an unsolved challenge. Here we describe a large-scale deep
+  recommendation engine that we developed and deployed at Pinterest. We develop
+  a data-efficient Graph Convolutional Network (GCN) algorithm, which combines
+  efficient random walks and graph convolutions to generate embeddings of nodes
+  (i.e., items) that incorporate both graph structure as well as node feature
+  information. Compared to prior GCN approaches, we develop a novel method
+  based on highly efficient random walks to structure the convolutions and
+  design a novel training strategy that relies on harder-and-harder training
+  examples to improve robustness and convergence of the model. We also develop
+  an efficient MapReduce model inference algorithm to generate embeddings using
+  a trained model. Overall, we can train on and embed graphs that are four
+  orders of magnitude larger than typical GCN implementations. We show how GCN
+  embeddings can be used to make high-quality recommendations in various
+  settings at Pinterest, which has a massive underlying graph with 3 billion
+  nodes representing pins and boards, and 17 billion edges. According to
+  offline metrics, user studies, as well as A/B tests, our approach generates
+  higher-quality recommendations than comparable deep learning based systems.
+  To our knowledge, this is by far the largest application of deep graph
+  embeddings to date and paves the way for a new generation of web-scale
+  recommender systems based on graph convolutional architectures.%
+    }
+    \field{booktitle}{Proceedings of the 24th ACM SIGKDD International
+  Conference on Knowledge Discovery \& Data Mining}
+    \verb{doi}
+    \verb 10.1145/3219819.3219890
+    \endverb
+    \field{isbn}{9781450355520}
+    \field{pages}{974\bibrangedash 983}
+    \field{series}{KDD '18}
+    \field{title}{Graph Convolutional Neural Networks for Web-Scale Recommender
+  Systems}
+    \verb{url}
+    \verb https://doi.org/10.1145/3219819.3219890
+    \endverb
+    \list{location}{1}{%
+      {London, United Kingdom}%
+    }
+    \field{year}{2018}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+\enddatalist
+\endinput
