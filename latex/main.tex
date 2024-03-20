@@ -167,11 +167,11 @@ Recent trends in recommendation system research have built on the foundational w
 
 \section{Dataset}
 
-MovieLens is popular movie recommender system dataset developed by GroupLens, a computer science research lab at the University of Minnesota. The goal of this challenge is to recommend movies to its users based on their movie ratings. Group Lens offers datasets of different sizes and their datasets are widely used in research and teaching contexts.
+MovieLens is popular movie recommender system dataset developed by GroupLens, a computer science research lab at the University of Minnesota. The proposed challenge is to recommend movies to its users based on their movie ratings. GroupLens offers datasets of different sizes, their datasets are widely used in research and teaching contexts.
 
-The selected dataset consists mainly on two files: movies.csv and ratings.csv. Movies dataset has 9,742 unique films and a column indicating the genres of the film. All possible genres are: 'Romance', 'Musical', 'Children', 'Documentary', 'Sci-Fi', 'Film-Noir', '(no genres listed)', 'Crime', 'Mystery', 'Drama', 'Western', 'Fantasy', 'Animation', 'Thriller', 'War', 'Action', 'Adventure', 'IMAX', 'Comedy', 'Horror'. The number of movies per genre is represented in Figure \ref{fig:count_genre}.
+The selected dataset consists mainly on two files: \textit{movies.csv} and  \textit{ratings.csv}. Movies dataset has 9,742 unique films. A column in the dataset indicates all the genres of each film. The genres are: 'Romance', 'Musical', 'Children', 'Documentary', 'Sci-Fi', 'Film-Noir', '(no genres listed)', 'Crime', 'Mystery', 'Drama', 'Western', 'Fantasy', 'Animation', 'Thriller', 'War', 'Action', 'Adventure', 'IMAX', 'Comedy', 'Horror'. The number of movies per genre is represented in Figure \ref{fig:count_genre}.
 
-Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,724 movies. As it can be observed in Figure \ref{fig:count_rating}, the ratings from users are right-skewed, which suggests that users tend to enter their rating on movies that they probably have liked. Ratings from users have been registered from 1996-03-29 until 2018-09-24. The most popular movies among users have been: Shawshank Redemption, The (1994), Godfather, The (1972), Fight Club (1999), Godfather: Part II, The (1974) and Goodfellas (1990).
+Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,724 movies. As it can be observed in Figure \ref{fig:count_rating}, the ratings from users are right-skewed, which suggests that users tend to register their rating on movies that they probably have liked. Ratings from users have been registered from 1996-03-29 until 2018-09-24. The most popular movies among users have been: Shawshank Redemption, The (1994), Godfather, The (1972), Fight Club (1999), Godfather: Part II, The (1974) and Goodfellas (1990).
 
 \begin{figure}[h!]
     \begin{minipage}[b]{0.49\linewidth}
@@ -189,28 +189,27 @@ Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,7
     \end{minipage}
 \end{figure}
 
-The median user has rated 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2698.
+The median user has rated about 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2,698.
 
 \begin{figure}[h!]
     \begin{minipage}[b]{0.49\linewidth}
          \centering
-  	\includegraphics[width=0.99\textwidth]{count_user.png}
-  	\caption{Count of Movies per User}
+  	\includegraphics[width=0.99\textwidth]{ratings_evolution_2.png}
+  	\caption{Evolution of ratings per movie}
   	\label{fig:count_user}
     \end{minipage}
     \hspace{0.01cm}
     \begin{minipage}[b]{0.49\linewidth}
         \centering
-  	\includegraphics[width=0.99\textwidth]{prophet.png}
-  	\caption{Time Series Analysis of Ratings with Prophet}
+  	\includegraphics[width=0.99\textwidth]{ratings_evolution.png}
+  	\caption{Evolution of ratings}
   	\label{fig:ranking_ts}
     \end{minipage}
 \end{figure}
 
 \section{Network analysis}
 
-With the MovieLens dataset, we created 4 different networks.  The first, the user-movie network, is the aforementioned user-item network that will serve as the foundation for both the other networks and the recommendation systems that we build. From this network, we also
-constructed a user-to-user network - a symmetric unipartite network capturing the similarity between users. Similarly, we did this for the movies as well. Finally, we created another bipartite network that, instead of capturing relationships between users and specific movies, it describes the "fan score" between a user and a genre of movie.
+With the MovieLens dataset, we created 4 different networks.  The first, the user-movie network, is the aforementioned user-item network that will serve as the foundation for both the other networks and the recommendation systems that we build. From this network, we also constructed a user-to-user network - a symmetric unipartite network capturing the similarity between users. Similarly, we did this for the movies as well. Finally, we created another bipartite network that, instead of capturing relationships between users and specific movies, it describes the "fan score" between a user and a genre of movie.
 
 \subsection{User and movie bipartite network}
 
