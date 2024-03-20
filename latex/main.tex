@@ -189,21 +189,21 @@ Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,7
     \end{minipage}
 \end{figure}
 
-The median user has rated about 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2,698.
+The median user has rated about 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2,698. In Figure \ref{fig:ranking_ts}, the evolution of ratings over time is depicted. Despite some occasional spikes, the time series seems to be some seasonality. Furthermore, Figure \ref{fig:evolution_2} illustrates the trend in the number of movies rated 0 and 2, movies rated 3 to 10, etc. It is notable that users opt for films with fewer recommendations, probably because they are newly released films. However, most popular films gain more ratings over time which denotes the effect richer get richer.
 
 \begin{figure}[h!]
-    \begin{minipage}[b]{0.49\linewidth}
-         \centering
-  	\includegraphics[width=0.99\textwidth]{ratings_evolution_2.png}
-  	\caption{Evolution of ratings per movie}
-  	\label{fig:count_user}
-    \end{minipage}
-    \hspace{0.01cm}
     \begin{minipage}[b]{0.49\linewidth}
         \centering
   	\includegraphics[width=0.99\textwidth]{ratings_evolution.png}
   	\caption{Evolution of ratings}
   	\label{fig:ranking_ts}
+    \end{minipage}
+    \hspace{0.01cm}
+     \begin{minipage}[b]{0.49\linewidth}
+         \centering
+  	\includegraphics[width=0.99\textwidth]{ratings_evolution_2.png}
+  	\caption{Evolution of ratings per movie}
+  	\label{fig:evolution_2}
     \end{minipage}
 \end{figure}
 
@@ -306,6 +306,10 @@ Again, these similarities can be conceived of as an adjacency matrix - this for 
 \end{figure}
 
 \subsection{Movie-to-Movie network}
+
+A similar procedure as done in previous section \textit{User-to-user network} can be done to obtain a movie-to-movie similarity score matrix that will be considered as the adjacency matrix of the movie-to-movie network. Figure \ref{??} and Figure \ref{} describe the network distribution. 
+
+In this section, community detection would be performed in order to identify communities among the movies. 
 
 \subsection{User-to-Genre network}
 
