@@ -155,7 +155,7 @@
 
 \section{Introduction}
 
-With the increase in choice across various domains, from entertainment to online social networks, recommendation systems have become increasingly crucial in alleviating information overload and shaping experience in every-day life. This has fueled demand for ever more sophisticated methods to delivery personalised recommendations as the variety of choice continues to expand. Historically, personal recommendations were primarily sourced from one's social circles, operating on the premise that friends or acquaintances with similar interests or tastes could offer valuable suggestions. This traditional approach, while effective to a degree, was inherently limited by the scope of one's immediate social network. However, modern recommendations systems now operate and build on a similar premise, leveraging network and network-adjacent concepts to understand the connections between people and tailor recommendations to individuals preference. By using historic consumer preference data, one can build a matrix of user-to-item scores that can be thought of as the adjacency matrix of a bipartite network - with the users representing one set of nodes and the items representing the other. The edges are represented either by binary or scalar relationships between users and items, implying unweighted or weighted graphs respectively.
+With the increase in choice possibilities across various domains, from entertainment to online social networks, recommendation systems have become increasingly crucial in alleviating information overload and shaping experience in every-day life. This has fueled demand for ever more sophisticated methods to delivery personalised recommendations as the variety of choice continues to expand. Historically, personal recommendations were primarily sourced from one's social circles, operating on the premise that friends or acquaintances with similar interests or tastes could offer valuable suggestions. This traditional approach, while effective to a degree, was inherently limited by the scope of one's immediate social network. However, modern recommendations systems now operate and build on a similar premise, leveraging network and network-adjacent concepts to understand the connections between people and tailor recommendations to individuals preference. By using historic consumer preference data, one can build a matrix of user-to-item scores that can be thought of as the adjacency matrix of a bipartite network - with the users representing one set of nodes and the items representing the other. The edges are represented either by binary or scalar relationships between users and items, implying unweighted or weighted graphs respectively.
 
 Our project is two-fold. Using the concepts learned in this course, we will first analyse the properties of a network build from the MovieLens dataset. We will then review and build recommendation systems using a variety of network techniques commonly used in the literature.
 
@@ -163,7 +163,7 @@ Our project is two-fold. Using the concepts learned in this course, we will firs
 
 The exploration and application of network analysis in the context of building recommender systems is a widely studied topic. This began with the development of the Collaborative Filtering (CF) in the 1990s - a technique that pioneered the construction of user preference networks to tailor recommendations. CF has been applied and studied in many scenarios using a wide variety of datasets, for example, Amazon first began using collaborative filtering in the late 1990s to recommend users products \cite{collab_f}. While, according to \cite{survey_reccomendation}, Collaborative Filtering is the most widely studied recommendation model, accounting for over 41\% of all papers, research on the topic has begun to decline since 2014.
 
-Recent trends in recommendation system research have built on the foundational work of CF and shifted towards other techniques such random walk processes \cite{prob_s} and, more prominently, Graphical Neural Networks (GNN). GNNs can encode the complex relationships within user-item interaction graphs into dense, low-dimensional vector representations,  uncovering subtle relationships and patterns overlooked by traditional CF models . As a result, GNNs have been used in a wide variety of practical applications including designing web-scale reccomedation systems based on networks with billions of nodes \cite{GNNwebscale}. This said, they are harder to build and interpret than traditional CF models, and come at greater computational cost \cite{collab_f}. 
+Recent trends in recommendation system research have built on the foundational work of CF and shifted towards other techniques such random walk processes \cite{prob_s} and, more prominently, Graphical Neural Networks (GNN). GNNs can encode the complex relationships within user-item interaction graphs into dense, low-dimensional vector representations,  uncovering subtle relationships and patterns overlooked by traditional CF models . As a result, GNNs have been used in a wide variety of practical applications including designing web-scale recommedation systems based on networks with billions of nodes \cite{GNNwebscale}. This said, they are harder to build and interpret than traditional CF models, and come at greater computational cost \cite{collab_f}. 
 
 \section{Dataset}
 
@@ -189,7 +189,7 @@ Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,7
     \end{minipage}
 \end{figure}
 
-The median user has rated about 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2,698. In Figure \ref{fig:ranking_ts}, the evolution of ratings over time is depicted. Despite some occasional spikes, the time series seems to be some seasonality. Furthermore, Figure \ref{fig:evolution_2} illustrates the trend in the number of movies rated 0 and 2, movies rated 3 to 10, etc. It is notable that users opt for films with fewer recommendations, probably because they are newly released films. However, most popular films gain more ratings over time which denotes the effect richer get richer.
+The median user has rated about 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2,698. In Figure \ref{fig:ranking_ts}, the evolution of ratings over time is depicted. Despite some occasional spikes, the time series seems to be some seasonality. Furthermore, Figure \ref{fig:evolution_2} illustrates the trend in the number of movies rated 0 and 2, movies rated 3 to 10, etc. It is notable that users opt for films with fewer recommendations, probably because they are newly released films. However, most popular films gain more ratings over time which denotes the effect of richer get richer.
 
 \begin{figure}[h!]
     \begin{minipage}[b]{0.49\linewidth}
@@ -213,7 +213,7 @@ With the MovieLens dataset, we created 4 different networks.  The first, the use
 
 \subsection{User and movie bipartite network}
 
-To create the user/movie bipartite network, we used the Networkx package in Python. We selected the unique User Ids as one set of nodes and the movie titles as another. Edges were then added if a user has seen a movie. Note that this is a undirected, unweighted graph. Ratings are not considered here.
+To create the user/movie bipartite network, we used the Networkx package in Python. We selected the unique User Ids as one set of nodes and the movie titles as another. Edges were then added if a user has seen a movie. Note that this is an undirected, unweighted graph. Ratings are not considered here.
 
 Despite an incredibly sparse matrix, understandably with close to 10,000 movies - this results in a connected graph - meaning there is only one component.
 
@@ -286,7 +286,7 @@ It is important to note already that the most highly centralized movies are all 
 
 To construct the user-to-user network, we calculated the similarity between all users as our edges.  We first pivoted the Ratings dataframe on the \textit{UserId}. Our resulting dataframe has the UserId as the index, the Movies as the columns, and any user ratings inside. This is exactly the adjacency matrix for the User to Movie network that we created in the previous section; however, just weighted edges based on ratings.
 
-We used cosine similarity as our node embedding technique to map user vectors into Euclidean space. Cosine similarity is a common space because it ignores magnitude and focuses only on directions in space. For example, A harsh critic might rate an average movie a 2 but a more generous critic might consider average to be 3. This would not affect at all the cosine similarity (if we kept the ratings positive). A similarity measure such as Euclidean distance would fail here because the more movies you add can only possibly add distance. Therefore people are punished for actually having seen more of the same films.
+We used cosine similarity as our node embedding technique to map user vectors into Euclidean space. Cosine similarity is a common space because it ignores magnitude and focuses only on directions in space. For example, a harsh critic might rate an average movie a 2 but a more generous critic might consider average to be 3. This would not affect at all the cosine similarity (if we kept the ratings positive). A similarity measure such as Euclidean distance would fail here because the more movies you add can only possibly add distance. Therefore people are punished for actually having seen more of the same films.
 
 Because this is an incredibly sparse matrix, in order to calculate similarity scores, we only used the films that people had shared reviews for. However, this could result in the case where two people are assigned similarities despite having very little in common. For example, if two people who have wildly different preferences watched one random movie and both gave it 4 stars, these two people would be assigned a perfect similarity when, clearly, this should not be the case. To mitigate this, we only kept similarity scores for people that have rated 10 or more movies in common.
 
@@ -307,7 +307,7 @@ Again, these similarities can be conceived of as an adjacency matrix - this for 
 
 \subsection{Movie-to-Movie network}
 
-A similar procedure as done in previous section \textit{User-to-user network} can be done to obtain a similarity score matrix that will be considered as the adjacency matrix of the movie-to-movie network. Figure \ref{fig:MN_degreeinfo} describe the network distribution. 
+A similar procedure as done in previous section \textit{User-to-user network} can be done to obtain a similarity score matrix that will be considered as the adjacency matrix of the movie-to-movie network. Figure \ref{fig:MN_degreeinfo} describes the network distribution. 
 
 \begin{figure}[h!]
     \centering
@@ -316,9 +316,9 @@ A similar procedure as done in previous section \textit{User-to-user network} ca
   	\label{fig:MN_degreeinfo}
 \end{figure}
 
-In this section, community detection algorithms would be used to identify potential communities among the movies. The edges in the obtained undirected graph correspond to similarity between films that most users like have liked them, edges with movies that obtained a bad ratings, ratings with less than 2.5 that make the cosine similarity be negative are discarded. 
+In this section, community detection algorithms will be used to identify potential communities among the movies. The edges in the obtained undirected graph correspond to a similarity score between films that commonyly users like have liked them. 
 
-For the community detection several options have been tested (Louvain, DC-SBM and greedy). Most of them take long to run for a network with 95,219 edges and 1,848 nodes, which is not really big. The selected algorithm is greedy which is a function that uses Clauset-Newman-Moore greedy modularity maximization to find the community partition with the largest modularity \cite{}.
+For the community detection several options have been tested (Louvain, DC-SBM and greedy). Most of them take long to run for a network with 95,219 edges and 1,848 nodes, which is not really big network. Greedy algorithm provided a good result in reasonable amount of time. Greedy uses Clauset-Newman-Moore greedy modularity maximization to find the community partition with the largest modularity \cite{greedy}.
 
 The modularity is defined as: 
 \begin{equation}
@@ -326,6 +326,15 @@ Q = \frac{1}{2m} \sum_{ij} ( A_{ij} - \gamma \frac{k_i k_j}{2m}) \delta (c_i, c_
 \end{equation}
 
 where $m$ is the number of edges, $A$ is the adjacency matrix of G, $k_i$ is the (weighted) degree of $i$, $\gamma$ is the resolution parameter, and $\delta (c_i, c_j)$ is 1 if $i$ and $j$ are in the same community else 0. If resolution is less than 1, modularity favors larger communities. Greater than 1 favors smaller communities.
+
+The greedy algorithm detects 10 communities, with a modularity of 0.18163. Only 5 communities have more than 5 movies or nodes in them. In Figure \ref{fig:comm_detection}, the different communities in the graph can be observed.
+
+\begin{figure}[h!]
+    \centering
+  	\includegraphics[width=0.8\textwidth]{community_detection.png}
+  	\caption{Movie Network communities}
+  	\label{fig:comm_detection}
+\end{figure}
 
 \newpage
 
@@ -684,7 +693,7 @@ With the top 10 scores predicted by the model, we evaluate how LightGCN performs
 	\item Normalized Discounted Cumulative Gain = 0.324148 (evaluates how well the predicted items for a user are ranked based on relevance)
 \end{enumerate}
 
-The figure \ref{fig:top_20_movies} shows top 20 most recommend movies for all users. This time, we get very famous movies, such as, Forest Gum, Matrix, Terminator, lord of the rings and Star Wars movies, that make sense. Then, we can assume that the metrics used by the code indicates a good enough performance.
+The figure \ref{fig:top_20_movies} shows top 20 most recommend movies for all users. This time, we get very famous movies, such as, Forest Gum, Matrix, Terminator, Lord of the Rings and Star Wars movies. Then, we can assume that the metrics used by the code indicates a good enough performance.
 
 
 \begin{figure}[h]
@@ -694,8 +703,18 @@ The figure \ref{fig:top_20_movies} shows top 20 most recommend movies for all us
 	\label{fig:top_20_movies}
 \end{figure}
 
-
+\newpage
 \section{Conclusions}
+
+Recommendation problems can be tackled with network analysis techniques. Different types of graphs can be constructed such as a bipartite network between users and items (in this case movies) or a weighted graph between users where the weight in an edge corresponds to the similarity between them. 
+
+A further analysis has been done to the resulting networks after creating an adjacency matrix that links users between users and movies between movies. Later different approaches to generate movie recommendations to users have been developed simplifying the problem into a binary classification. Random Walk provided a poor performance compared to just using the average rating and collaborative filtering provided better results. One of the main challenge in recommendation engines is "cold start", the solutions that have been tested so far depend if the movie has been watched many times by users, and if the user has watched films before, the system is not able to provide a good result for new users and would not recommend new released movies to users. 
+
+Finally, a Graphical Neural Networks (GNN) with pytorch has been implemented as the new recommendation system. The model creates an embedding of users and movies information and employs a loss that accounts for users preferences. The obtained results are not better than previous approaches. This type of model can provide incredible results if the model architecture can be studied more carefully. 
+
+Best recommendation systems use a mix of different solutions and approaches. Collaborative filtering provides decent results but more elaborate techniques such as Random Walk or GNN can enhance the predictions and solve the cold start problem. 
+
+
 
 \vspace{1em} 
 

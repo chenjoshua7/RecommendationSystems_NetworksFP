@@ -7,18 +7,19 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Network Centrality Measures and Comparative Metrics for Movies\relax }}{6}{figure.caption.4}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Degree Information for User Network\relax }}{8}{figure.caption.5}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Degree Information for Movie Network\relax }}{9}{figure.caption.6}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Fans per Genre\relax }}{10}{figure.caption.7}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Users - Genre Bipartite Graph\relax }}{10}{figure.caption.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces User Degrees\relax }}{11}{figure.caption.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces New Fans per Genre\relax }}{12}{figure.caption.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Poisson fit with $n = 5.5$\relax }}{12}{figure.caption.9}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Illustrations of the Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms. In both diagrams, circles and squares represent users and items, respectively. The color-marked circle signifies the target user for whom the recommendations are being computed. Figures adapted from \blx@tocontentsinit {0}\cite {prob_s}.\relax }}{13}{figure.caption.10}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces ProbS - Recommendation Dynamics\relax }}{14}{figure.caption.11}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces HeatS - Recommendation Dynamics\relax }}{14}{figure.caption.12}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces ProbS - Model performance\relax }}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Recomendations for User 314\relax }}{16}{figure.caption.14}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Top Recommendation of Movies\relax }}{17}{figure.caption.15}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Confusion Matrix with Collaborative Filtering\relax }}{18}{figure.caption.16}%
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Convergence of the GNN.\relax }}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Predicted Ranking for the user 1\relax }}{20}{figure.caption.18}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Illustration of user-item interaction and high-order connectivity.\relax }}{21}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Movie Network communities\relax }}{10}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Fans per Genre\relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Users - Genre Bipartite Graph\relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces User Degrees\relax }}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces New Fans per Genre\relax }}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Poisson fit with $n = 5.5$\relax }}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Illustrations of the Probabilistic Spreading (ProbS) and Heat Spreading (HeatS) algorithms. In both diagrams, circles and squares represent users and items, respectively. The color-marked circle signifies the target user for whom the recommendations are being computed. Figures adapted from \blx@tocontentsinit {0}\cite {prob_s}.\relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces ProbS - Recommendation Dynamics\relax }}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces HeatS - Recommendation Dynamics\relax }}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces ProbS - Model performance\relax }}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Recomendations for User 314\relax }}{17}{figure.caption.15}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Top Recommendation of Movies\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Confusion Matrix with Collaborative Filtering\relax }}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Convergence of the GNN.\relax }}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Predicted Ranking for the user 1\relax }}{21}{figure.caption.19}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Illustration of user-item interaction and high-order connectivity.\relax }}{22}{figure.caption.20}%
