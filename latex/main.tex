@@ -307,9 +307,27 @@ Again, these similarities can be conceived of as an adjacency matrix - this for 
 
 \subsection{Movie-to-Movie network}
 
-A similar procedure as done in previous section \textit{User-to-user network} can be done to obtain a movie-to-movie similarity score matrix that will be considered as the adjacency matrix of the movie-to-movie network. Figure \ref{??} and Figure \ref{} describe the network distribution. 
+A similar procedure as done in previous section \textit{User-to-user network} can be done to obtain a similarity score matrix that will be considered as the adjacency matrix of the movie-to-movie network. Figure \ref{fig:MN_degreeinfo} describe the network distribution. 
 
-In this section, community detection would be performed in order to identify communities among the movies. 
+\begin{figure}[h!]
+    \centering
+  	\includegraphics[width=0.8\textwidth]{movie2movie_analysis.png}
+  	\caption{Degree Information for Movie Network}
+  	\label{fig:MN_degreeinfo}
+\end{figure}
+
+In this section, community detection algorithms would be used to identify potential communities among the movies. The edges in the obtained undirected graph correspond to similarity between films that most users like have liked them, edges with movies that obtained a bad ratings, ratings with less than 2.5 that make the cosine similarity be negative are discarded. 
+
+For the community detection several options have been tested (Louvain, DC-SBM and greedy). Most of them take long to run for a network with 95,219 edges and 1,848 nodes, which is not really big. The selected algorithm is greedy which is a function that uses Clauset-Newman-Moore greedy modularity maximization to find the community partition with the largest modularity \cite{}.
+
+The modularity is defined as: 
+\begin{equation}
+Q = \frac{1}{2m} \sum_{ij} ( A_{ij} - \gamma \frac{k_i k_j}{2m}) \delta (c_i, c_j)
+\end{equation}
+
+where $m$ is the number of edges, $A$ is the adjacency matrix of G, $k_i$ is the (weighted) degree of $i$, $\gamma$ is the resolution parameter, and $\delta (c_i, c_j)$ is 1 if $i$ and $j$ are in the same community else 0. If resolution is less than 1, modularity favors larger communities. Greater than 1 favors smaller communities.
+
+\newpage
 
 \subsection{User-to-Genre network}
 
@@ -587,7 +605,95 @@ Figure 6.3 is the Confusion Matrix after running this with 90418 reviews. What w
 However, the most important metric here is precision. When discussing with an industry professional who worked on a system for a e-commerce website, he said that they mostly looked at recall. In that situation, it make snse that the "error" of recommending an item that a user doesn't want is not as bad as not recommending something the user would've bought. One is a negligible annoyance and the other is missed revenue. However, in our case, it is much more important to recommend ONLY movies that people enjoy moreso than recdommedning all movies that a person would enjoy. 
 
 Therefore, we see that even this simple Collaborative Filtering system beats ProbS, HeatS, and the baseline.
+
 \section{Graphical Neural Networks}
+
+Finally, we implement a Graphical Neural Networks (GNN) as recommendation system. In particular we use the architecture called LightGCN. This GNN is a simplified version of A Neural Graph Collaborative Filtering (NGCF), which adapts Graph Convolutional Networks in recommendation systems and employs one convolutional layer to exploit the direct connections between users and items \cite{lightgcn}. 
+
+That is, LightGCN employs a simplified graph convolution that directly aggregates the embeddings of neighboring nodes without the use of transformation weights or non-linear activations, thus preserving the collaborative signal in the embeddings.
+
+The embedding propagation can be recursively defined as:
+\begin{align*}
+	e_u^{(k+1)} &= \sigma \left( W_1 e_u^{(k)} + \sum_{i \in N_u} \frac{1}{\sqrt{|\mathcal{N}_u||\mathcal{N}_i|}} W_2 (e_i^{(k)} \cdot e_u^{(k)}) \right), \\
+	e_i^{(k+1)} &= \sigma \left( W_1 e_i^{(k)} + \sum_{u \in N_i} \frac{1}{\sqrt{|\mathcal{N}_u||\mathcal{N}_i|}} W_2 (e_u^{(k)} \cdot e_i^{(k)}) \right),
+\end{align*}
+where $W_1$ and $W_2$ are trainable weight matrices, $\sigma$ denotes a non-linearity such as LeakyReLU, and $\mathcal{N}_u$ and $\mathcal{N}_i$ represent the sets of first-hop neighbors for users and items, respectively.
+
+The user's final preference for an item is calculated using the dot product of the final user and item embeddings after $K$ layers of propagation, which are combined to obtain the final representations:
+\begin{align*}
+	\hat{y}_{ui} = (e_u^{(*)})^T e_i^{(*)}.
+\end{align*}
+
+
+\subsection{Model Architecture}
+
+LightGCN simplifies the NGCF by removing feature transformation and non-linear activation steps. The architecture involves stacking multiple layers of simple weighted sum aggregators to capture the collaborative signal within the high-order connectivities.
+
+The graph convolution operation in LightGCN is depicted as follows:
+\begin{equation}
+	e_u^{(k+1)} = \sum_{i \in \mathcal{N}_u} \frac{1}{\sqrt{|\mathcal{N}_u|}\sqrt{|\mathcal{N}_i|}} e_i^{(k)}
+\end{equation}
+\begin{equation}
+	e_i^{(k+1)} = \sum_{u \in \mathcal{N}_i} \frac{1}{\sqrt{|\mathcal{N}_i|}\sqrt{|\mathcal{N}_u|}} e_u^{(k)}
+\end{equation}
+where $e_u^{(k)}$ and $e_i^{(k)}$ are the embeddings of user $u$ and item $i$ at the $k$-th layer, and $\mathcal{N}_u$ and $\mathcal{N}_i$ are the first-hop neighbors of user $u$ and item $i$, respectively.
+
+
+The final embeddings are obtained by combining the embeddings from all layers. The user's preference for an item is predicted by the dot product of the user and item embeddings:
+\begin{equation}
+	\hat{y}_{ui} = (e_u^{(*)})^\top e_i^{(*)}
+\end{equation}
+
+
+The model employs Bayesian Personalized Ranking (BPR) loss, which is formulated as:
+\begin{equation}
+	L_{\text{BPR}} = -\sum_{u=1}^{M} \sum_{i \in \mathcal{N}_u} \sum_{j \notin \mathcal{N}_u} \ln \sigma(\hat{y}_{ui} - \hat{y}_{uj}) + \lambda ||e^{(0)}||^2
+\end{equation}
+where $\sigma$ denotes the sigmoid function and $\lambda$ is the regularization parameter. The model utilizes the Adam optimizer for training in a mini-batches.
+
+
+\subsection{Implementation}
+
+The implementation of the network is using an open source from Microsoft Recommenders (https://github.com/microsoft/recommenders), that is based in Pytorch. The parameters that we used was 3 layers, batch size of 1024, 1,000 epochs, a learning rate of 0.001 and we look for the top 10 most recommended movies. 
+
+After training, we note that the networks converges as can be observed in the figure \ref{fig:losses_over_epochs}. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{losses_over_epochs.png}
+	\caption{Convergence of the GNN.}
+	\label{fig:losses_over_epochs}
+\end{figure}
+
+The code predicts the ranking of movies for every user instead of the rating itself like the last exercises. This ranking predicted is shown in the figure \ref{fig:predictions}. 
+
+\begin{figure}[h]
+		\centering
+	\includegraphics{predictions.png}
+	\caption{Predicted Ranking for the user 1}
+	\label{fig:predictions}
+\end{figure}
+
+
+With the top 10 scores predicted by the model, we evaluate how LightGCN performs on this test set. The metrics are the followings:
+
+\begin{enumerate}
+	\item Precision = 0.277049 (proportion of recommended items that are relevant)
+	\item Recall = 0.162039 (proportion of relevant items that are recommended)
+	\item Mean Average Precision = 0.203541 (how well the predicted items for a user are ranked based on relevance)
+	\item Normalized Discounted Cumulative Gain = 0.324148 (evaluates how well the predicted items for a user are ranked based on relevance)
+\end{enumerate}
+
+The figure \ref{fig:top_20_movies} shows top 20 most recommend movies for all users. This time, we get very famous movies, such as, Forest Gum, Matrix, Terminator, lord of the rings and Star Wars movies, that make sense. Then, we can assume that the metrics used by the code indicates a good enough performance.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{top_20_movies.png}
+	\caption{Illustration of user-item interaction and high-order connectivity.}
+	\label{fig:top_20_movies}
+\end{figure}
+
 
 \section{Conclusions}
 
