@@ -291,5 +291,71 @@
     \field{year}{2018}
     \warn{\item Can't use 'location' + 'address'}
   \endentry
+
+  \entry{coldstart}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PA}{%
+         family={Panteli},
+         familyi={P\bibinitperiod},
+         given={Antiopi},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Boutsinas},
+         familyi={B\bibinitperiod},
+         given={Basilis},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PABB1}
+    \strng{fullhash}{PABB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Recommender systems aim to forecast users' rank, interests, and preferences
+  in specific products and recommend them to a user for purchase. Collaborative
+  filtering is the most popular approach, where the user's past purchase
+  behavior consists of the user's feedback. One of the most challenging
+  problems in collaborative filtering is handling users whose previous item
+  purchase behavior is unknown, (e.g., new users) or products for which user
+  interactions are not available, (e.g., new products). In this work, we
+  address the cold-start problem in recommender systems based on frequent
+  patterns which are highly frequent in one set of users, but less frequent or
+  infrequent in other sets of users. Such discriminant frequent patterns can
+  distinguish one target set of users from all other sets. The proposed
+  methodology, first forms different clusters of old users and then discovers
+  discriminant frequent patterns for each different such cluster of users and
+  finally exploits the latter to hallucinate the purchase behavior of new
+  users. We also present empirical results to demonstrate the efficiency and
+  accuracy of the proposed methodology.%
+    }
+    \verb{doi}
+    \verb 10.3390/a16040182
+    \endverb
+    \field{issn}{1999-4893}
+    \field{number}{4}
+    \field{title}{Addressing the Cold-Start Problem in Recommender Systems
+  Based on Frequent Patterns}
+    \verb{url}
+    \verb https://www.mdpi.com/1999-4893/16/4/182
+    \endverb
+    \field{volume}{16}
+    \field{journaltitle}{Algorithms}
+    \field{year}{2023}
+  \endentry
+
+  \entry{greedy}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{title}{Greedy Modularity Communities}
+    \verb{url}
+    \verb https://networkx.org/documentation/stable/reference/algorithms/genera
+    \verb ted/networkx.algorithms.community.modularity_max.greedy_modularity_co
+    \verb mmunities.html#networkx.algorithms.community.modularity_max.greedy_mo
+    \verb dularity_communities
+    \endverb
+  \endentry
 \enddatalist
 \endinput

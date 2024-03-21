@@ -19,47 +19,51 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: sample.bib
+Warning--entry type for "greedy" isn't style-file defined
+--line 28 of file sample.bib
+Warning--I didn't find a database entry for "lightgcn"
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 5 entries,
+You've used 7 entries,
             6399 wiz_defined-function locations,
-            1249 strings with 14697 characters,
-and the built_in function-call counts, 48705 in all, are:
-= -- 4137
-> -- 666
-< -- 166
-+ -- 1586
-- -- 293
-* -- 3612
-:= -- 6005
+            1263 strings with 16324 characters,
+and the built_in function-call counts, 56483 in all, are:
+= -- 4626
+> -- 765
+< -- 196
++ -- 1766
+- -- 343
+* -- 4130
+:= -- 6722
 add.period$ -- 0
-call.type$ -- 5
-change.case$ -- 90
+call.type$ -- 7
+change.case$ -- 101
 chr.to.int$ -- 44
-cite$ -- 8
-duplicate$ -- 4959
-empty$ -- 3966
-format.name$ -- 370
-if$ -- 9652
+cite$ -- 12
+duplicate$ -- 5886
+empty$ -- 4791
+format.name$ -- 433
+if$ -- 11266
 int.to.chr$ -- 0
-int.to.str$ -- 10
+int.to.str$ -- 13
 missing$ -- 0
-newline$ -- 233
-num.names$ -- 214
-pop$ -- 1610
+newline$ -- 283
+num.names$ -- 252
+pop$ -- 2281
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 147
 quote$ -- 0
-skip$ -- 973
+skip$ -- 1200
 stack$ -- 0
-substring$ -- 7825
-swap$ -- 867
-text.length$ -- 146
+substring$ -- 8610
+swap$ -- 1088
+text.length$ -- 178
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 158
+type$ -- 225
 warning$ -- 0
-while$ -- 749
+while$ -- 839
 width$ -- 0
-write$ -- 229
+write$ -- 277
+(There were 2 warnings)
