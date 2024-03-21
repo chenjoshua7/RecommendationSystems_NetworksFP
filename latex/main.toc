@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {3}Dataset}{4}{section.3}%
 \contentsline {section}{\numberline {4}Network analysis}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}User and movie bipartite network}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}User-to-user network}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}User-to-user network}{6}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Movie-to-Movie network}{9}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}User-to-Genre network}{10}{subsection.4.4}%
 \contentsline {section}{\numberline {5}Random Walk Recommendation Systems}{12}{section.5}%

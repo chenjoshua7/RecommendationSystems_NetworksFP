@@ -24,7 +24,7 @@
 \usepackage{enumitem}
 \usepackage{amssymb}
 
-\usepackage[backend=bibtex, maxbibnames=99, sorting=none]{biblatex}
+\usepackage[backend=bibtex, maxbibnames=99, sorting=none, style=authoryear]{biblatex}
 \addbibresource{sample.bib}
 
 
@@ -169,13 +169,14 @@ Recent trends in recommendation system research have built on the foundational w
 
 Cold start is a common problem with recommendation systems. Collaborative filtering can be user-based or item-based. For the former, the system will recommend items enjoyed by people similar to you. For the latter, the system will recommend items similar to the items that you enjoyed. The former uses user to user similarity and the second uses user to user similarity. This issue arises for new users and new items that have few or no edges (existing histories). Therefore, the system is unable to provide recommendations \cite{cold_start}.  An example of this is the aforementioned criticism against Spotify.
 
+
 \section{Dataset}
 
-MovieLens is popular movie recommender system dataset developed by GroupLens, a computer science research lab at the University of Minnesota. The goal of this challenge is to recommend movies to its users based on their movie ratings. Group Lens offers datasets of different sizes and their datasets are widely used in research and teaching contexts.
+MovieLens is popular movie recommender system dataset developed by GroupLens, a computer science research lab at the University of Minnesota. The proposed challenge is to recommend movies to its users based on their movie ratings. GroupLens offers datasets of different sizes, their datasets are widely used in research and teaching contexts.
 
-The selected dataset consists mainly on two files: movies.csv and ratings.csv. Movies dataset has 9,742 unique films and a column indicating the genres of the film. All possible genres are: 'Romance', 'Musical', 'Children', 'Documentary', 'Sci-Fi', 'Film-Noir', '(no genres listed)', 'Crime', 'Mystery', 'Drama', 'Western', 'Fantasy', 'Animation', 'Thriller', 'War', 'Action', 'Adventure', 'IMAX', 'Comedy', 'Horror'. The number of movies per genre is represented in Figure \ref{fig:count_genre}.
+Each dataset contains several file, the main two files are: \textit{movies.csv} and \textit{ratings.csv}. Movies dataset has 9,742 unique films. A column in the dataset indicates all the genres of each film. The list of genres are: 'Romance', 'Musical', 'Children', 'Documentary', 'Sci-Fi', 'Film-Noir', '(no genres listed)', 'Crime', 'Mystery', 'Drama', 'Western', 'Fantasy', 'Animation', 'Thriller', 'War', 'Action', 'Adventure', 'IMAX', 'Comedy', 'Horror'. The number of movies per genre is represented in Figure \ref{fig:count_genre}.
 
-Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,724 movies. As it can be observed in Figure \ref{fig:count_rating}, the ratings from users are right-skewed, which suggests that users tend to enter their rating on movies that they probably have liked. Ratings from users have been registered from 1996-03-29 until 2018-09-24. The most popular movies among users have been: Shawshank Redemption, The (1994), Godfather, The (1972), Fight Club (1999), Godfather: Part II, The (1974) and Goodfellas (1990).
+Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,724 movies. As it can be observed in Figure \ref{fig:count_rating}, the ratings from users are right-skewed, which suggests that users tend to register their rating with movies that they probably have liked. Ratings from users have been registered from 1996-03-29 until 2018-09-24. The most popular movies among users have been: Shawshank Redemption, The (1994), Godfather, The (1972), Fight Club (1999), Godfather: Part II, The (1974) and Goodfellas (1990).
 
 \begin{figure}[h!]
     \begin{minipage}[b]{0.49\linewidth}
@@ -193,32 +194,31 @@ Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,7
     \end{minipage}
 \end{figure}
 
-The median user has rated 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2698.
+The median user has rated about 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2,698. In Figure \ref{fig:ranking_ts}, the evolution of ratings over time is depicted. Despite some occasional spikes, the time series seems to have some seasonality. Furthermore, Figure \ref{fig:evolution_2} illustrates the trend in the number of movies rated 0 and 2, movies rated 3 to 10, etc. It is notable that users opt for films with fewer recommendations, probably because they are newly released films. However, most popular films gain more ratings over time which denotes the effect of richer get richer.
 
 \begin{figure}[h!]
     \begin{minipage}[b]{0.49\linewidth}
-         \centering
-  	\includegraphics[width=0.99\textwidth]{count_user.png}
-  	\caption{Count of Movies per User}
-  	\label{fig:count_user}
+        \centering
+  	\includegraphics[width=0.99\textwidth]{ratings_evolution.png}
+  	\caption{Evolution of ratings}
+  	\label{fig:ranking_ts}
     \end{minipage}
     \hspace{0.01cm}
-    \begin{minipage}[b]{0.49\linewidth}
-        \centering
-  	\includegraphics[width=0.99\textwidth]{prophet.png}
-  	\caption{Time Series Analysis of Ratings with Prophet}
-  	\label{fig:ranking_ts}
+     \begin{minipage}[b]{0.49\linewidth}
+         \centering
+  	\includegraphics[width=0.99\textwidth]{ratings_evolution_2.png}
+  	\caption{Evolution of ratings per movie}
+  	\label{fig:evolution_2}
     \end{minipage}
 \end{figure}
 
 \section{Network analysis}
 
-With the MovieLens dataset, we created 4 different networks.  The first, the user-movie network, is the aforementioned user-item network that will serve as the foundation for both the other networks and the recommendation systems that we build. From this network, we also
-constructed a user-to-user network - a symmetric unipartite network capturing the similarity between users. Similarly, we did this for the movies as well. Finally, we created another bipartite network that, instead of capturing relationships between users and specific movies, it describes the "fan score" between a user and a genre of movie.
+With the MovieLens dataset, we created 4 different networks.  The first, the user-movie network, is the aforementioned user-item network that will serve as the foundation for both the other networks and the recommendation systems that we build. From this network, we also constructed a user-to-user network - a symmetric unipartite network capturing the similarity between users. Similarly, we did this for the movies as well. Finally, we created another bipartite network that, instead of capturing relationships between users and specific movies, it describes the "fan score" between a user and a genre of movie.
 
 \subsection{User and movie bipartite network}
 
-To create the user/movie bipartite network, we used the Networkx package in Python. We selected the unique User Ids as one set of nodes and the movie titles as another. Edges were then added if a user has seen a movie. Note that this is a undirected, unweighted graph. Ratings are not considered here.
+To create the user/movie bipartite network, we used the Networkx package in Python. We selected the unique User Ids as one set of nodes and the movie titles as another. Edges were then added if a user has seen a movie. Note that this is an undirected, unweighted graph. Ratings are not considered here.
 
 Despite an incredibly sparse matrix, understandably with close to 10,000 movies - this results in a connected graph - meaning there is only one component.
 
@@ -291,7 +291,7 @@ It is important to note already that the most highly centralized movies are all 
 
 To construct the user-to-user network, we calculated the similarity between all users as our edges.  We first pivoted the Ratings dataframe on the \textit{UserId}. Our resulting dataframe has the UserId as the index, the Movies as the columns, and any user ratings inside. This is exactly the adjacency matrix for the User to Movie network that we created in the previous section; however, just weighted edges based on ratings.
 
-We used cosine similarity as our node embedding technique to map user vectors into Euclidean space. Cosine similarity is a common space because it ignores magnitude and focuses only on directions in space. For example, A harsh critic might rate an average movie a 2 but a more generous critic might consider average to be 3. This would not affect at all the cosine similarity (if we kept the ratings positive). A similarity measure such as Euclidean distance would fail here because the more movies you add can only possibly add distance. Therefore people are punished for actually having seen more of the same films.
+We used cosine similarity as our node embedding technique to map user vectors into Euclidean space. Cosine similarity is a common space because it ignores magnitude and focuses only on directions in space. For example, a harsh critic might rate an average movie a 2 but a more generous critic might consider average to be 3. This would not affect at all the cosine similarity (if we kept the ratings positive). A similarity measure such as Euclidean distance would fail here because the more movies you add can only possibly add distance. Therefore people are punished for actually having seen more of the same films.
 
 Because this is an incredibly sparse matrix, in order to calculate similarity scores, we only used the films that people had shared reviews for. However, this could result in the case where two people are assigned similarities despite having very little in common. For example, if two people who have wildly different preferences watched one random movie and both gave it 4 stars, these two people would be assigned a perfect similarity when, clearly, this should not be the case. To mitigate this, we only kept similarity scores for people that have rated 10 or more movies in common.
 
@@ -310,7 +310,39 @@ Again, these similarities can be conceived of as an adjacency matrix - this for 
     \end{minipage}
 \end{figure}
 
+\newpage
 \subsection{Movie-to-Movie network}
+
+A similar procedure as done in previous section \textit{User-to-user network} can be done to obtain a similarity score matrix that will be considered as the adjacency matrix of the movie-to-movie network. Figure \ref{fig:MN_degreeinfo} describes the network distribution. 
+
+\begin{figure}[h]
+    \centering
+  	\includegraphics[width=0.8\textwidth]{movie2movie_analysis.png}
+  	\caption{Degree Information for Movie Network}
+  	\label{fig:MN_degreeinfo}
+\end{figure}
+
+In this section, community detection algorithms will be used to identify potential communities among the movies. The edges in the obtained undirected graph correspond to a similarity score between films that commonly users like have liked them. 
+
+For the community detection several options have been tested (Louvain, DC-SBM and greedy). Most of them take long to run for a network with 95,219 edges and 1,848 nodes, which is not really big network. Greedy algorithm provided a good result in reasonable amount of time, it uses Clauset-Newman-Moore greedy modularity maximization to find the community partition with the largest modularity \cite{greedy}.
+
+The modularity is defined as: 
+\begin{equation}
+Q = \frac{1}{2m} \sum_{ij} ( A_{ij} - \gamma \frac{k_i k_j}{2m}) \delta (c_i, c_j)
+\end{equation}
+
+where $m$ is the number of edges, $A$ is the adjacency matrix of G, $k_i$ is the (weighted) degree of $i$, $\gamma$ is the resolution parameter, and $\delta (c_i, c_j)$ is 1 if $i$ and $j$ are in the same community else 0. If resolution is less than 1, modularity favors larger communities. Greater than 1 favors smaller communities.
+
+The greedy algorithm detects 10 communities, with a modularity of 0.18163. Only 5 communities have more than 10 movies (or nodes) in them. In Figure \ref{fig:comm_detection}, the different communities in the graph can be observed.
+
+\begin{figure}[h!]
+    \centering
+  	\includegraphics[width=0.8\textwidth]{community_detection.png}
+  	\caption{Movie Network communities}
+  	\label{fig:comm_detection}
+\end{figure}
+
+\newpage
 
 \subsection{User-to-Genre network}
 
@@ -528,7 +560,7 @@ In order to evaluate the effectiveness of these recommender system, we perform a
 
 As shown in Figure \ref{fig:prob s performance}, both the ProbS and HeatS models perform worse than the recommendations from using a movies average rating, with the incorporations of ratings only resulting in a small improvement. Furthermore, HeatS only performs slightly better than random. This underperformance could be due to data sparsity and the "cold-start problem", where the algorithms struggles to make accurate predictions because of insufficient user-item interaction data. In contrast, average ratings don't rely on user interaction and can recommend popular items effectively.
 
-This said, the poor performance of the random walk models in terms of AUC does not necessarily mean that they are of no use.  One key limitation is that our assessment is based solely on the movies held out in test that a user has already watched. These models might excel at suggesting new and diverse content that aligns with user preferences, yet this aspect remains unmeasured in this setting. This is likely to be particularly true of HeatS, which offers a more diverse array of suggests than ProbS or HeatS, which will often recommend items a user is already aware of.
+This said, the poor performance of the random walk models in terms of AUC does not necessarily mean that they are of no use. One key limitation is that our assessment is based solely on the movies held out in test that a user has already watched. These models might excel at suggesting new and diverse content that aligns with user preferences, yet this aspect remains unmeasured in this setting. This is likely to be particularly true of HeatS, which offers a more diverse array of suggests than ProbS or HeatS, which will often recommend items a user is already aware of.
 
 \section{Collaborative Filtering}
 For comparison, we implemented a basic user-based Collaborative Filtering system. Using the user similarity network and user-to-movie reviews, we are able to calculate predicted scores using the following formula:
@@ -552,7 +584,7 @@ Therefore, to pick a recommendation for a user, we cycle through all movies that
     \end{minipage}
 \end{figure}
 
-After running this for every single user, we see a pattern for the top reviews recommend. Figure 6.2 shows that top 10 top-recommended movies. We see the cold start problem. All top recommended movies are movies that are generally highly rated and with a lot of reviews. All top 10 movies were released before 2000 despite this being not at all rerpresentative of the total population of movies.
+After running this for every single user, we see a pattern for the top reviews recommend. Figure 6.2 shows that top 10 top-recommended movies. We see the cold start problem. All top recommended movies are movies that are generally highly rated and with a lot of reviews. All top 10 movies were released before 2000 despite this being not at all representative of the total population of movies.
 
 \begin{figure}[h!]
     \begin{minipage}[b]{01\linewidth}
@@ -566,15 +598,15 @@ After running this for every single user, we see a pattern for the top reviews r
 \subsection{Validation}
 
 \subsubsection{Mean Square Error}
-Because this model is able to produce predictied ratings, we are able to use mean square error to calculate model performance.  Because it would too computationally expensive to test every single movie, we take a Monte Carlo approach towards this. We randomly select a user and from the users films, we randomly select a movie they have seen. We calculate the expected rating given our model and calculate the mean squared error. We do this for 1000 movies.
+Because this model is able to produce predicted ratings, we are able to use mean square error to calculate model performance.  Because it would be too computationally expensive to test every single movie, we take a Monte Carlo approach towards this. We randomly select a user and from the users films, we randomly select a movie they have seen. We calculate the expected rating given our model and calculate the mean squared error. We do this for 1000 movies.
 
 After conducting this 20 times, we get an average Mean Squared Error of 0.9694. For reference, by just predicting the average rating, following the same process, we get an average Mean Squared Error of 1.079. Therefore, it's slightly better than average but not by much.
 
-While the ability to output interpretable predict ratings is a nice benefit of this simple collaborative filtering system, it's not necessarily that useful. When watching recommended movies, while it might be nice to get a 5.0 movies instead of a 4.8 movie, the difference is generally indstinguishable and either one would be considered a successs. Generally, the only thing that matters is whether or not a movie should or shouldn't have been recommended. If you lliked the movie, then the recommendation worked. If you didn't then the recommendation did not work. Therefore this becomes a binary classification problem.
+While the ability to output interpretable predict ratings is a nice benefit of this simple collaborative filtering system, it's not necessarily that useful. When watching recommended movies, while it might be nice to get a 5.0 movies instead of a 4.8 movie, the difference is generally indistinguishable and either one would be considered a successes. Generally, the only thing that matters is whether or not a movie should or shouldn't have been recommended. If you liked the movie, then the recommendation worked. If you didn't then the recommendation did not work. Therefore this becomes a binary classification problem.
 
 \subsubsection{Binary Classification}
 
-We will evalutate peformance based on Precisinon, Recall, and Accuracy, That way, we can also compare the peformance of the ProbS and HeatS models. For binary classification, we consider a rating to be positive if it is 4 or above. From our samples of reviews, we have a pretty balanced dataset with 48580 positive reviews, and 52256 negative reviews.
+We will evaluate performance based on Precision, Recall, and Accuracy, That way, we can also compare the performance of the ProbS and HeatS models. For binary classification, we consider a rating to be positive if it is 4 or above. From our samples of reviews, we have a pretty balanced dataset with 48,580 positive reviews, and 52,256 negative reviews.
 
 \begin{figure}[t]
   \centering
@@ -583,16 +615,17 @@ We will evalutate peformance based on Precisinon, Recall, and Accuracy, That way
   \label{fig:UN_degreeinfo}
 \end{figure}
 
-Figure 6.3 is the Confusion Matrix after running this with 90418 reviews. What we see is a huge inbalance towards preditcing negative reviews. This results in an accuracy of 0.546, recall of 0.241, and precision of 0.770.
+Figure 6.3 is the Confusion Matrix after running this with 90418 reviews. What we see is a huge imbalance towards predicting negative reviews. This results in an accuracy of 0.546, recall of 0.241, and precision of 0.770.
 
-However, the most important metric here is precision. When discussing with an industry professional who worked on a system for a e-commerce website, he said that they mostly looked at recall. In that situation, it make snse that the "error" of recommending an item that a user doesn't want is not as bad as not recommending something the user would've bought. One is a negligible annoyance and the other is missed revenue. However, in our case, it is much more important to recommend ONLY movies that people enjoy moreso than recdommedning all movies that a person would enjoy. 
+However, the most important metric here is precision. When discussing with an industry professional who worked on a system for a e-commerce website, he said that they mostly looked at recall. In that situation, it make sense that the "error" of recommending an item that a user doesn't want is not as bad as not recommending something the user would've bought. One is a negligible annoyance and the other is missed revenue. However, in our case, it is much more important to recommend ONLY movies that people enjoy moreso than recommending all movies that a person would enjoy. 
 
 Therefore, we see that even this simple Collaborative Filtering system beats ProbS, HeatS, and the baseline.
+
 \section{Graphical Neural Networks}
 
 Finally, we implement a Graphical Neural Networks (GNN) as recommendation system. In particular we use the architecture called LightGCN. This GNN is a simplified version of A Neural Graph Collaborative Filtering (NGCF), which adapts Graph Convolutional Networks in recommendation systems and employs one convolutional layer to exploit the direct connections between users and items \cite{lightgcn}. 
 
-That is, LightGCN employs a simplified graph convolution that directly aggregates the embeddings of neighboring nodes without the use of transformation weights or non-linear activations, thus preserving the collaborative signal in the embeddings.
+That is, LightGCN employs a simplified graph convolution that directly aggregates the embeddings of neighbour nodes without the use of transformation weights or non-linear activations, thus preserving the collaborative signal in the embeddings.
 
 The embedding propagation can be recursively defined as:
 \begin{align*}
@@ -666,20 +699,29 @@ With the top 10 scores predicted by the model, we evaluate how LightGCN performs
 	\item Normalized Discounted Cumulative Gain = 0.324148 (evaluates how well the predicted items for a user are ranked based on relevance)
 \end{enumerate}
 
-\begin{figure}[hb]
+The figure \ref{fig:top_20_movies} shows top 20 most recommend movies for all users. This time, we get very famous movies, such as, Forest Gum, Matrix, Terminator, Lord of the Rings and Star Wars movies. Then, we can assume that the metrics used by the code indicates a good enough performance.
+
+
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{top_20_movies.png}
 	\caption{Illustration of user-item interaction and high-order connectivity.}
 	\label{fig:top_20_movies}
 \end{figure}
 
-The figure \ref{fig:top_20_movies} shows top 20 most recommend movies for all users. This time, we get very famous movies, such as, Forest Gum, Matrix, Terminator, lord of the rings and Star Wars movies, that make sense. Then, we can assume that the metrics used by the code indicates a good enough performance.
-
-
-
-
-
+\newpage
 \section{Conclusions}
+
+Recommendation problems are often addressed using network analysis techniques, which involve constructing various types of graphs such as bipartite networks between users and items (e.g., movies) or weighted and unweighted directed graphs representing user similarity.
+
+Further analysis involved examining the resulting networks, which were represented as adjacency matrices linking users to users and movies to other movies. 
+
+Various approaches were explored for generating movie recommendations, by simplifying the problem as a binary classification methods with a focus on Precision and Recall mostly. Random Walk exhibited poor performance compared to simple average rating-based approaches, while collaborative filtering, which has been working for more than 30 years, showed the most promising results. One of the key challenges in recommendation systems is the "cold start" problem, where recommendations rely heavily on past user behavior and struggle to provide accurate suggestions for new users or newly released movies.
+
+Tto overcome these challenges, a Graphical Neural Network (GNN) was implemented using PyTorch as a novel recommendation system. The model leveraged user and movie embeddings and employed a loss function that takes into account to user preferences. However, the results obtained were not superior to previous approaches. While GNNs hold promise, further refinement of the model architecture is necessary for improved performance.
+
+The most effective recommendation systems often employ a combination of techniques. While collaborative filtering offers reasonable results, more sophisticated methods like Random Walk or GNNs can enhance predictions and address the cold start problem. By integrating diverse approaches, recommendation systems can achieve optimal performance and deliver personalized recommendations to users.
+
 
 \vspace{1em} 
 
