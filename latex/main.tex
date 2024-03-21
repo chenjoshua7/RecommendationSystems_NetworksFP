@@ -555,7 +555,7 @@ In order to evaluate the effectiveness of these recommender system, we perform a
 
 As shown in Figure \ref{fig:prob s performance}, both the ProbS and HeatS models perform worse than the recommendations from using a movies average rating, with the incorporations of ratings only resulting in a small improvement. Furthermore, HeatS only performs slightly better than random. This underperformance could be due to data sparsity and the "cold-start problem", where the algorithms struggles to make accurate predictions because of insufficient user-item interaction data. In contrast, average ratings don't rely on user interaction and can recommend popular items effectively.
 
-This said, the poor performance of the random walk models in terms of AUC does not necessarily mean that they are of no use.  One key limitation is that our assessment is based solely on the movies held out in test that a user has already watched. These models might excel at suggesting new and diverse content that aligns with user preferences, yet this aspect remains unmeasured in this setting. This is likely to be particularly true of HeatS, which offers a more diverse array of suggests than ProbS or HeatS, which will often recommend items a user is already aware of.
+This said, the poor performance of the random walk models in terms of AUC does not necessarily mean that they are of no use. One key limitation is that our assessment is based solely on the movies held out in test that a user has already watched. These models might excel at suggesting new and diverse content that aligns with user preferences, yet this aspect remains unmeasured in this setting. This is likely to be particularly true of HeatS, which offers a more diverse array of suggests than ProbS or HeatS, which will often recommend items a user is already aware of.
 
 \section{Collaborative Filtering}
 For comparison, we implemented a basic user-based Collaborative Filtering system. Using the user similarity network and user-to-movie reviews, we are able to calculate predicted scores using the following formula:
@@ -579,7 +579,7 @@ Therefore, to pick a recommendation for a user, we cycle through all movies that
     \end{minipage}
 \end{figure}
 
-After running this for every single user, we see a pattern for the top reviews recommend. Figure 6.2 shows that top 10 top-recommended movies. We see the cold start problem. All top recommended movies are movies that are generally highly rated and with a lot of reviews. All top 10 movies were released before 2000 despite this being not at all rerpresentative of the total population of movies.
+After running this for every single user, we see a pattern for the top reviews recommend. Figure 6.2 shows that top 10 top-recommended movies. We see the cold start problem. All top recommended movies are movies that are generally highly rated and with a lot of reviews. All top 10 movies were released before 2000 despite this being not at all representative of the total population of movies.
 
 \begin{figure}[h!]
     \begin{minipage}[b]{01\linewidth}
@@ -593,15 +593,15 @@ After running this for every single user, we see a pattern for the top reviews r
 \subsection{Validation}
 
 \subsubsection{Mean Square Error}
-Because this model is able to produce predictied ratings, we are able to use mean square error to calculate model performance.  Because it would too computationally expensive to test every single movie, we take a Monte Carlo approach towards this. We randomly select a user and from the users films, we randomly select a movie they have seen. We calculate the expected rating given our model and calculate the mean squared error. We do this for 1000 movies.
+Because this model is able to produce predicted ratings, we are able to use mean square error to calculate model performance.  Because it would be too computationally expensive to test every single movie, we take a Monte Carlo approach towards this. We randomly select a user and from the users films, we randomly select a movie they have seen. We calculate the expected rating given our model and calculate the mean squared error. We do this for 1000 movies.
 
 After conducting this 20 times, we get an average Mean Squared Error of 0.9694. For reference, by just predicting the average rating, following the same process, we get an average Mean Squared Error of 1.079. Therefore, it's slightly better than average but not by much.
 
-While the ability to output interpretable predict ratings is a nice benefit of this simple collaborative filtering system, it's not necessarily that useful. When watching recommended movies, while it might be nice to get a 5.0 movies instead of a 4.8 movie, the difference is generally indstinguishable and either one would be considered a successs. Generally, the only thing that matters is whether or not a movie should or shouldn't have been recommended. If you lliked the movie, then the recommendation worked. If you didn't then the recommendation did not work. Therefore this becomes a binary classification problem.
+While the ability to output interpretable predict ratings is a nice benefit of this simple collaborative filtering system, it's not necessarily that useful. When watching recommended movies, while it might be nice to get a 5.0 movies instead of a 4.8 movie, the difference is generally indistinguishable and either one would be considered a successes. Generally, the only thing that matters is whether or not a movie should or shouldn't have been recommended. If you liked the movie, then the recommendation worked. If you didn't then the recommendation did not work. Therefore this becomes a binary classification problem.
 
 \subsubsection{Binary Classification}
 
-We will evalutate peformance based on Precisinon, Recall, and Accuracy, That way, we can also compare the peformance of the ProbS and HeatS models. For binary classification, we consider a rating to be positive if it is 4 or above. From our samples of reviews, we have a pretty balanced dataset with 48580 positive reviews, and 52256 negative reviews.
+We will evaluate performance based on Precision, Recall, and Accuracy, That way, we can also compare the performance of the ProbS and HeatS models. For binary classification, we consider a rating to be positive if it is 4 or above. From our samples of reviews, we have a pretty balanced dataset with 48,580 positive reviews, and 52,256 negative reviews.
 
 \begin{figure}[t]
   \centering
@@ -610,9 +610,9 @@ We will evalutate peformance based on Precisinon, Recall, and Accuracy, That way
   \label{fig:UN_degreeinfo}
 \end{figure}
 
-Figure 6.3 is the Confusion Matrix after running this with 90418 reviews. What we see is a huge inbalance towards preditcing negative reviews. This results in an accuracy of 0.546, recall of 0.241, and precision of 0.770.
+Figure 6.3 is the Confusion Matrix after running this with 90418 reviews. What we see is a huge imbalance towards predicting negative reviews. This results in an accuracy of 0.546, recall of 0.241, and precision of 0.770.
 
-However, the most important metric here is precision. When discussing with an industry professional who worked on a system for a e-commerce website, he said that they mostly looked at recall. In that situation, it make snse that the "error" of recommending an item that a user doesn't want is not as bad as not recommending something the user would've bought. One is a negligible annoyance and the other is missed revenue. However, in our case, it is much more important to recommend ONLY movies that people enjoy moreso than recdommedning all movies that a person would enjoy. 
+However, the most important metric here is precision. When discussing with an industry professional who worked on a system for a e-commerce website, he said that they mostly looked at recall. In that situation, it make sense that the "error" of recommending an item that a user doesn't want is not as bad as not recommending something the user would've bought. One is a negligible annoyance and the other is missed revenue. However, in our case, it is much more important to recommend ONLY movies that people enjoy moreso than recommending all movies that a person would enjoy. 
 
 Therefore, we see that even this simple Collaborative Filtering system beats ProbS, HeatS, and the baseline.
 
@@ -620,7 +620,7 @@ Therefore, we see that even this simple Collaborative Filtering system beats Pro
 
 Finally, we implement a Graphical Neural Networks (GNN) as recommendation system. In particular we use the architecture called LightGCN. This GNN is a simplified version of A Neural Graph Collaborative Filtering (NGCF), which adapts Graph Convolutional Networks in recommendation systems and employs one convolutional layer to exploit the direct connections between users and items \cite{lightgcn}. 
 
-That is, LightGCN employs a simplified graph convolution that directly aggregates the embeddings of neighboring nodes without the use of transformation weights or non-linear activations, thus preserving the collaborative signal in the embeddings.
+That is, LightGCN employs a simplified graph convolution that directly aggregates the embeddings of neighbour nodes without the use of transformation weights or non-linear activations, thus preserving the collaborative signal in the embeddings.
 
 The embedding propagation can be recursively defined as:
 \begin{align*}
@@ -707,14 +707,15 @@ The figure \ref{fig:top_20_movies} shows top 20 most recommend movies for all us
 \newpage
 \section{Conclusions}
 
-Recommendation problems can be tackled with network analysis techniques. Different types of graphs can be constructed such as a bipartite network between users and items (in this case movies) or a weighted graph between users where the weight in an edge corresponds to the similarity between them. 
+Recommendation problems are often addressed using network analysis techniques, which involve constructing various types of graphs such as bipartite networks between users and items (e.g., movies) or weighted and unweighted directed graphs representing user similarity.
 
-A further analysis has been done to the resulting networks after creating an adjacency matrix that links users between users and movies between movies. Later different approaches to generate movie recommendations to users have been developed simplifying the problem into a binary classification. Random Walk provided a poor performance compared to just using the average rating and collaborative filtering provided better results. One of the main challenge in recommendation engines is "cold start", the solutions that have been tested so far depend if the movie has been watched many times by users, and if the user has watched films before, the system is not able to provide a good result for new users and would not recommend new released movies to users. 
+Further analysis involved examining the resulting networks, which were represented as adjacency matrices linking users to users and movies to other movies. 
 
-Finally, a Graphical Neural Networks (GNN) with pytorch has been implemented as the new recommendation system. The model creates an embedding of users and movies information and employs a loss that accounts for users preferences. The obtained results are not better than previous approaches. This type of model can provide incredible results if the model architecture can be studied more carefully. 
+Various approaches were explored for generating movie recommendations, by simplifying the problem as a binary classification methods with a focus on Precision and Recall mostly. Random Walk exhibited poor performance compared to simple average rating-based approaches, while collaborative filtering, which has been working for more than 30 years, showed the most promising results. One of the key challenges in recommendation systems is the "cold start" problem, where recommendations rely heavily on past user behavior and struggle to provide accurate suggestions for new users or newly released movies.
 
-Best recommendation systems use a mix of different solutions and approaches. Collaborative filtering provides decent results but more elaborate techniques such as Random Walk or GNN can enhance the predictions and solve the cold start problem. 
+Tto overcome these challenges, a Graphical Neural Network (GNN) was implemented using PyTorch as a novel recommendation system. The model leveraged user and movie embeddings and employed a loss function that takes into account to user preferences. However, the results obtained were not superior to previous approaches. While GNNs hold promise, further refinement of the model architecture is necessary for improved performance.
 
+The most effective recommendation systems often employ a combination of techniques. While collaborative filtering offers reasonable results, more sophisticated methods like Random Walk or GNNs can enhance predictions and address the cold start problem. By integrating diverse approaches, recommendation systems can achieve optimal performance and deliver personalized recommendations to users.
 
 
 \vspace{1em} 

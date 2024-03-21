@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  21 MAR 2024 12:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  21 MAR 2024 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1010,7 +1010,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 ... per Genre\relax }}{14}{figure.caption.10}
+l.14 ... per Genre\relax }}{13}{figure.caption.10}
                                                   % [1]
 Overfull \hbox (6.34813pt too wide) in paragraph at lines 16--16
  [][] [][]\T1/cmr/m/n/12 Illustrations of the Prob-a-bilis-tic Spread-ing (Prob
@@ -1397,7 +1397,7 @@ xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texl
 ive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/
 2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (25 pages, 2427985 bytes).
+Output written on main.pdf (25 pages, 2427865 bytes).
 PDF statistics:
  517 PDF objects out of 1000 (max. 8388607)
  366 compressed objects within 4 object streams
