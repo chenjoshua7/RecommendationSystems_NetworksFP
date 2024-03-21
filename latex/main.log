@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  21 MAR 2024 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  21 MAR 2024 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1010,7 +1010,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 ... per Genre\relax }}{13}{figure.caption.10}
+l.14 ... per Genre\relax }}{14}{figure.caption.10}
                                                   % [1]
 Overfull \hbox (6.34813pt too wide) in paragraph at lines 16--16
  [][] [][]\T1/cmr/m/n/12 Illustrations of the Prob-a-bilis-tic Spread-ing (Prob
@@ -1092,26 +1092,23 @@ File: Images//UN_degreeinfo.png Graphic file (type png)
 <use Images//UN_degreeinfo.png>
 Package pdftex.def Info: Images//UN_degreeinfo.png  used on input line 302.
 (pdftex.def)             Requested size: 423.09673pt x 189.29846pt.
-<Images//movie2movie_analysis.png, id=225, 578.16pt x 578.16pt>
+ [8 <./Images//UN_degreeinfo.png>]
+<Images//movie2movie_analysis.png, id=230, 731.3724pt x 233.4321pt>
 File: Images//movie2movie_analysis.png Graphic file (type png)
 <use Images//movie2movie_analysis.png>
 Package pdftex.def Info: Images//movie2movie_analysis.png  used on input line 3
-14.
-(pdftex.def)             Requested size: 376.08997pt x 376.09067pt.
+15.
+(pdftex.def)             Requested size: 376.08997pt x 120.03899pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation 'greedy' on page 9 undefined on input line 322.
 
-
-LaTeX Warning: Citation 'greedy' on page 8 undefined on input line 321.
-
-<Images//community_detection.png, id=227, 910.602pt x 570.933pt>
+<Images//community_detection.png, id=232, 910.602pt x 570.933pt>
 File: Images//community_detection.png Graphic file (type png)
 <use Images//community_detection.png>
 Package pdftex.def Info: Images//community_detection.png  used on input line 33
-4.
+5.
 (pdftex.def)             Requested size: 376.08997pt x 235.80025pt.
-[8 <./Images//UN_degreeinfo.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1120,28 +1117,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Images//fans_per_genre.png, id=247, 488.5452pt x 359.1819pt>
 File: Images//fans_per_genre.png Graphic file (type png)
 <use Images//fans_per_genre.png>
-Package pdftex.def Info: Images//fans_per_genre.png  used on input line 361.
+Package pdftex.def Info: Images//fans_per_genre.png  used on input line 362.
 (pdftex.def)             Requested size: 228.0545pt x 167.67004pt.
 <Images//genre_bipartite.png, id=248, 476.982pt x 360.6273pt>
 File: Images//genre_bipartite.png Graphic file (type png)
 <use Images//genre_bipartite.png>
-Package pdftex.def Info: Images//genre_bipartite.png  used on input line 368.
+Package pdftex.def Info: Images//genre_bipartite.png  used on input line 369.
 (pdftex.def)             Requested size: 228.0545pt x 172.4223pt.
 <Images//genre_degree1.png, id=249, 570.2103pt x 255.1131pt>
 File: Images//genre_degree1.png Graphic file (type png)
 <use Images//genre_degree1.png>
-Package pdftex.def Info: Images//genre_degree1.png  used on input line 381.
+Package pdftex.def Info: Images//genre_degree1.png  used on input line 382.
 (pdftex.def)             Requested size: 465.41214pt x 208.23259pt.
 <Images//binomialfit.png, id=250, 412.6617pt x 328.8285pt>
 File: Images//binomialfit.png Graphic file (type png)
 <use Images//binomialfit.png>
-Package pdftex.def Info: Images//binomialfit.png  used on input line 388.
+Package pdftex.def Info: Images//binomialfit.png  used on input line 389.
 (pdftex.def)             Requested size: 235.05533pt x 187.30373pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Trying to load font information for U+bbm on input line 396
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 397
 .
 (/usr/local/texlive/2023/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
@@ -1149,15 +1146,15 @@ File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 <Images//fansgenre1.png, id=260, 488.5452pt x 370.7451pt>
 File: Images//fansgenre1.png Graphic file (type png)
 <use Images//fansgenre1.png>
-Package pdftex.def Info: Images//fansgenre1.png  used on input line 404.
+Package pdftex.def Info: Images//fansgenre1.png  used on input line 405.
 (pdftex.def)             Requested size: 232.70605pt x 176.59792pt.
 <Images//poissondegree.png, id=261, 412.6617pt x 328.8285pt>
 File: Images//poissondegree.png Graphic file (type png)
 <use Images//poissondegree.png>
-Package pdftex.def Info: Images//poissondegree.png  used on input line 411.
+Package pdftex.def Info: Images//poissondegree.png  used on input line 412.
 (pdftex.def)             Requested size: 232.70605pt x 185.4322pt.
 
-Overfull \hbox (8.0664pt too wide) in paragraph at lines 402--415
+Overfull \hbox (8.0664pt too wide) in paragraph at lines 403--416
 [][]   [] 
  []
 
@@ -1168,12 +1165,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Images//Prob S algorithm.png, id=271, 891.33pt x 307.1475pt>
 File: Images//Prob S algorithm.png Graphic file (type png)
 <use Images//Prob S algorithm.png>
-Package pdftex.def Info: Images//Prob S algorithm.png  used on input line 432.
+Package pdftex.def Info: Images//Prob S algorithm.png  used on input line 433.
 (pdftex.def)             Requested size: 211.54836pt x 72.89673pt.
 <Images//Heat S.jpg, id=272, 303.82307pt x 94.96278pt>
 File: Images//Heat S.jpg Graphic file (type jpg)
 <use Images//Heat S.jpg>
-Package pdftex.def Info: Images//Heat S.jpg  used on input line 438.
+Package pdftex.def Info: Images//Heat S.jpg  used on input line 439.
 (pdftex.def)             Requested size: 211.54836pt x 66.12282pt.
  [13 <./Images//fansgenre1.png> <./Images//poissondegree.png>]
 <Images//Prob S movie rank plot - 1 iterations.png, id=282, 462.528pt x 346.896
@@ -1182,7 +1179,7 @@ File: Images//Prob S movie rank plot - 1 iterations.png Graphic file (type png)
 
 <use Images//Prob S movie rank plot - 1 iterations.png>
 Package pdftex.def Info: Images//Prob S movie rank plot - 1 iterations.png  use
-d on input line 463.
+d on input line 464.
 (pdftex.def)             Requested size: 150.43886pt x 112.82983pt.
 <Images//Prob S movie rank plot - 10 iterations.png, id=283, 462.528pt x 346.89
 6pt>
@@ -1190,7 +1187,7 @@ File: Images//Prob S movie rank plot - 10 iterations.png Graphic file (type png
 )
 <use Images//Prob S movie rank plot - 10 iterations.png>
 Package pdftex.def Info: Images//Prob S movie rank plot - 10 iterations.png  us
-ed on input line 467.
+ed on input line 468.
 (pdftex.def)             Requested size: 150.43886pt x 112.82983pt.
 <Images//Prob S movie rank plot - 100 iterations.png, id=284, 462.528pt x 346.8
 96pt>
@@ -1198,7 +1195,7 @@ File: Images//Prob S movie rank plot - 100 iterations.png Graphic file (type pn
 g)
 <use Images//Prob S movie rank plot - 100 iterations.png>
 Package pdftex.def Info: Images//Prob S movie rank plot - 100 iterations.png  u
-sed on input line 471.
+sed on input line 472.
 (pdftex.def)             Requested size: 150.43886pt x 112.82983pt.
 <Images//Prob S movie recommendations - 1 iterations.png, id=285, 722.7pt x 433
 .62pt>
@@ -1206,7 +1203,7 @@ File: Images//Prob S movie recommendations - 1 iterations.png Graphic file (typ
 e png)
 <use Images//Prob S movie recommendations - 1 iterations.png>
 Package pdftex.def Info: Images//Prob S movie recommendations - 1 iterations.pn
-g  used on input line 478.
+g  used on input line 479.
 (pdftex.def)             Requested size: 150.43886pt x 90.26228pt.
 <Images//Prob S movie recommendations - 10 iterations.png, id=286, 722.7pt x 43
 3.62pt>
@@ -1214,7 +1211,7 @@ File: Images//Prob S movie recommendations - 10 iterations.png Graphic file (ty
 pe png)
 <use Images//Prob S movie recommendations - 10 iterations.png>
 Package pdftex.def Info: Images//Prob S movie recommendations - 10 iterations.p
-ng  used on input line 482.
+ng  used on input line 483.
 (pdftex.def)             Requested size: 150.43886pt x 90.26228pt.
 <Images//Prob S movie recommendations - 100 iterations.png, id=287, 722.7pt x 4
 33.62pt>
@@ -1222,7 +1219,7 @@ File: Images//Prob S movie recommendations - 100 iterations.png Graphic file (t
 ype png)
 <use Images//Prob S movie recommendations - 100 iterations.png>
 Package pdftex.def Info: Images//Prob S movie recommendations - 100 iterations.
-png  used on input line 486.
+png  used on input line 487.
 (pdftex.def)             Requested size: 150.43886pt x 90.26228pt.
 <Images//Heat S movie rank plot - 1 iterations.png, id=289, 462.528pt x 346.896
 pt>
@@ -1230,7 +1227,7 @@ File: Images//Heat S movie rank plot - 1 iterations.png Graphic file (type png)
 
 <use Images//Heat S movie rank plot - 1 iterations.png>
 Package pdftex.def Info: Images//Heat S movie rank plot - 1 iterations.png  use
-d on input line 501.
+d on input line 502.
 (pdftex.def)             Requested size: 150.43886pt x 112.82983pt.
 <Images//Heat S movie rank plot - 10 iterations.png, id=290, 462.528pt x 346.89
 6pt>
@@ -1238,7 +1235,7 @@ File: Images//Heat S movie rank plot - 10 iterations.png Graphic file (type png
 )
 <use Images//Heat S movie rank plot - 10 iterations.png>
 Package pdftex.def Info: Images//Heat S movie rank plot - 10 iterations.png  us
-ed on input line 505.
+ed on input line 506.
 (pdftex.def)             Requested size: 150.43886pt x 112.82983pt.
 <Images//Heat S movie rank plot - 100 iterations.png, id=291, 462.528pt x 346.8
 96pt>
@@ -1246,7 +1243,7 @@ File: Images//Heat S movie rank plot - 100 iterations.png Graphic file (type pn
 g)
 <use Images//Heat S movie rank plot - 100 iterations.png>
 Package pdftex.def Info: Images//Heat S movie rank plot - 100 iterations.png  u
-sed on input line 509.
+sed on input line 510.
 (pdftex.def)             Requested size: 150.43886pt x 112.82983pt.
 <Images//Heat S movie recommendations - 1 iterations.png, id=292, 722.7pt x 433
 .62pt>
@@ -1254,7 +1251,7 @@ File: Images//Heat S movie recommendations - 1 iterations.png Graphic file (typ
 e png)
 <use Images//Heat S movie recommendations - 1 iterations.png>
 Package pdftex.def Info: Images//Heat S movie recommendations - 1 iterations.pn
-g  used on input line 516.
+g  used on input line 517.
 (pdftex.def)             Requested size: 150.43886pt x 90.26228pt.
 <Images//Heat S movie recommendations - 10 iterations.png, id=293, 722.7pt x 43
 3.62pt>
@@ -1262,7 +1259,7 @@ File: Images//Heat S movie recommendations - 10 iterations.png Graphic file (ty
 pe png)
 <use Images//Heat S movie recommendations - 10 iterations.png>
 Package pdftex.def Info: Images//Heat S movie recommendations - 10 iterations.p
-ng  used on input line 520.
+ng  used on input line 521.
 (pdftex.def)             Requested size: 150.43886pt x 90.26228pt.
 <Images//Heat S movie recommendations - 100 iterations.png, id=294, 722.7pt x 4
 33.62pt>
@@ -1270,7 +1267,7 @@ File: Images//Heat S movie recommendations - 100 iterations.png Graphic file (t
 ype png)
 <use Images//Heat S movie recommendations - 100 iterations.png>
 Package pdftex.def Info: Images//Heat S movie recommendations - 100 iterations.
-png  used on input line 524.
+png  used on input line 525.
 (pdftex.def)             Requested size: 150.43886pt x 90.26228pt.
  [14 <./Images//Prob S algorithm.png> <./Images//Heat S.jpg>] [15 <./Images//Pr
 ob S movie rank plot - 1 iterations.png> <./Images//Prob S movie rank plot - 10
@@ -1285,12 +1282,12 @@ Heat S movie recommendations - 100 iterations.png>] [16]
 <Images//314_recs.png, id=322, 966.61125pt x 401.5pt>
 File: Images//314_recs.png Graphic file (type png)
 <use Images//314_recs.png>
-Package pdftex.def Info: Images//314_recs.png  used on input line 575.
+Package pdftex.def Info: Images//314_recs.png  used on input line 576.
 (pdftex.def)             Requested size: 423.09673pt x 175.74158pt.
 <Images//colab_filter.png, id=323, 1221.363pt x 714.7503pt>
 File: Images//colab_filter.png Graphic file (type png)
 <use Images//colab_filter.png>
-Package pdftex.def Info: Images//colab_filter.png  used on input line 586.
+Package pdftex.def Info: Images//colab_filter.png  used on input line 587.
 (pdftex.def)             Requested size: 423.09673pt x 247.59248pt.
 
 
@@ -1300,14 +1297,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Images//conf_mat.png, id=329, 615.7404pt x 521.7894pt>
 File: Images//conf_mat.png Graphic file (type png)
 <use Images//conf_mat.png>
-Package pdftex.def Info: Images//conf_mat.png  used on input line 607.
+Package pdftex.def Info: Images//conf_mat.png  used on input line 608.
 (pdftex.def)             Requested size: 235.05533pt x 199.18968pt.
  [18 <./Images//colab_filter.png>]
 
-LaTeX Warning: Citation 'lightgcn' on page 19 undefined on input line 620.
+LaTeX Warning: Citation 'lightgcn' on page 19 undefined on input line 621.
 
 
-Overfull \hbox (2.37154pt too wide) in paragraph at lines 628--630
+Overfull \hbox (2.37154pt too wide) in paragraph at lines 629--631
 \T1/cmr/m/n/12 where $\OML/cmm/m/it/12 W[]$ \T1/cmr/m/n/12 and $\OML/cmm/m/it/1
 2 W[]$ \T1/cmr/m/n/12 are train-able weight ma-tri-ces, $\OML/cmm/m/it/12 ^^[$ 
 \T1/cmr/m/n/12 de-notes a non-linearity such as LeakyReLU,
@@ -1317,7 +1314,7 @@ Overfull \hbox (2.37154pt too wide) in paragraph at lines 628--630
 <Images//losses_over_epochs.png, id=343, 867.24pt x 433.62pt>
 File: Images//losses_over_epochs.png Graphic file (type png)
 <use Images//losses_over_epochs.png>
-Package pdftex.def Info: Images//losses_over_epochs.png  used on input line 672
+Package pdftex.def Info: Images//losses_over_epochs.png  used on input line 673
 .
 (pdftex.def)             Requested size: 376.08997pt x 188.04753pt.
 
@@ -1327,7 +1324,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Images//predictions.png, id=345, 218.61674pt x 139.11975pt>
 File: Images//predictions.png Graphic file (type png)
 <use Images//predictions.png>
-Package pdftex.def Info: Images//predictions.png  used on input line 681.
+Package pdftex.def Info: Images//predictions.png  used on input line 682.
 (pdftex.def)             Requested size: 218.6162pt x 139.1194pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1336,7 +1333,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Images//top_20_movies.png, id=359, 1445.4pt x 867.24pt>
 File: Images//top_20_movies.png Graphic file (type png)
 <use Images//top_20_movies.png>
-Package pdftex.def Info: Images//top_20_movies.png  used on input line 701.
+Package pdftex.def Info: Images//top_20_movies.png  used on input line 702.
 (pdftex.def)             Requested size: 470.11067pt x 282.06139pt.
 
 
@@ -1345,7 +1342,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [21 <./Images//losses_over_epochs.png> <./Images//predictions.png>] [22 <./Imag
 es//top_20_movies.png>] [23]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
-28.
+29.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
@@ -1400,7 +1397,7 @@ xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texl
 ive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/
 2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (25 pages, 2430516 bytes).
+Output written on main.pdf (25 pages, 2427985 bytes).
 PDF statistics:
  517 PDF objects out of 1000 (max. 8388607)
  366 compressed objects within 4 object streams

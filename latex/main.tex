@@ -169,9 +169,9 @@ Recent trends in recommendation system research have built on the foundational w
 
 MovieLens is popular movie recommender system dataset developed by GroupLens, a computer science research lab at the University of Minnesota. The proposed challenge is to recommend movies to its users based on their movie ratings. GroupLens offers datasets of different sizes, their datasets are widely used in research and teaching contexts.
 
-The selected dataset consists mainly on two files: \textit{movies.csv} and  \textit{ratings.csv}. Movies dataset has 9,742 unique films. A column in the dataset indicates all the genres of each film. The genres are: 'Romance', 'Musical', 'Children', 'Documentary', 'Sci-Fi', 'Film-Noir', '(no genres listed)', 'Crime', 'Mystery', 'Drama', 'Western', 'Fantasy', 'Animation', 'Thriller', 'War', 'Action', 'Adventure', 'IMAX', 'Comedy', 'Horror'. The number of movies per genre is represented in Figure \ref{fig:count_genre}.
+Each dataset contains several file, the main two files are: \textit{movies.csv} and \textit{ratings.csv}. Movies dataset has 9,742 unique films. A column in the dataset indicates all the genres of each film. The list of genres are: 'Romance', 'Musical', 'Children', 'Documentary', 'Sci-Fi', 'Film-Noir', '(no genres listed)', 'Crime', 'Mystery', 'Drama', 'Western', 'Fantasy', 'Animation', 'Thriller', 'War', 'Action', 'Adventure', 'IMAX', 'Comedy', 'Horror'. The number of movies per genre is represented in Figure \ref{fig:count_genre}.
 
-Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,724 movies. As it can be observed in Figure \ref{fig:count_rating}, the ratings from users are right-skewed, which suggests that users tend to register their rating on movies that they probably have liked. Ratings from users have been registered from 1996-03-29 until 2018-09-24. The most popular movies among users have been: Shawshank Redemption, The (1994), Godfather, The (1972), Fight Club (1999), Godfather: Part II, The (1974) and Goodfellas (1990).
+Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,724 movies. As it can be observed in Figure \ref{fig:count_rating}, the ratings from users are right-skewed, which suggests that users tend to register their rating with movies that they probably have liked. Ratings from users have been registered from 1996-03-29 until 2018-09-24. The most popular movies among users have been: Shawshank Redemption, The (1994), Godfather, The (1972), Fight Club (1999), Godfather: Part II, The (1974) and Goodfellas (1990).
 
 \begin{figure}[h!]
     \begin{minipage}[b]{0.49\linewidth}
@@ -189,7 +189,7 @@ Ratings dataset consists of 100,836 ratings with 610 unique users that rated 9,7
     \end{minipage}
 \end{figure}
 
-The median user has rated about 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2,698. In Figure \ref{fig:ranking_ts}, the evolution of ratings over time is depicted. Despite some occasional spikes, the time series seems to be some seasonality. Furthermore, Figure \ref{fig:evolution_2} illustrates the trend in the number of movies rated 0 and 2, movies rated 3 to 10, etc. It is notable that users opt for films with fewer recommendations, probably because they are newly released films. However, most popular films gain more ratings over time which denotes the effect of richer get richer.
+The median user has rated about 70 films, whereas the user with the lowest number of watched films was 20 movies and the user with the highest number of rated films is 2,698. In Figure \ref{fig:ranking_ts}, the evolution of ratings over time is depicted. Despite some occasional spikes, the time series seems to have some seasonality. Furthermore, Figure \ref{fig:evolution_2} illustrates the trend in the number of movies rated 0 and 2, movies rated 3 to 10, etc. It is notable that users opt for films with fewer recommendations, probably because they are newly released films. However, most popular films gain more ratings over time which denotes the effect of richer get richer.
 
 \begin{figure}[h!]
     \begin{minipage}[b]{0.49\linewidth}
@@ -305,20 +305,21 @@ Again, these similarities can be conceived of as an adjacency matrix - this for 
     \end{minipage}
 \end{figure}
 
+\newpage
 \subsection{Movie-to-Movie network}
 
 A similar procedure as done in previous section \textit{User-to-user network} can be done to obtain a similarity score matrix that will be considered as the adjacency matrix of the movie-to-movie network. Figure \ref{fig:MN_degreeinfo} describes the network distribution. 
 
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
   	\includegraphics[width=0.8\textwidth]{movie2movie_analysis.png}
   	\caption{Degree Information for Movie Network}
   	\label{fig:MN_degreeinfo}
 \end{figure}
 
-In this section, community detection algorithms will be used to identify potential communities among the movies. The edges in the obtained undirected graph correspond to a similarity score between films that commonyly users like have liked them. 
+In this section, community detection algorithms will be used to identify potential communities among the movies. The edges in the obtained undirected graph correspond to a similarity score between films that commonly users like have liked them. 
 
-For the community detection several options have been tested (Louvain, DC-SBM and greedy). Most of them take long to run for a network with 95,219 edges and 1,848 nodes, which is not really big network. Greedy algorithm provided a good result in reasonable amount of time. Greedy uses Clauset-Newman-Moore greedy modularity maximization to find the community partition with the largest modularity \cite{greedy}.
+For the community detection several options have been tested (Louvain, DC-SBM and greedy). Most of them take long to run for a network with 95,219 edges and 1,848 nodes, which is not really big network. Greedy algorithm provided a good result in reasonable amount of time, it uses Clauset-Newman-Moore greedy modularity maximization to find the community partition with the largest modularity \cite{greedy}.
 
 The modularity is defined as: 
 \begin{equation}
@@ -327,7 +328,7 @@ Q = \frac{1}{2m} \sum_{ij} ( A_{ij} - \gamma \frac{k_i k_j}{2m}) \delta (c_i, c_
 
 where $m$ is the number of edges, $A$ is the adjacency matrix of G, $k_i$ is the (weighted) degree of $i$, $\gamma$ is the resolution parameter, and $\delta (c_i, c_j)$ is 1 if $i$ and $j$ are in the same community else 0. If resolution is less than 1, modularity favors larger communities. Greater than 1 favors smaller communities.
 
-The greedy algorithm detects 10 communities, with a modularity of 0.18163. Only 5 communities have more than 5 movies or nodes in them. In Figure \ref{fig:comm_detection}, the different communities in the graph can be observed.
+The greedy algorithm detects 10 communities, with a modularity of 0.18163. Only 5 communities have more than 10 movies (or nodes) in them. In Figure \ref{fig:comm_detection}, the different communities in the graph can be observed.
 
 \begin{figure}[h!]
     \centering
