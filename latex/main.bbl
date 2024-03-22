@@ -357,5 +357,60 @@
     \verb dularity_communities
     \endverb
   \endentry
+\entry{lightgcn}{article}{}
+  \name{author}{6}{}{%
+    {{hash=XH}{%
+       family={He},
+       familyi={H\bibinitperiod},
+       given={Xiangnan},
+       giveni={X\bibinitperiod},
+    }}%
+    {{hash=KD}{%
+       family={Deng},
+       familyi={D\bibinitperiod},
+       given={Kuan},
+       giveni={K\bibinitperiod},
+    }}%
+    {{hash=XW}{%
+       family={Wang},
+       familyi={W\bibinitperiod},
+       given={Xiang},
+       giveni={X\bibinitperiod},
+    }}%
+    {{hash=YL}{%
+       family={Li},
+       familyi={L\bibinitperiod},
+       given={Yan},
+       giveni={Y\bibinitperiod},
+    }}%
+    {{hash=YZ}{%
+       family={Zhang},
+       familyi={Z\bibinitperiod},
+       given={Yongdong},
+       giveni={Y\bibinitperiod},
+    }}%
+    {{hash=MW}{%
+       family={Wang},
+       familyi={W\bibinitperiod},
+       given={Meng},
+       giveni={M\bibinitperiod},
+    }}%
+  }
+  \strng{namehash}{XH+1}
+  \strng{fullhash}{XHKDXWYLYZZMW1}
+  \field{labelnamesource}{author}
+  \field{labeltitlesource}{title}
+  \field{labelyear}{2020}
+  \field{labeldatesource}{}
+  \field{title}{LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation}
+  \verb{url}
+  \verb https://arxiv.org/abs/2002.02126
+  \endverb
+  \field{volume}{abs/2002.02126}
+  \field{journaltitle}{CoRR}
+  \field{year}{2020}
+\endentry
+
+
 \enddatalist
 \endinput
